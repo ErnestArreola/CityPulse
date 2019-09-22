@@ -12,5 +12,5 @@ react-native run-android
 
 
 # Map Screen 
-![Map(/src/assets/map.PNG)
+![Map](/assets/map.PNG)
 Format: ![Alt Text](url)
