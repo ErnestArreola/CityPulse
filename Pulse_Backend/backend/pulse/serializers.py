@@ -3,7 +3,7 @@ from .models import *
 
 
 
-#These are for testing, these should be re-written !!!!
+
 
 class YelpSerializer(serializers.ModelSerializer):
     class Meta:
@@ -14,9 +14,37 @@ class YelpSerializer(serializers.ModelSerializer):
 
 
 class AllBusinessInfoSerializer(serializers.ModelSerializer):
-    yelp = YelpSerializer()
-
     class Meta:
         model = Business
-        fields = ('businessID')
+        fields = '__all__'
+
+
+
+class BusinessesInOneMileRadiusSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Business
+        # fields = ('businessID', 'businessName', 'businessURL', 'reviewCount')
+        fields = '__all__'
+
+
+
+class TopBusinessSerializer(serializers.ModelSerializer):
+    
+    rating_2019 = serializers.FloatField(read_only=True)
+    reviewCount_2019 = serializers.IntegerField(read_only=True)
+    class Meta:
+        model = Business
+        fields = ('businessID', 'businessName', 'businessURL', 'reviewCount', 
+        'rating_2019', 'reviewCount_2019','longitude','latitude', 'zipcode', 'category')
+
+
+
+class YelpReviewSummarySerializer(serializers.ModelSerializer):
+    month = serializers.IntegerField(read_only=True)
+    reviewCount = serializers.IntegerField(read_only=True)    
+    rating = serializers.DecimalField(read_only=True,max_digits=2, decimal_places = 1)
+    class Meta:
+        model = Business
+        fields = ('month', 'reviewCount', 'rating')
+
 
