@@ -4,9 +4,12 @@ import os
 import datetime
 import django
 
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import sys 
 
-sys.path.insert(0, '/Users/AppleSauce/Desktop/Pulse_Backend/backend')
+sys.path.insert(0, '\\Users\\applesauce\\Documents\\GitHub\\CityPulse\\Pulse_Backend\\backend')
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings')
 django.setup()
 
@@ -50,7 +53,7 @@ with open('YELP_API_Everything.csv', 'r') as f:
 
 
 
-with open('yelp_scrape_result.csv', 'r') as f:
+with open('yelp_scrape_result.csv', 'r', encoding="utf8") as f:
             reader = csv.reader(f)
             next(reader)  # Skip the header row.
 
