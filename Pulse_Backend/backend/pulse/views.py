@@ -7,7 +7,9 @@ from django.db.models import Func
 from django.db.models import Count, Avg
 from rest_framework import viewsets, permissions, status
 from rest_framework.decorators import action
-
+import wordcloud as wordcloud
+from wordcloud import STOPWORDS
+from wordcloud import WordCloud as wc
 
 from django.db.models import Count, Q
 from rest_framework.decorators import action
@@ -45,6 +47,24 @@ class BusinessViewSet(viewsets.ModelViewSet):
             data.append(avg)
 
         response = {'message': 'Review Data', 'result': data}
+        return Response(response, status=status.HTTP_200_OK)
+
+    @action(detail=True, methods=['GET'])
+    def get_wc_data(self, request, pk='reviewID'):
+        allData = ""
+        stopwords = set(STOPWORDS)
+
+        reviews = YelpReviews.objects.filter(business=pk, date__month=1)
+
+        for x in reviews:
+            allData = allData + x.review
+
+        wordcloud = wc(stopwords=stopwords, max_words=25, background_color="white").generate(allData)
+        wordcloud.to_file('./images/image.png')
+        oo = WordCloudPhoto(title="x", image="images/image.png")
+        oo.save()
+        serializer = WordCloudPhotoSerializer(oo, many=True)
+        response = {'message': 'Review Data', 'result': serializer.data}
         return Response(response, status=status.HTTP_200_OK)
 
 class YelpReviewViewSet(viewsets.ModelViewSet):

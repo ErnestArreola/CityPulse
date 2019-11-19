@@ -1,10 +1,6 @@
 from rest_framework import serializers
 from .models import *
 
-
-
-
-
 class YelpSerializer(serializers.ModelSerializer):
     class Meta:
         model = YelpReviews
@@ -19,6 +15,12 @@ class AllBusinessInfoSerializer(serializers.ModelSerializer):
 class BusinessesInOneMileRadiusSerializer(serializers.ModelSerializer):
     class Meta:
         model = Business
+        # fields = ('businessID', 'businessName', 'businessURL', 'reviewCount')
+        fields = '__all__'
+
+class WordCloudPhotoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = WordCloudPhoto
         # fields = ('businessID', 'businessName', 'businessURL', 'reviewCount')
         fields = '__all__'
 

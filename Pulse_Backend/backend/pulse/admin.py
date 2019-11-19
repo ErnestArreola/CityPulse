@@ -4,3 +4,4 @@ from .models import *
 
 admin.site.register(Business)
 admin.site.register(YelpReviews)
+admin.site.register(WordCloudPhoto)

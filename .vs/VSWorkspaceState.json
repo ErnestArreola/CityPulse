@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Pulse\\.github",
+    "\\Pulse\\.github\\workflows",
+    "\\Pulse\\src\\pages",
+    "\\Pulse\\src\\pages\\Graphs",
+    "\\Pulse\\src\\pages\\Graphs\\subcomponents",
+    "\\Pulse_Backend",
+    "\\Pulse_Backend\\backend",
+    "\\Pulse_Backend\\backend\\backend",
+    "\\Pulse_Backend\\backend\\scripts_db"
+  ],
+  "SelectedNode": "\\Pulse_Backend\\backend\\backend\\settings.py",
+  "PreviewInSolutionExplorer": false
+}

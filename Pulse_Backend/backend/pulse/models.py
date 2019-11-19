@@ -30,7 +30,9 @@ class Business(models.Model):
     def __str__(self):
         return self.businessID
 
-
+class WordCloudPhoto(models.Model):
+    title = models.CharField(max_length=100)
+    image = models.ImageField(upload_to='images')
 
 class YelpReviews(models.Model):
     reviewID = models.CharField(primary_key=True, max_length=100)
