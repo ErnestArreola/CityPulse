@@ -224,14 +224,25 @@ export default class App extends Component {
             : <h3>Pending</h3>
           }
           </Col>
+
         </Row>
         <Row>
+        <Col span={12}>
+          <h3>Month of January</h3>
+          <img
+            src="http://localhost:8000/media/images/image.png"
+            alt="new"
+            />
+        </Col>
+        <Col span={13}>
           {(this.state.scatterPlotData[0]) ?
 
               <BarChartWrapper data={this.state.barChartData} />
 
             : <h3>Pending</h3>
           }
+        </Col>
+
         </Row>
       </div>
     );
