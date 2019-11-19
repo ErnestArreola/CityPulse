@@ -38,17 +38,7 @@ class YelpReviews(models.Model):
     date = models.DateField(db_index=True)
     review = models.CharField(max_length=5000, blank=True)
 
-
     business = models.ForeignKey('Business', null=True, blank=True, db_constraint=False, on_delete=models.CASCADE)
 
     class Meta:
         unique_together = (('reviewID', 'date'),)
-
-    
-
-
-
-
-
-
-

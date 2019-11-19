@@ -1,5 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Line } from 'react-chartjs-2';
+import { Row, Col } from 'antd';
+import BarChartWrapper from './subcomponents/charts/bar-chart/chart-wrapper';
 
 export default class App extends Component {
   constructor(props) {
@@ -22,6 +24,8 @@ export default class App extends Component {
         },
       ],
     },
+    barChartData: [],
+    currCharSet: ""
   };
 
   bus = [
@@ -174,19 +178,43 @@ export default class App extends Component {
     return data;
   };
 
+  componentDidMount() {
+    //fetch data
+    
+    fetch(`http://localhost:8000/api/business/ZzcLWjY0UjPb4_DLAQDVbQ/get_rev_data/`, {
+      method: 'GET',
+    }).then(resp => resp.json())
+      .then(res => this.setState({ barChartData: res.result }))
+      .catch(error => console.log(error))
+    console.log("infetch")
+    console.log(this.state.barChartData)
+  }
+
   render() {
+    console.log("app")
+    console.log(this.state.barChartData)
     return (
       <div style={{ position: 'relative', width: 600, height: 500 }}>
-        <h3> Comparing to Top Business within One Mile Radius</h3>
-        <h5>
-          Top business is the business that is rated 4 stars or higher with largest number of review
-        </h5>{' '}
-        <Line
-          options={{
-            responsive: true,
-          }}
-          data={this.getChartData}
-        />
+        <Row>
+          <Col span={12}>
+                <h3> Comparing to Top Business within One Mile Radius</h3>
+                <h5>
+                  Top business is the business that is rated 4 stars or higher with largest number of review
+            </h5>{' '}
+                <Line
+                  options={{
+                    responsive: true,
+                  }}
+                  data={this.getChartData}
+                />
+          </Col>
+          <Col span={12}>
+            {(this.state.barChartData[0]) ?
+              <BarChartWrapper  data={this.state.barChartData}  />
+              : <h3>Pending</h3>
+            }
+          </Col>
+         </Row>
       </div>
     );
   }

@@ -11,13 +11,10 @@ class YelpSerializer(serializers.ModelSerializer):
         # business = BusinessSerializer(required=False)
         fields = '__all__'
 
-
-
 class AllBusinessInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Business
         fields = '__all__'
-
 
 
 class BusinessesInOneMileRadiusSerializer(serializers.ModelSerializer):
@@ -26,10 +23,7 @@ class BusinessesInOneMileRadiusSerializer(serializers.ModelSerializer):
         # fields = ('businessID', 'businessName', 'businessURL', 'reviewCount')
         fields = '__all__'
 
-
-
 class TopBusinessSerializer(serializers.ModelSerializer):
-    
     rating_2019 = serializers.FloatField(read_only=True)
     reviewCount_2019 = serializers.IntegerField(read_only=True)
     class Meta:

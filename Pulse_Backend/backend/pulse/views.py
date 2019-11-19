@@ -5,12 +5,31 @@ from .serializers import *
 from django.db import models
 from django.db.models import Func
 from django.db.models import Count, Avg
+from rest_framework import viewsets, permissions, status
+from rest_framework.decorators import action
 
+
+from django.db.models import Count, Q
+from rest_framework.decorators import action
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from django.http import JsonResponse
+from django.core import serializers
+
+from django.shortcuts import get_object_or_404
 
 class BusinessViewSet(viewsets.ModelViewSet):
     queryset = Business.objects.all()
     serializer_class = AllBusinessInfoSerializer
+    permission_classes = [permissions.AllowAny]
 
+    @action(detail=True, methods=['GET'])
+    def get_rev_data(self, request, pk='reviewID'):
+        reviews = YelpReviews.objects.filter(business=pk)
+
+        serializer = YelpSerializer(reviews, many=True)
+        response = {'message': 'Review Data', 'result': serializer.data}
+        return Response(response, status=status.HTTP_200_OK)
 
 class YelpReviewViewSet(viewsets.ModelViewSet):
     queryset = YelpReviews.objects.all()
