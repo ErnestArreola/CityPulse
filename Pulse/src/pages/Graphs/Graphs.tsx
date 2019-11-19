@@ -2,6 +2,8 @@ import React, { Component, Fragment } from 'react';
 import { Line } from 'react-chartjs-2';
 import { Row, Col } from 'antd';
 import { Slider } from 'antd';
+import { Divider } from 'antd';
+
 import BarChartWrapper from './subcomponents/charts/bar-chart/chart-wrapper';
 import ScatterPlotWrapper from './subcomponents/charts/scatterplot-chart/chart-wrapper';
 
@@ -205,7 +207,8 @@ export default class App extends Component {
   render() {
     return (
       <div style={{ position: 'relative', width: 600, height: 500 }}>
-        <Row>
+
+        <Row gutter={[16, 16]}>
           <Col span={12}>
                 <h3> Comparing to Top Business within One Mile Radius</h3>
                 <h5>
@@ -218,7 +221,9 @@ export default class App extends Component {
                   data={this.getChartData}
                 />
           </Col>
+
           <Col span={12}>
+
             {(this.state.scatterPlotData[0]) ?
             <ScatterPlotWrapper data={this.state.scatterPlotData} updateName={this.updateName}/>
             : <h3>Pending</h3>
@@ -226,7 +231,7 @@ export default class App extends Component {
           </Col>
 
         </Row>
-        <Row>
+        <Row gutter={[16, 16]}>
         <Col span={12}>
           <h3>Month of January</h3>
           <img
@@ -234,7 +239,7 @@ export default class App extends Component {
             alt="new"
             />
         </Col>
-        <Col span={13}>
+        <Col span={12}>
           {(this.state.scatterPlotData[0]) ?
 
               <BarChartWrapper data={this.state.barChartData} />
