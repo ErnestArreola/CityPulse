@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Line } from 'react-chartjs-2';
 import { Row, Col } from 'antd';
+import { Slider } from 'antd';
 import BarChartWrapper from './subcomponents/charts/bar-chart/chart-wrapper';
 
 export default class App extends Component {
@@ -209,12 +210,17 @@ export default class App extends Component {
                 />
           </Col>
           <Col span={12}>
-            {(this.state.barChartData[0]) ?
-              <BarChartWrapper  data={this.state.barChartData}  />
-              : <h3>Pending</h3>
-            }
+            
           </Col>
-         </Row>
+        </Row>
+        <Row>
+          {(this.state.barChartData[0]) ?
+            
+              <BarChartWrapper data={this.state.barChartData} />
+            
+            : <h3>Pending</h3>
+          }
+        </Row>
       </div>
     );
   }
