@@ -3,6 +3,7 @@ import { Line } from 'react-chartjs-2';
 import { Row, Col } from 'antd';
 import { Slider } from 'antd';
 import BarChartWrapper from './subcomponents/charts/bar-chart/chart-wrapper';
+import ScatterPlotWrapper from './subcomponents/charts/scatterplot-chart/chart-wrapper';
 
 export default class App extends Component {
   constructor(props) {
@@ -26,7 +27,9 @@ export default class App extends Component {
       ],
     },
     barChartData: [],
-    currCharSet: ""
+    scatterPlotData: [],
+    currCharSet: "",
+    activeName: null
   };
 
   bus = [
@@ -181,19 +184,25 @@ export default class App extends Component {
 
   componentDidMount() {
     //fetch data
-    
+
     fetch(`http://localhost:8000/api/business/ZzcLWjY0UjPb4_DLAQDVbQ/get_rev_data/`, {
       method: 'GET',
     }).then(resp => resp.json())
       .then(res => this.setState({ barChartData: res.result }))
       .catch(error => console.log(error))
-    console.log("infetch")
-    console.log(this.state.barChartData)
+
+      fetch(`http://localhost:8000/api/business/ZzcLWjY0UjPb4_DLAQDVbQ/get_avg_data/`, {
+        method: 'GET',
+      }).then(resp => resp.json())
+        .then(res => this.setState({ scatterPlotData: res.result }))
+        .catch(error => console.log(error))
+        console.log("infetch")
+        console.log(this.state.scatterPlotData)
   }
 
+  updateName = (activeName) => this.setState({activeName})
+
   render() {
-    console.log("app")
-    console.log(this.state.barChartData)
     return (
       <div style={{ position: 'relative', width: 600, height: 500 }}>
         <Row>
@@ -210,14 +219,17 @@ export default class App extends Component {
                 />
           </Col>
           <Col span={12}>
-            
+            {(this.state.scatterPlotData[0]) ?
+            <ScatterPlotWrapper data={this.state.scatterPlotData} updateName={this.updateName}/>
+            : <h3>Pending</h3>
+          }
           </Col>
         </Row>
         <Row>
-          {(this.state.barChartData[0]) ?
-            
+          {(this.state.scatterPlotData[0]) ?
+
               <BarChartWrapper data={this.state.barChartData} />
-            
+
             : <h3>Pending</h3>
           }
         </Row>
