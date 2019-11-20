@@ -10,14 +10,9 @@ export default class D3Chart {
 
     constructor(element, data, updateName) {
         const vis = this
-        let allData = {}
 
         vis.updateName = updateName
-        allData = { months, data }
         console.log("all Data")
-        console.log(allData.months[1])
-        console.log("inputData")
-        console.log(data)
 
          vis.g = d3.select(element)
              .append("svg")
@@ -50,7 +45,7 @@ export default class D3Chart {
             .attr("text-anchor", "middle")
             .text("Avg Rating Per Month")
 
-        vis.update(allData)
+        vis.update(data)
     }
 
     update(data) {

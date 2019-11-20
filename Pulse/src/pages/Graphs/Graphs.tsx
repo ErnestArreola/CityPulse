@@ -6,6 +6,9 @@ import { Divider } from 'antd';
 
 import BarChartWrapper from './subcomponents/charts/bar-chart/chart-wrapper';
 import ScatterPlotWrapper from './subcomponents/charts/scatterplot-chart/chart-wrapper';
+import Table from './subcomponents/table';
+
+const months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 export default class App extends Component {
   constructor(props) {
@@ -29,8 +32,11 @@ export default class App extends Component {
       ],
     },
     barChartData: [],
-    scatterPlotData: [],
-    currCharSet: "",
+    scatterPlotData: {
+      months: [],
+      data: []
+    },
+    currCharSet: "one",
     activeName: null
   };
 
@@ -196,58 +202,68 @@ export default class App extends Component {
       fetch(`http://localhost:8000/api/business/ZzcLWjY0UjPb4_DLAQDVbQ/get_avg_data/`, {
         method: 'GET',
       }).then(resp => resp.json())
-        .then(res => this.setState({ scatterPlotData: res.result }))
+        .then(res => this.setState({scatterPlotData: {
+          months: months, data: res.result
+        }}))
         .catch(error => console.log(error))
-        console.log("infetch")
-        console.log(this.state.scatterPlotData)
+        console.log("in fet")
+        console.log(this.state.scatterPlotData.data)
   }
+
+  updateData = (graphsData) => {
+          this.setState({ scatterPlotData: graphsData })
+      }
 
   updateName = (activeName) => this.setState({activeName})
 
   render() {
+    console.log("in APP")
+    console.log(this.state.scatterPlotData)
     return (
       <div style={{ position: 'relative', width: 600, height: 500 }}>
-
+      {(this.state.scatterPlotData.data[0]) ?
+          <h3>hello</h3>
+        : <h3>Pending</h3>
+      }
         <Row gutter={[16, 16]}>
           <Col span={12}>
-                <h3> Comparing to Top Business within One Mile Radius</h3>
-                <h5>
-                  Top business is the business that is rated 4 stars or higher with largest number of review
-            </h5>{' '}
-                <Line
-                  options={{
-                    responsive: true,
-                  }}
-                  data={this.getChartData}
-                />
+
           </Col>
-
-          <Col span={12}>
-
-            {(this.state.scatterPlotData[0]) ?
-            <ScatterPlotWrapper data={this.state.scatterPlotData} updateName={this.updateName}/>
-            : <h3>Pending</h3>
-          }
-          </Col>
-
         </Row>
         <Row gutter={[16, 16]}>
-        <Col span={12}>
-          <h3>Month of January</h3>
-          <img
-            src="http://localhost:8000/media/images/image.png"
-            alt="new"
-            />
-        </Col>
-        <Col span={12}>
-          {(this.state.scatterPlotData[0]) ?
-
-              <BarChartWrapper data={this.state.barChartData} />
-
+            <Col span={12}>
+            {(this.state.scatterPlotData.data[0]) ?
+            <ScatterPlotWrapper currCharSet={this.state.currCharSet} data={this.state.scatterPlotData} updateName={this.updateName}/>
             : <h3>Pending</h3>
-          }
-        </Col>
-
+            }
+            </Col>
+            <Col span={12}>
+                  {(this.state.barChartData[0]) ?
+                      <BarChartWrapper data={this.state.barChartData} />
+                      : <h3>Pending</h3>
+                  }
+            </Col>
+        </Row>
+        <Row gutter={[16, 16]}>
+          <Col span={12}>
+              <h3> Comparing to Top Business within One Mile Radius</h3>
+              <h5>
+                Top business is the business that is rated 4 stars or higher with largest number of review
+              </h5>{' '}
+              <Line
+                options={{
+                  responsive: true,
+                }}
+                data={this.getChartData}
+              />
+            </Col>
+            <Col span={12}>
+              <h3>Month of January</h3>
+              <img
+                src="http://localhost:8000/media/images/image.png"
+                alt="new"
+                />
+            </Col>
         </Row>
       </div>
     );

@@ -35,7 +35,7 @@ class BusinessViewSet(viewsets.ModelViewSet):
     @action(detail=True, methods=['GET'])
     def get_avg_data(self, request, pk='reviewID'):
         data = []
-        for count in range(11):
+        for count in range(12):
             reviews = YelpReviews.objects.filter(business=pk, date__month=count+1)
             sum = 0
             for x in reviews:
@@ -46,7 +46,7 @@ class BusinessViewSet(viewsets.ModelViewSet):
             avg = sum / listLength
             data.append(avg)
 
-        response = {'message': 'Review Data', 'result': data}
+        response = {'message': 'Average Rating a Month Data', 'result': data}
         return Response(response, status=status.HTTP_200_OK)
 
     @action(detail=True, methods=['GET'])
@@ -64,7 +64,7 @@ class BusinessViewSet(viewsets.ModelViewSet):
         oo = WordCloudPhoto(title="x", image="images/image.png")
         oo.save()
         serializer = WordCloudPhotoSerializer(oo, many=True)
-        response = {'message': 'Review Data', 'result': serializer.data}
+        response = {'message': 'Word Cloud Data', 'result': serializer.data}
         return Response(response, status=status.HTTP_200_OK)
 
 class YelpReviewViewSet(viewsets.ModelViewSet):
