@@ -4,7 +4,7 @@ from .views import *
 
 router = routers.DefaultRouter()
 
-router.register(r'business', BusinessViewSet, 'business')
+router.register('business', BusinessViewSet, 'business')
 router.register('yelpreview', YelpReviewViewSet, 'yelpreview')
 router.register('yelpmonthlyreview', YelpMonthlyReviewViewSet, 'yelpMonthlyReview')
 router.register('yelpmonthlyreviewsummary', YelpMonthReviewSummaryViewSet, 'yelpMonthlyReviewSummary')
