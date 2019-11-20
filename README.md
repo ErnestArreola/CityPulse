@@ -15,3 +15,12 @@ If you are missing dependencies in the backend, type the following command in (w
 ~~~
 pip install -r requirements.txt
 ~~~
+
+
+
+
+# Frontend
+
+
+
+
