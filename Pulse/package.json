@@ -42,6 +42,8 @@
     "not ie <= 10"
   ],
   "dependencies": {
+    "esri-loader": "^2.12.0",
+    "jquery": "^3.4.1",
     "@ant-design/colors": "^3.1.0",
     "@ant-design/pro-layout": "^4.5.16",
     "@antv/data-set": "^0.10.2",

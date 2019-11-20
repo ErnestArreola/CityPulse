@@ -19,7 +19,6 @@ const plugins: IPlugin[] = [
       locale: {
         // default false
         enable: true,
-        // default zh-CN
         default: 'en-US',
         // default true, when it is true, will use `navigator.language` overwrite default
         baseNavigator: true,
@@ -138,7 +137,7 @@ export default {
       component: './404',
     },
   ],
-  // Theme for antd: https://ant.design/docs/react/customize-theme-cn
+  // Theme for antd: 
   theme: {
     'primary-color': primaryColor,
   },
