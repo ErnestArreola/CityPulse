@@ -1,6 +1,6 @@
 # CityPulse
 
-If you add dependencies to the backend, please generate a reqirements.txt
+If you add dependencies to the backend, please generate a reqirements.txt and push it.
 
 While in pipenv shell (backend).
 
