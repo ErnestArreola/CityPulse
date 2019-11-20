@@ -1,0 +1,245 @@
+dba_name,address,data_closed,data_opened,reason
+Smoothie King,120 Bay St.,1/27/2010,1/27/2010,No hot water
+AMC Theater Concession Stand,6346 E. PCH,2/9/2010,2/9/2010,Sewage
+El Progresso Mkt,1430 E. 7th Street,2/10/2010,2/11/2010,Vermin
+El Sol Bakery,1465 Magnolia,2/23/2010,2/23/2010,Vermin
+Barry's Beach Shack,5374 E. 2nd Street,3/29/2010,3/30/2010,Sewage
+The Rhythm Lounge,245 Pine Ave #29,3/31/2010,4/1/2010,Vermin (Cockroaches)
+The Ice Bar,49 S. Pine,4/4/2010,4/3/2010,Vermin (Cockroaches)
+Bubba Gumps,82 Aquarium Way,4/17/2010,4/17/2010,Sewage
+Sophy's Thai & Cambodian Cuisine,32401 E. PCH,4/28/2010,4/29/2010,Vermin (Rodents)
+Poppeye's,1700 W. Willow,5/7/2010,5/7/2010,Sewage
+Panchito Mkt,2325 E. Anaheim,5/11/2010,5/12/2010,Vermin (Rodents)
+Sunnin Lebanese Café,5110 E. 2nd St,5/26/2010,5/27/2010,No hot water
+Hot Sticks,110 Bay Street,6/4/2010,6/5/2010,Sewage
+Khoury's Restaurant,110 Marina Dr,6/9/2010,6/12/2010,Vermin (Cockroaches)
+Pho Hanh,881 E. Anaheim,6/14/2010,6/15/2010,Vermin (Cockroaches)
+Vintage Tea Leaf,969 E. Broadway,6/23/2010,6/25/2010,Vermin (Cockroaches)
+Pho Hanh,881 E. Anaheim,7/7/2010,7/16/2010,Vermin (Cockroaches)
+Seng Heng Supermarket Deli Meat Mkt,1734 E. Anaheim,7/6/2010,7/9/2010,Vermin (Cockroaches)
+Juice It Up,261 E. Willow,7/14/2010,7/15/2010,No hot water
+Inihaw Karaoke Restaurant,1950 W. Willow,7/14/2010,7/15/2010,Vermin (Cockroaches)
+La Palapa Del Mar,4020 E. Olympic Plaza Dr,7/29/2010,8/3/2010,Vermin (Cockroaches)
+Brandy's Burgers,4001 Orange Ave,8/3/2010,8/4/2010,Vermin (Cockroaches)
+Tommy's Burgers,1112 E. Broadway,8/5/2010,8/6/2010,Vermin (Cockroaches)
+Mariscus Isitla,1585 Santa Fe,8/12/2010,8/13/2010,Vermin (Cockroaches)
+Golden Villa,1360 E. Anaheim,9/10/2010,9/16/2010,"No hot water, Vermin (Cockroaches)"
+El Bukanos,306 E. Anaheim,9/30/2010,10/1/2010,Vermin (Cockroaches)
+Super Taco Burger and Burrito,410 W. Willow,10/13/2010,10/19/2010,Vermin (Cockroaches)
+Mamy's Place,1234 Long Beach Blvd,10/22/2010,10/26/2010,Vermin (Rodents & Cockroaches)
+Santa Clarita Grill,6666 Long Beach Blvd,10/28/2010,10/29/2010,Vermin (Cockroaches)
+Wok N Roll,4756 E PCH,10/28/2010,10/29/2010,Vermin (Cockroaches)
+El Rey Bakery,2016 Pacific Ave,11/3/2010,11/5/2010,Vermin (Cockroaches)
+Wienersnitzel,101 W. Willow,11/23/2010,11/23/2010,Sewage
+Lily Bakery,1171 E. Anaheim St,12/14/2010,12/17/2010,Vermin (Cockroaches & Rodents)
+Wienersnitzel,101 W. Willow,1/12/2011,1/13/2011,Sewage
+El Bukanas,306 W. Anaheim,1/27/2011,1/28/2011,Vermin (Cockroaches)
+Khory's Restaurant,110 N. Marina Dr,2/2/2011,2/4/2011,Vermin (Cockroaches)
+Greenfield's,5305 E. PCH,2/6/2011,2/6/2011,Sewage
+Tacos Don Chente,101 W. PCH,2/18/2011,2/18/2011,No Hot Water
+Family Nutrition,1708 LB Blvd,2/23/2011,2/24/2011,Vermin (Cockroaches)
+AMC Theatre,6346 E. PCH,2/24/2011,2/25/2011,Sewage
+Ocean Center Deli,110 W. Ocean Blvd,3/2/2011,3/8/2011,Vermin (Cockroaches)
+Golden China Restaurant,4470 CA Avenue,3/8/2011,3/10/2011,Sewage
+KD Restaurant,649 LB Blvd,3/8/2011,3/11/2011,Vermin (Cockroaches)
+Mabels Gourmet Pralines,625 Pine Ave,3/15/2011,3/17/2011,Vermin (Cockroaches)
+Popeye's,1008 LB Blvd,3/15/2011,3/16/2011,Sewage
+Factory Gastro Bar,4020 Atlantic,4/15/2011,4/15/2011,Vermin (Cockroaches)
+Kinokawa Restaurant,1611 E. Wardlow,4/25/2011,4/26/2011,Vermin (Cockroaches)
+Panda Garden,4101 Atlantic Ave,4/26/2011,4/28/2011,Vermin (Cockroaches)
+Maru Maki Restaurant,745 E. Broadway,5/16/2011,5/16/2011,No Hot Water
+Fruitlandia,865 E. 7th,5/16/2011,5/18/2011,"No hot water, Vermin (Cockroaches)"
+Easy Market,1370 W. Willow,6/23/2011,6/30/2011,Vermin (Cockroaches)
+Super Taco Burger and Burrito,410 W. Willow,6/28/2011,7/1/2011,Vermin (Cockroaches)
+Café Piccolo,3222 E. BW,6/30/2011,7/1/2011,Vermin (Cockroaches)
+Allison's Donuts,1174 E. Carson,7/26/2011,7/26/2011,Vermin (Cockroaches)
+Crème de la Crepe,400 E. 1st St,8/2/2011,8/2/2011,Vermin (Cockroaches & Rodents)
+Coffee Caliente,55 Alamitos Ave,8/10/2011,8/17/2011,Vermin (Cockroaches)
+Gitana,429 Shoreline Village,8/12/2011,8/12/2011,Vermin (Cockroaches)
+Cafecito Salvadoreno,412 W. Anaheim,8/29/2011,8/31/2011,Vermin (Cockroaches)
+Hong Kong Express,350 W. Pacific Coast Hwy,8/30/2011,8/31/2011,Vermin (Cockroaches)
+Sunset Bar,1920 W. Willow,9/7/2011,9/16/2011,Vermin (Cockroaches)
+La Gaviota Market,1701 E. Anaheim,9/22/2011,9/23/2011,Vermin (Cockroaches)
+H&H Chinese Restaurant,940 Pine Avenue,11/3/2011,11/5/2011,Vermin (Rodents)
+Super Taco Burger and Burrito,410 W. Willow,11/10/2011,12/13/2011,Vermin (Cockroaches)
+Paoli Pizza,2130 E. BW,12/12/2011,12/12/2011,No Hot Water
+Mamy's Place,1234 LB Blvd,1/3/2012,1/4/2012,Vermin (Rodents)
+Inihaw Karaoke Restaurant,1950 W. Willow,1/10/2012,1/13/2012,Vermin (Rodents & Cockroaches)
+Raspados Ice Cream,310 E. Anaheim,1/11/2012,1/20/2012,"Vermin (Roaches), No Hot Water"
+Xela Ju Bakery,2057 Pacific,1/11/2012,1/19/2012,Vermin (Cockroaches)
+Holiday Inn Seasons Restaurant,1133 Atlantic,1/24/2012,1/27/2012,Vermin (Cockroaches)
+Pho America Authentic Vietnamese Cuisine,1826 Pacific,1/30/2012,1/30/2012,Vermin (Cockroaches)
+Mama Mia's Pizza,4403 E. 4th St,2/1/2012,2/2/2012,Vermin (Cockroaches)
+Happy Mom Nutrition,2144 E. Anaheim,2/2/2012,2/8/2012,No Health Permit
+El Pollo Loco,2525 Long Beach Blvd,2/13/2012,2/13/2012,No water
+Mariscos Brite Spot,3721 E Anaheim St,2/28/2013,2/29/2012,Sewage
+Crow's Nest,1912 W Willow St,3/7/2012,3/9/2012,Vermin (Cockroaches)
+Domino's Pizza,1158 E 7th St,3/13/2012,3/14/2012,Vermin (Cockroaches)
+Fortune Garden,1538 E 4th St,3/20/2012,3/21/2012,Vermin (Cockroaches)
+El Nuevo Altata BBQ,6800 Long Beach Blvd,3/23/2012,3/23/2012,Sewage
+Avila's El Ranchito,5345 Long Beach Blvd,5/15/2012,5/15/2012,No warewashing capabilities
+Extreme Pizza,21 The Paseo,5/15/2012,5/25/2012,Vermin (Cockroaches)
+El Torazo,2801 E 10th St,6/4/2012,6/5/2012,Vermin (Rodents & Cockroaches)
+Wardlow Station kitchen,1174 Wardlow Rd,6/27/2012,7/10/2012,Vermin (Cockroaches)
+Khun Dom Restaurant,1190 Pacific Ave,6/27/2012,7/9/2012,Vermin (Rodents & Cockroaches)
+Joyce Market Meat Dept,1941 Atlantic Ave,6/28/2012,8/21/2012,Vermin (Cockroaches)
+Zephyr Vegetarian Café,340 E 4th St,7/11/2012,7/12/2012,Vermin (Cockroaches)
+Roll & Bake Filipino Rest,4901 Long Beach Blvd,7/12/2012,OOB 7/17/12,Vermin (Cockroaches)
+La Santaneca Bakery,2461 Atlantic Ave,7/12/2012,7/13/2012,Vermin (Cockroaches)
+Arteaga's Market,617 E 7th St,8/8/2012,8/9/2012,no refrigeration
+Golden Villa,1360 E Anaheim St,8/3/2012,8/8/2012,Vermin (Cockroaches)
+Crystal Thai,1165 E 10th St,8/20/2012,8/22/2012,Vermin (Cockroaches)
+El Mexicano Market (meat dept only),2005 E 7th St,8/24/2012,8/27/2012,Vermin (Cockroaches)
+La Creperie,130 Pine Ave,9/20/2012,9/20/2012,Vermin (Cockroaches)
+Monica's Bakery/Rest #2,2016 Pacific Ave,10/16/2012,10/17/2012,Vermin (Rodents)
+Siem Reap,1810 E Anaheim St,11/6/2012,11/7/2012,Vermin (Cockroaches)
+Pupuseria La Libertad,1260 Long Beach Blvd,11/12/2012,11/16/2012,Vermin (Cockroaches)
+Domino's Pizza,1158 E 7th St,12/12/2012,12/13/2012,Vermin (Cockroaches)
+El Burrito Grill,4101 Bellflower Blvd,12/12/2012,12/14/2012,Vermin (Cockroaches)
+Grand Paradise,1350 E Anaheim Street,1/8/2013,1/11/2013,Vermin (Cockroaches)
+Fruitlandia,865 E 7th Street,1/8/2013,1/11/2013,Vermin (Cockroaches)
+Coffee Caliente,55 Alamitos Avenue,1/15/2013,1/18/2013,Vermin (Cockroaches)
+Super Value Plus,2195 Pacific Avenue,1/16/2013,1/22/2013,Vermin (Cockroaches)
+Yanga Mini Mkt,833 E 4th Street,1/17/2013,Temp Clsd,Vermin (Cockroaches)
+Kelly's,5716 E 2nd Street,2/4/2013,2/5/2013,Vermin (Cockroaches)
+Asha Restaurant,149 Linden Avenue #E,2/20/2013,2/20/2013,Vermin (Cockroaches)
+Lush Lounge,49 South Pine Avenue,3/1/2013,3/2/2013,Vermin (Cockroaches)
+Rebel Bite,649 East Broadway,3/19/2013,3/21/2013,Vermin (Cockroaches) (Rodents)
+Edible Arrangements,681 Redondo Avenue,4/18/2013,4/18/2013,No Hot Water
+Christian Outreach Action,515 E 3rd Street,4/29/2013,5/2/2013,Vermin (Cockroaches)
+Sports Bar & Grill,720 E Wardlow Road,4/29/2013,4/30/2013,Vermin (Cockroaches)
+Wienerschnitzel,101 W Willow Street,5/13/2013,5/14/2013,No Working Refrigeration
+Mitaki,200 East 4th Street,7/1/2013,7/4/2013,Vermin (Cockroaches)
+Tambuli Mkt,2520 Santa Fe Avenue,7/24/2013,7/27/2013,Vermin (Cockroaches) (Flies)
+Chow Fun Express,2520 Santa Fe Avenue,7/24/2013,7/27/2013,Vermin (Cockroaches) (Flies)
+Potholder,3700 East Broadway,9/3/2013,9/6/2013,Outbreak Investigation
+Zen Buffet,7503 East Carson Blvd,9/6/2013,9/6/2013,Sewage
+La Bodega Mkt,1883 East 10th Street,10/1/2013,10/2/2013,Vermin
+Tropic Colata,510 E Broadway,10/23/2013,10/25/2013,Vermin (Cockroaches)
+Lily Bakery,1171 East Anaheim Street,11/5/2013,11/6/2013,Vermin (Cockroaches)
+Khoury's,110 Marina Drive,11/15/2013,11/16/2013,Vermin (Cockroaches)
+Lush Lounge,49 South Pine Avenue,11/15/2013,OOB,Vermin (Cockroaches)
+Denice's Restaurant,712 Orange Avenue,11/19/2013,11/21/2013,Vermin (Cockroaches) (Rodents)
+The Green House,149 Linden Avenue,1/16/2014,1/17/2014,Vermin (Cockroaches)
+Bayou Market,1181 East 10th Street,1/16/2014,1/16/2014,Sewage
+Rebel Bite,649 East Broadway,2/7/2014,2/11/2014,Vermin (Cockroaches)
+Jersey Mikes Sub,3821 Lakewood Blvd #102,2/20/2014,2/20/2014,No Hot Water
+Thai Sky,2415 Pacific Avenue,2/27/2014,3/1/2014,Vermin (Rodents)
+Khoury's,110 Marina Drive,3/12/2014,3/14/2014,Vermin (Cockroaches)
+La Copa Empanadas,407 Shoreline Drive,3/21/2014,3/21/2014,No Hot Water
+Khoury's,110 Marina Drive,3/26/2014,3/31/2014,Permit Suspension
+Ramirez Ice Cream,Lic# 4F93328,3/26/2014,4/2/2014,Vermin (Cockroaches)
+Sura Korean BBQ,621 Atlantic Avenue,4/1/2014,4/2/2014,Vermin (Cockroaches)
+Casa Sanchez,3948 East Anaheim Street,4/2/2014,4/2/2014,Lack of Electricity
+Hot Wings Grill,1169 East 10th Street,4/15/2014,4/15/2015,No Hot Water
+Yayo Bakery,129 East Pacific Coast Hwy,4/22/2014,4/23/2014,Vermin (Cockroaches) Lack of warewashing sink
+Rick & Brian's Café,632 Redondo Avenue,4/23/2014,4/24/2014,Vermin (Cockroaches)
+May's Thai Kitchen,3832 East Anaheim Street,5/29/2014,5/30/2014,Vermin (Cockroaches)
+Roxanne,1115 E Wardlow Road,6/3/2014,6/5/2014,Vermin (Cockroaches)
+La Bodega #2,1001 East 10th Street,6/4/2014,6/5/2014,Vermin (Cockroaches)
+Vinh Heng Market,2148 E Anaheim Street,6/19/2014,6/20/2014,No Hot Water
+Casa Moreno,2427 E Anaheim Street,6/20/2014,7/11/2014,Vermin (Cockroaches) (Rodents)
+Roma Pizza,1000 East Anaheim Street,7/9/2014,7/18/2014,Vermin (Cockroaches)
+Taqueria Los Plebes,755 W Willow Street,8/7/2014,8/8/2014,Sewage
+Eddies Market,2444 East 4th Street,8/15/2014,8/16/2014,Sewage
+Tasty Goody,2000 Long Beach Blvd,8/20/2014,8/21/2014,Vermin (Cockroaches)
+Skyroom (rooftop bar),40 Locust Avenue,8/21/2014,8/28/2014,Vermin (Cockroaches)
+Steamed,801 East 3rd Street,8/25/2014,8/26/2014,Vermin (Rodents)
+Original Rezzani's,3960 Studebaker Rd,8/28/2014,8/29/2014,Lack of adequate refrigeration
+Earthly Juice Express,5660 East Pacific Coast Hwy,9/4/2014,9/8/2014,No Hot Water
+Pandanus Leaf,763 East Anaheim Street,9/8/2014,9/11/2014,Vermin (Cockroaches)
+The Local Spot,6200 East Pacific Coast Hwy,9/26/2014,9/26/2014,Sewage
+Fortune Garden,1538 East 4th Street,10/1/2014,10/3/2014,Vermin (Cockroaches)
+Public Shorehouse,5258 East 2nd Street,10/3/2014,10/3/2014,Sewage
+Manna Bakery,1729 East 7th Street,10/7/2014,10/13/2014,Vermin (Cockroaches)
+Long Beach Ice Cream,1370 W Gaylord Street,10/9/2014,10/13/2014,Vermin (Cockroaches)
+Perez Fruit Cart,5253 Long Beach Blvd,10/15/2014,10/22/2014,Permit Suspension
+El Tri De America,2115 Pacific Avenue,10/17/2014,10/19/2014,Vermin (Cockroaches)
+Flores Fruit Cart,Tricycle Cart,11/4/2014,11/11/2014,Permit Suspension
+Tom Redgate Memorial Recovery Center,1775 Chestnut Avenue,11/5/2014,11/12/2014,Vermin (Cockroaches)
+Nary's Donuts,2608 E Anaheim Street,11/6/2014,11/12/2014,Vermin (Cockroaches)
+Mezcala Club,1912 E Anaheim Street,11/6/2014,11/7/2014,Vermin (Cockroaches)
+Heng Heng Donuts,924 East Pacific Coast Hwy,1/6/2015,1/20/2015,Vermin (Cockroaches)
+Superior Super Warehouse,1033 Long Beach Blvd,1/13/2015,1/14/2015,Vermin (Rodents)
+Chipotle,1800 Ximeno Avenue,1/23/2015,1/23/2015,Sewage
+Wing Stop,1806 Ximeno Avenue,1/28/2015,1/28/2015,Sewage No water
+Jerry's Dogs,1804 Ximeno Avenue,1/28/2015,1/28/2015,Lack of potable water
+Chipotle,1800 Ximeno Avenue,1/28/2015,1/28/2015,Sewage No water
+The Spoonn Bistro,649 Long Beach Blvd,2/25/2015,2/26/2015,No hot water
+Pizza Hut,300 W. Willow St,3/5/2015,3/6/2015,Sewage No Water
+Lily Bakery,1171 E Anaheim St,3/24/2015,3/26/2015,Vermin (Cockroaches)
+Market on 7th Street,1741 E 7th St,4/2/2015,4/7/2015,Vermin (Cockroaches)
+Alien Sandwiches,510 E Broadway,4/15/2015,4/18/2015,Vermin (Cockroaches)
+The Sky Room,40 S Locust Ave,5/22/2015,5/26/2015,Outbreak investigation
+Golden Spoon,5523 E Stearns St,5/28/2015,5/29/2015,Contaminated equipment
+Best Price Beer & Wine Mart,404 W Anaheim St,6/2/2015,6/5/2015,Vermin (Cockroaches)
+Perez Fruit Carts,5253 Long Beach Blvd,6/16/2015,6/30/2015,Permit suspension
+Chen's Chinese Restaurant,2131 E Broadway,6/18/2015,6/19/2015,Vermin (Cockroaches)
+The Peppercorner,601 E Broadway,7/7/2015,7/14/2015,Vermin (Cockroaches)
+Louis Burger,555 Atlantic Ave,7/8/2015,7/8/2015,No hot water
+H & H Fast Food,2017 Orange Ave,7/9/2015,7/13/2015,Vermin (Cockroaches)
+Bamboo Island,816 E Anaheim St,7/16/2015,7/17/2015,Vermin (Cockroaches) (Rodents)
+Cafecito Salvadoreno,412 W Anaheim St,8/12/2015,8/15/2015,Vermin (Cockroaches) (Rodents)
+Breakfast & Dinner Club of Long Beach,3900 Atlantic Ave,8/19/2015,8/19/2015,Lack of refrigeration
+Planet Water & Cellular,1410 Atlantic Ave,8/24/2015,8/27/2015,Vermin (Cockroaches)
+KH Supermarket,915 E Anaheim St,9/30/2015,10/2/2015,Permit suspension
+Ahimsa Vegan Café,340 E 4th St,10/22/2015,10/23/2015,Vermin (Rodents)
+Pandanus Leaf,763 E Anaheim St,11/10/2015,,Vermin (Cockroaches)
+Rebel Bite,649 E Broadway,11/11/2015,11/13/2015,Vermin (Cockroaches) (Rodents)
+Popi Fruit Bars,1864 Pacific Ave,11/19/2015,11/23/2015,Vermin (Cockroaches)
+Long Beach Ice Cream Commissary,1370 Gaylord Ave,11/28/2015,11/29/2015,Sewage
+Nugget,468 W Anaheim Street,2/3/2016,2/4/2016,No Hot Water
+El Mar Azul Bar #1,300 W. Anaheim Street,2/3/2016,2/5/2016,Vermin (Cockroaches)
+Papa John's,141 E Willow Street,5/6/2016,5/6/2016,No Hot Water
+Mi Linda Guadalajara Market,2001 Orange Avenue,7/13/2016,7/15/2016,Vermin (Cockroaches)
+Café Sevilla,140 Pine Avenue,8/3/2016,8/6/2016,Vermin (Cockroaches)
+Café Sevilla,140 Pine Avenue,9/15/2019,9/16/2016,Vermin (Cockroaches)
+New Panda,711 E Anaheim St,9/26/2016,9/27/2016,Vermin (Cockroaches)
+Rainbow Seafood Market,1107 Long Beach Blvd,9/28/2016,10/1/2016,Lack of toilet facilities
+Xela Ju Bakery,2057 Pacific Ave,11/18/2019,11/23/2016,"Vermin (Cockroaches), No hot water"
+Hapag Kainan,2535 Santa Fe Ave #37,1/27/2017,1/31/2017,"Vermin (Cockroaches), No hot water"
+99 Cents Only Stores,1190 E Carson St,3/9/2017,3/10/2017,Sewage
+L'Opera,101 Pine Ave,6/27/2017,6/28/2017,Vermin (Cockroaches)
+El Burrito Grill,4101 N Bellflower Blvd,8/1/2017,8/3/2017,Vermin (Cockroaches)
+Sweet Embellishments,5555 E Stearns St #107,2/7/2018,2/8/2018,Vermin (Cockroaches)
+Zo's Café,1515 Hughes Way,3/26/2018,4/2/2018,No hot water
+49ers Tavern,5660 E Pacific Coast Hwy,4/17/2018,,Vermin (Rodents)
+Agua Gourmet,1001 E Pacific Coast Hwy,5/1/2018,5/4/2018,Vermin (Cockroaches)
+Power Up Smoothies,2140 E Carson,5/7/2018,5/8/2018,Vermin (Cockroaches)
+Tavern on 2,5110 E 2nd St,5/11/2018,5/19/2018,"Vermin (Rodents), Lack of adequate refrigeration"
+Natraj Cuisine of India,5262 E 2nd St,5/15/2018,5/22/2018,Vermin (Cockroaches)
+Donuts Queen,6594 Long Beach Blvd,5/18/2018,5/23/2018,Vermin (Rodents)
+Denny's,601 Long Beach Blvd,6/13/2018,6/13/2018,No hot water
+Barbie's Bar,1008 E Artesia Blvd,6/13/2018,6/14/2018,"Vermin (Cockroaches), No hot water"
+Church's Chicken,2553 Long Beach Blvd,6/26/2018,6/27/2018,Vermin (Cockroaches)
+Family Fish Market,1705 E Artesia Blvd,6/26/2018,7/12/2018,Vermin (Cockroaches)
+Spoonn Bistro,649 Long Beach Blvd,7/13/2018,7/16/2018,Vermin (Rodents)
+Shannon's,219 Pine Ave,7/20/2018,7/22/2018,Vermin (Cockroaches)
+El Pollo Imperial,5991 Atlantic Ave,9/5/2018,9/6/2018,Vermin (Cockroaches)
+Los Potros Restaurant,1901 E Pacific Coast Hwy,9/28/2018,10/3/2018,Vermin (Cockroaches)
+Hokkaido Seafood Buffet,3030 Cherry Ave,10/2/2018,10/5/2018,Vermin (Cockroaches) (Rodents)
+Magic Lamp,5020 E 2nd St,10/17/2018,10/20/2018,Vermin (Cockroaches)
+Christian Outreach Appeal,515 E 3rd St,10/17/2018,11/6/2018,Vermin (Cockroaches)
+The Sails,6285 Pacific Coast Hwy,11/1/2018,11/2/2018,Vermin (Cockroaches) (Rodents)
+Bionicos El Chavo,6183 Atlantic Ave,11/1/2018,11/12/2018,Vermin (Cockroaches)
+Hashtag Burgers,3387 Atlantic Ave,11/7/2018,11/9/2018,Lack of warewashing facilities
+Papa John's Pizza,1957 E 4th St,11/26/2018,11/27/2018,No hot water
+Magic Lamp,5020 E 2nd St,12/5/2018,12/5/2018,No health permit
+Weiland Brewery Restaurant,4354 Atlantic Ave,12/6/2018,12/7/2018,No hot water
+Doly's Delectables,245 E Broadway,12/12/2018,12/17/2018,No hot water
+Thai Charcoal Pit,2226 E 7th St,12/20/2018,12/26/2018,"Vermin (Cockroaches) (Rodents), Lack of adequate refrigeration"
+Top Valu,421 Pacific Ave,11/6/2019,11/6/2019,Sewage
+Yoshinoya,590 E. Willow St,11/4/2019,11/4/2019,Sewage
+Brooklyn Deli,4280 Atlantic Ave,10/2/2019,10/9/2019,Vermin
+Tambuli Market,2520 Santa Fe Ave,9/16/2019,9/19/2019,Vermin
+Island Poly,4915 Long Beach Blvd,8/14/2019,8/19/2019,Vermin
+Alfredo's ,5411 E Ocean Blvd,8/13/2019,8/17/2019,Vermin
+Lowe's,2840 Bellflower Blvd,7/11/2019,7/11/2019,No restrooms
+Philhouse,3300 Atlantic Ave,7/2/2019,7/3/2019,Vermin
+Fortune Bread,3300 Atlantic Ave,7/2/2019,7/3/2019,Vermin
+Komo Cocina,5730 E 2nd St,6/27/2019,6/28/2019,Vermin
+7th Teriyaki,5718 E 7th St,4/25/2019,4/25/2019,Sewage
+Rally's Hamburger,3490 E Artesia,4/1/2019,4/1/2019,Nowater Notoilets
+Roe Seafood,5374 E 2nd St,3/27/2019,3/28/2019,Vermin
+Daisy Avenue Market,501 Daisy Ave,3/20/2019,3/21/2019,Vermin
+Porky's Pizza,4418 E 7th,3/5/2019,3/6/2019,No hot water

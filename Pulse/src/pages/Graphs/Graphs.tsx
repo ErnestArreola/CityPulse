@@ -1,5 +1,11 @@
 import React, { Component, Fragment } from 'react';
 import { Line } from 'react-chartjs-2';
+import { Row, Col } from 'antd';
+import { Slider } from 'antd';
+import { Divider } from 'antd';
+
+import BarChartWrapper from './subcomponents/charts/bar-chart/chart-wrapper';
+import ScatterPlotWrapper from './subcomponents/charts/scatterplot-chart/chart-wrapper';
 
 export default class App extends Component {
   constructor(props) {
@@ -22,6 +28,10 @@ export default class App extends Component {
         },
       ],
     },
+    barChartData: [],
+    scatterPlotData: [],
+    currCharSet: "",
+    activeName: null
   };
 
   bus = [
@@ -174,19 +184,71 @@ export default class App extends Component {
     return data;
   };
 
+  componentDidMount() {
+    //fetch data
+
+    fetch(`http://localhost:8000/api/business/ZzcLWjY0UjPb4_DLAQDVbQ/get_rev_data/`, {
+      method: 'GET',
+    }).then(resp => resp.json())
+      .then(res => this.setState({ barChartData: res.result }))
+      .catch(error => console.log(error))
+
+      fetch(`http://localhost:8000/api/business/ZzcLWjY0UjPb4_DLAQDVbQ/get_avg_data/`, {
+        method: 'GET',
+      }).then(resp => resp.json())
+        .then(res => this.setState({ scatterPlotData: res.result }))
+        .catch(error => console.log(error))
+        console.log("infetch")
+        console.log(this.state.scatterPlotData)
+  }
+
+  updateName = (activeName) => this.setState({activeName})
+
   render() {
     return (
       <div style={{ position: 'relative', width: 600, height: 500 }}>
-        <h3> Comparing to Top Business within One Mile Radius</h3>
-        <h5>
-          Top business is the business that is rated 4 stars or higher with largest number of review
-        </h5>{' '}
-        <Line
-          options={{
-            responsive: true,
-          }}
-          data={this.getChartData}
-        />
+
+        <Row gutter={[16, 16]}>
+          <Col span={12}>
+                <h3> Comparing to Top Business within One Mile Radius</h3>
+                <h5>
+                  Top business is the business that is rated 4 stars or higher with largest number of review
+            </h5>{' '}
+                <Line
+                  options={{
+                    responsive: true,
+                  }}
+                  data={this.getChartData}
+                />
+          </Col>
+
+          <Col span={12}>
+
+            {(this.state.scatterPlotData[0]) ?
+            <ScatterPlotWrapper data={this.state.scatterPlotData} updateName={this.updateName}/>
+            : <h3>Pending</h3>
+          }
+          </Col>
+
+        </Row>
+        <Row gutter={[16, 16]}>
+        <Col span={12}>
+          <h3>Month of January</h3>
+          <img
+            src="http://localhost:8000/media/images/image.png"
+            alt="new"
+            />
+        </Col>
+        <Col span={12}>
+          {(this.state.scatterPlotData[0]) ?
+
+              <BarChartWrapper data={this.state.barChartData} />
+
+            : <h3>Pending</h3>
+          }
+        </Col>
+
+        </Row>
       </div>
     );
   }
