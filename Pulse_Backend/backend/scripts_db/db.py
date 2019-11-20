@@ -6,7 +6,7 @@ import django
 
 import sys 
 
-sys.path.insert(0, '/Users/AppleSauce/Desktop/Pulse_Backend/backend')
+sys.path.insert(0, '/Users/sovathana/Documents/CECS 491B/Master/CityPulse/Pulse_Backend/backend')
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings')
 django.setup()
 
