@@ -1,8 +1,8 @@
 import * as d3 from 'd3';
 
 const MARGIN = { TOP: 10, BOTTOM: 80, LEFT: 70, RIGHT: 10}
-const WIDTH = 500 - MARGIN.LEFT - MARGIN.RIGHT;
-const HEIGHT = 300 - MARGIN.TOP - MARGIN.BOTTOM;
+const WIDTH = 600 - MARGIN.LEFT - MARGIN.RIGHT;
+const HEIGHT = 500 - MARGIN.TOP - MARGIN.BOTTOM;
 
 const months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 

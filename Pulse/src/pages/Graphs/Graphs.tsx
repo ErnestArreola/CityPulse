@@ -78,10 +78,7 @@ export default class App extends Component {
                 }
                   </Col>
                   <Col span={12}>
-                  <img
-                    src="http://localhost:8000/media/images/image.png"
-                    alt="new"
-                    />
+                  
                   </Col>
                 </Row>
       </div>

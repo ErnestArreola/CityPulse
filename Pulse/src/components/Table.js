@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'antd';
 import { Button, Form, Input } from 'antd';
+import { Collapse } from 'antd';
+import { Icon } from 'antd';
+
+const { Panel } = Collapse;
 
 export default class Table extends Component {
   state = {
@@ -47,6 +51,11 @@ export default class Table extends Component {
       //  console.log(newData)
     }
 
+     callback = (key) =>  {
+      console.log(key);
+    }
+
+
     renderRows() {
         return (
             this.props.data.data.map( (d, i) => {
@@ -56,7 +65,7 @@ export default class Table extends Component {
                         key={this.props.data.months[i]}
                         style={{ marginTop: "10px", backgroundColor: background }}
                     >
-                        <Col xs={9}>
+                        <Col span={6} >
                             <Button
                                 variant={"danger"}
                                 type={"button"}
@@ -67,9 +76,19 @@ export default class Table extends Component {
                              Remove
                             </Button>
                         </Col>
-                        <Col xs={3}>{this.props.data.months[i]}</Col>
-                        <Col xs={3}>{d}</Col>
+                        <Col span={6} >{this.props.data.months[i]} <Icon type="calendar" height={'3em'} width={'3em'}/></Col>
+                        <Col span={6} >{d} <Icon type="star" height={'3em'} width={'3em'}/> </Col>
+                        <Col xs={14} span={6}>
+                        <Collapse accordion>
+                           <Panel header="Word Cloud" key="1">
+                           <img
+                             src="http://localhost:8000/media/images/image.png"
+                             alt="new"
+                             />
+                           </Panel>
 
+                         </Collapse>
+                        </Col>
                     </Row>
                 )
             })
