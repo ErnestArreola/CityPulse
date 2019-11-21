@@ -79,7 +79,7 @@ export default class D3Chart {
               .append("circle")
               .attr("cy", vis.y(0))
               .attr("cx", (d, i) => vis.x(i))
-              .attr("r", 5).attr("fill", "grey")
+              .attr("r", 5).attr("fill", "lightblue")
               .on("click", (d, i) => vis.updateName(i))
               .transition(1000)
               .attr("cy", d => vis.y(d))

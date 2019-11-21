@@ -40,7 +40,7 @@ export default class D3Chart {
   update(bus) {
     const vis = this;
     bus = "current"
-    
+
     vis.xLabel.text(`Business ${bus}`);
 
     const y = d3
@@ -94,7 +94,7 @@ export default class D3Chart {
       .append('rect')
       .attr('x', d => x(d.date))
       .attr('width', x.bandwidth)
-      .attr('fill', 'green')
+      .attr('fill', 'lightgreen')
       .attr('y', HEIGHT)
       .transition()
       .duration(500)
