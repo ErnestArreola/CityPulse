@@ -53,18 +53,18 @@ export default class App extends Component {
 
   render() {
     console.log("in main app ")
-    console.log(this.state.scatterPlotData.data)
+    console.log(this.state.scatterPlotData)
     return (
       <div>
       <Row gutter={[32, 16]}>
                 <Col span={12}>
-                  {(this.state.scatterPlotData.data[0]) ?
+                  {(this.state.scatterPlotData.data.length !== 0) ?
                   <ScatterPlotWrapper currCharSet={this.state.currCharSet} data={this.state.scatterPlotData} updateName={this.updateName}/>
                   : <h3>Pending</h3>
                   }
                   </Col>
                   <Col span={12}>
-                        {(this.state.scatterPlotData.data[0]) ?
+                        {(this.state.scatterPlotData.data.length !== 0) ?
                             <Table data={this.state.scatterPlotData} updateData={this.updateData} activeName={this.state.activeName} />
                             : <h3>Pending</h3>
                         }
@@ -72,10 +72,16 @@ export default class App extends Component {
           </Row>
               <Row gutter={[32, 16]}>
                 <Col span={12}>
-                {(this.state.barChartData[0]) ?
+                {(this.state.barChartData.length !== 0) ?
                     <BarChartWrapper data={this.state.barChartData} />
                     : <h3>Pending</h3>
                 }
+                  </Col>
+                  <Col span={12}>
+                  <img
+                    src="http://localhost:8000/media/images/image.png"
+                    alt="new"
+                    />
                   </Col>
                 </Row>
       </div>

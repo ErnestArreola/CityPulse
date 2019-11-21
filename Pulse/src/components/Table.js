@@ -12,25 +12,27 @@ export default class Table extends Component {
 
   handleChange = (event) => {
         this.setState({ [event.target.name]: this.props.data.data[parseInt(event.target.name)] })
-
     }
 
     handleRemove = (event) => {
-      console.log("lookLOOKLOOK")
-      console.log(this.props.data)
+
         const newMonths = this.props.data.months.filter( (d, i) => {
+          console.log("d")
+          console.log(d)
+          console.log("event.target.name")
+          console.log(event.target.name)
             if  (d !== parseInt(event.target.name))
             {
                 this.state.temp.push(this.props.data.data[i])
+                console.log("ADDED")
             }
             return d !== parseInt(event.target.name)
         })
 
           const rand = { months: newMonths, data: this.state.temp}
-           
+
           this.setState({temp: []})
           this.props.updateData(rand)
-          console.log("lookLOOKLOOK")
           console.log(this.props.data)
     }
 
