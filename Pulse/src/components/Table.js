@@ -3,6 +3,7 @@ import { Row, Col } from 'antd';
 import { Button, Form, Input } from 'antd';
 import { Collapse } from 'antd';
 import { Icon } from 'antd';
+import WordCloud from './word-cloud';
 
 const { Panel } = Collapse;
 
@@ -81,10 +82,7 @@ export default class Table extends Component {
                         <Col xs={14} span={6}>
                         <Collapse accordion>
                            <Panel header="Word Cloud" key="1">
-                           <img
-                             src="http://localhost:8000/media/images/image.png"
-                             alt="new"
-                             />
+                              <WordCloud index={this.props.data.months[i]}/>
                            </Panel>
 
                          </Collapse>
