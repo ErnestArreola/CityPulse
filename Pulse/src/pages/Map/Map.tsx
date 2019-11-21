@@ -5,21 +5,26 @@ import EsriMap from '../../components/PulseMap/PulseMap';
 
 
 
-export default class App extends Component {
+export default class Map extends React.Component {
+
+render() {
+return(
 
 
+    <div>
+        <Card>
+            <EsriMap/>
+        </Card>
+
+    </div>
+);
 
 
-
-
-    render() {
-        return
-        (
-            <div>
-                <Card>
-                    <EsriMap/>
-                </Card>
-            </div>
-        )
-    }
 }
+
+
+
+}
+
+
+
