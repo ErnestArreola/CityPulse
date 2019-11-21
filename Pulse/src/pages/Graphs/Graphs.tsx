@@ -52,6 +52,8 @@ export default class App extends Component {
   updateName = (activeName) => this.setState({activeName})
 
   render() {
+    console.log("in main app ")
+    console.log(this.state.scatterPlotData.data)
     return (
       <div>
       <Row gutter={[32, 16]}>

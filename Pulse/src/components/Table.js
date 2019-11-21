@@ -17,6 +17,7 @@ export default class Table extends Component {
 
     handleRemove = (event) => {
       console.log("lookLOOKLOOK")
+      console.log(this.props.data)
         const newMonths = this.props.data.months.filter( (d, i) => {
             if  (d !== parseInt(event.target.name))
             {
@@ -26,8 +27,11 @@ export default class Table extends Component {
         })
 
           const rand = { months: newMonths, data: this.state.temp}
+           
           this.setState({temp: []})
           this.props.updateData(rand)
+          console.log("lookLOOKLOOK")
+          console.log(this.props.data)
     }
 
     handleSubmit = () => {

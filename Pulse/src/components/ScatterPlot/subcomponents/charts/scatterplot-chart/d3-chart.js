@@ -52,7 +52,7 @@ export default class D3Chart {
         vis.data = data
 
         vis.x.domain([0, d3.max(vis.data.months)])
-        vis.y.domain([0, 5])
+        vis.y.domain([0, d3.max(vis.data.data)])
 
         const xAxisCall = d3.axisBottom(vis.x)
         const yAxisCall = d3.axisLeft(vis.y)
@@ -61,15 +61,16 @@ export default class D3Chart {
         vis.yAxisGroup.transition(1000).call(yAxisCall)
 
         //JOIN
+        console.log(vis.data)
         const circles = vis.g.selectAll("circle")
-            .data(vis.data.data, (d, i) => i)
+            .data(vis.data.data, (d, i) => vis.data.months[i])
 
         //EXIT
         circles.exit().transition(1000).attr("cy", vis.y(0)).remove()
 
           //UPDATE
          circles.transition(1000)
-             .attr("cx", (d, i) => vis.x(i))
+             .attr("cx", (d, i) => vis.x(vis.data.months[i]))
              .attr("cy", d => vis.y(d))
 
         //     console.log("ALERT")
@@ -78,9 +79,9 @@ export default class D3Chart {
           circles.enter()
               .append("circle")
               .attr("cy", vis.y(0))
-              .attr("cx", (d, i) => vis.x(i))
+              .attr("cx", (d, i) => vis.x(vis.data.months[i]))
               .attr("r", 5).attr("fill", "lightblue")
-              .on("click", (d, i) => vis.updateName(i))
+              .on("click", (d, i) => vis.updateName(vis.data.months[i]))
               .transition(1000)
               .attr("cy", d => vis.y(d))
 
