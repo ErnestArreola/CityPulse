@@ -46,14 +46,11 @@ export default class Table extends Component {
             this.props.data.data.map( (d, i) => {
                 const background = (this.props.data.months[i] === this.props.activeName) ? "grey" : "white"
                 return (
-                    <Row
+                    <Row gutter={[48, 16]}
                         key={this.props.data.months[i]}
                         style={{ marginTop: "10px", backgroundColor: background }}
                     >
-                        <Col xs={3}>{this.props.data.months[i]}</Col>
-                        <Col xs={3}>{d}</Col>
-                        <Col xs={3}>{d}</Col>
-                        <Col xs={3}>
+                        <Col xs={9}>
                             <Button
                                 variant={"danger"}
                                 type={"button"}
@@ -64,6 +61,9 @@ export default class Table extends Component {
                              Remove
                             </Button>
                         </Col>
+                        <Col xs={3}>{this.props.data.months[i]}</Col>
+                        <Col xs={3}>{d}</Col>
+
                     </Row>
                 )
             })
