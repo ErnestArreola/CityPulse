@@ -12,7 +12,6 @@ export default class D3Chart {
         const vis = this
 
         vis.updateName = updateName
-        console.log("all Data")
 
          vis.g = d3.select(element)
              .append("svg")
@@ -52,8 +51,6 @@ export default class D3Chart {
         const vis = this
         vis.data = data
 
-        console.log("Number function")
-        console.log(d3.max(vis.data.months))
         vis.x.domain([0, d3.max(vis.data.months)])
         vis.y.domain([0, 5])
 
@@ -65,30 +62,28 @@ export default class D3Chart {
 
         //JOIN
         const circles = vis.g.selectAll("circle")
-            .data(vis.data.data)
+            .data(vis.data.data, (d, i) => i)
 
         //EXIT
         circles.exit().transition(1000).attr("cy", vis.y(0)).remove()
 
-        var i;
-        for (i = 0; i < vis.data.data.length; i++) {
           //UPDATE
          circles.transition(1000)
-             .attr("cx", vis.x(vis.data.months[i]))
-             .attr("cy", vis.y(vis.data.data[i]))
-        }
+             .attr("cx", d => vis.x(d))
+             .attr("cy", (d, i) => vis.y(i))
 
-        var i;
-        for (i = 0; i < vis.data.data.length; i++) {
+        //     console.log("ALERT")
+          //   console.log()
           //ENTER
           circles.enter()
               .append("circle")
               .attr("cy", vis.y(0))
-              .attr("cx", vis.x(vis.data.months[i]))
-              .attr("r", 5).attr("fill", "grey").on("click", vis.updateName(vis.data.months[i]))
+              .attr("cx", (d, i) => vis.x(i))
+              .attr("r", 5).attr("fill", "grey")
+              .on("click", (d, i) => vis.updateName(i))
               .transition(1000)
-              .attr("cy", vis.y(vis.data.data[i]))
-        }
+              .attr("cy", d => vis.y(d))
+
 
      }
 }

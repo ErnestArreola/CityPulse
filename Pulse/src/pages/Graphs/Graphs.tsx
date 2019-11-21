@@ -2,11 +2,12 @@ import React, { Component, Fragment } from 'react';
 import { Row, Col } from 'antd';
 import { Slider, Card } from 'antd';
 import { Divider } from 'antd';
+
 import CompareTopBusiness from '../../components/TopBusinessGraph/CompareTopBusiness';
 import BarChartWrapper from '../../components/BarChart/subcomponents/charts/bar-chart/chart-wrapper';
-
+import Table from '../../components/Table';
 import ScatterPlotWrapper from '../../components/ScatterPlot/subcomponents/charts/scatterplot-chart/chart-wrapper';
-import BarChart from './BarChart';
+import BarChart from '../../BarChart';
 
 const months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
@@ -42,8 +43,6 @@ export default class App extends Component {
           data: res.result
         }}))
         .catch(error => console.log(error))
-        console.log("in fet")
-        console.log(this.state.scatterPlotData.data)
   }
 
   updateData = (graphsData) => {
@@ -53,11 +52,9 @@ export default class App extends Component {
   updateName = (activeName) => this.setState({activeName})
 
   render() {
-    console.log("in APP")
-    console.log(this.state.scatterPlotData.data)
     return (
       <div>
-      <Row gutter={[16, 16]}>
+      <Row gutter={[32, 16]}>
                 <Col span={12}>
                   {(this.state.scatterPlotData.data[0]) ?
                   <ScatterPlotWrapper currCharSet={this.state.currCharSet} data={this.state.scatterPlotData} updateName={this.updateName}/>
@@ -65,15 +62,18 @@ export default class App extends Component {
                   }
                   </Col>
                   <Col span={12}>
-                        {(this.state.barChartData[0]) ?
-                            <BarChartWrapper data={this.state.barChartData} />
+                        {(this.state.scatterPlotData.data[0]) ?
+                            <Table data={this.state.scatterPlotData} updateData={this.updateData} activeName={this.state.activeName} />
                             : <h3>Pending</h3>
                         }
                   </Col>
           </Row>
-              <Row gutter={[16, 16]}>
+              <Row gutter={[32, 16]}>
                 <Col span={12}>
-                    <h2>test</h2>
+                {(this.state.barChartData[0]) ?
+                    <BarChartWrapper data={this.state.barChartData} />
+                    : <h3>Pending</h3>
+                }
                   </Col>
                 </Row>
       </div>
