@@ -35,7 +35,7 @@ class BusinessViewSet(viewsets.ModelViewSet):
     @action(detail=True, methods=['GET'])
     def get_avg_data(self, request, pk='reviewID'):
         data = []
-        for count in range(11):
+        for count in range(12):
             reviews = YelpReviews.objects.filter(business=pk, date__month=count+1)
             sum = 0
             for x in reviews:
@@ -46,25 +46,25 @@ class BusinessViewSet(viewsets.ModelViewSet):
             avg = sum / listLength
             data.append(avg)
 
-        response = {'message': 'Review Data', 'result': data}
+        response = {'message': 'Average Rating a Month Data', 'result': data}
         return Response(response, status=status.HTTP_200_OK)
 
-    @action(detail=True, methods=['GET'])
+    @action(detail=True, methods=['POST'])
     def get_wc_data(self, request, pk='reviewID'):
         allData = ""
         stopwords = set(STOPWORDS)
 
-        reviews = YelpReviews.objects.filter(business=pk, date__month=1)
+        for i in range(12):
+            reviews = YelpReviews.objects.filter(business=pk, date__month=i+1)
+            for x in reviews:
+                allData = allData + x.review
 
-        for x in reviews:
-            allData = allData + x.review
-
-        wordcloud = wc(stopwords=stopwords, max_words=25, background_color="white").generate(allData)
-        wordcloud.to_file('./images/image.png')
-        oo = WordCloudPhoto(title="x", image="images/image.png")
-        oo.save()
+            wordcloud = wc(stopwords=stopwords, max_words=25, background_color="white").generate(allData)
+            wordcloud.to_file("./images/image{}.png".format(i))
+            oo = WordCloudPhoto(title="x", image="images/image{}.png".format(i))
+            oo.save()
         serializer = WordCloudPhotoSerializer(oo, many=True)
-        response = {'message': 'Review Data', 'result': serializer.data}
+        response = {'message': 'Word Cloud Data', 'result': serializer.data}
         return Response(response, status=status.HTTP_200_OK)
 
 class YelpReviewViewSet(viewsets.ModelViewSet):

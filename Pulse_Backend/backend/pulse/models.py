@@ -12,8 +12,8 @@ from django.db import models
 
 
 class Business(models.Model):
-
     businessID = models.CharField(primary_key=True, max_length=100)
+
     businessName = models.CharField(max_length=100, blank=True)
     address = models.CharField(max_length=200, blank=True)
     longitude = models.FloatField(default = None, blank=True)
@@ -25,8 +25,6 @@ class Business(models.Model):
     zipcode = models.CharField(max_length=500, blank=True)
     category = models.CharField(max_length=100, blank=True)
 
-    #category = models.ForeignKey('Category', on_delete = models.CASCADE)
-
     def __str__(self):
         return self.businessID
 
@@ -36,6 +34,7 @@ class WordCloudPhoto(models.Model):
 
 class YelpReviews(models.Model):
     reviewID = models.CharField(primary_key=True, max_length=100)
+    
     rating = models.IntegerField(default=None, blank=True)
     date = models.DateField(db_index=True)
     review = models.CharField(max_length=5000, blank=True)

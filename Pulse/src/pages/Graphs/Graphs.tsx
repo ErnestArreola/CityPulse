@@ -2,21 +2,29 @@ import React, { Component, Fragment } from 'react';
 import { Row, Col } from 'antd';
 import { Slider, Card } from 'antd';
 import { Divider } from 'antd';
-import CompareTopBusiness from '../../components/TopBusinessGraph/CompareTopBusiness';
 
-import ScatterPlotWrapper from './subcomponents/charts/scatterplot-chart/chart-wrapper';
-import BarChart from '../../components/BarChart/BarChart';
+import CompareTopBusiness from '../../components/TopBusinessGraph/CompareTopBusiness';
+import BarChartWrapper from '../../components/BarChart/subcomponents/charts/bar-chart/chart-wrapper';
+import Table from '../../components/Table';
+import ScatterPlotWrapper from '../../components/ScatterPlot/subcomponents/charts/scatterplot-chart/chart-wrapper';
+import BarChart from '../../BarChart';
+
+const months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 export default class App extends Component {
 
-  
+
   constructor(props) {
     super(props);
   }
 
   state = {
-    scatterPlotData: [],
-    currCharSet: "",
+    barChartData: [],
+    scatterPlotData: {
+      months: [],
+      data: []
+    },
+    currCharSet: "one",
     activeName: null
   };
 
@@ -30,31 +38,49 @@ export default class App extends Component {
       fetch(`http://localhost:8000/api/business/ZzcLWjY0UjPb4_DLAQDVbQ/get_avg_data/`, {
         method: 'GET',
       }).then(resp => resp.json())
-        .then(res => this.setState({ scatterPlotData: res.result }))
+        .then(res => this.setState({ scatterPlotData: {
+          months: months,
+          data: res.result
+        }}))
         .catch(error => console.log(error))
-        console.log("infetch")
-        console.log(this.state.scatterPlotData)
   }
+
+  updateData = (graphsData) => {
+          this.setState({ scatterPlotData: graphsData })
+      }
 
   updateName = (activeName) => this.setState({activeName})
 
   render() {
+    console.log("in main app ")
+    console.log(this.state.scatterPlotData)
     return (
       <div>
-        <Row gutter={[16, 16]}>
-          
-        <h3> Comparing to Top Business within One Mile Radius</h3>
-        <h5> Top business is the business that is rated 4 stars or higher with largest number of review </h5>{' '}
-          <Card>
-          <CompareTopBusiness/>
-          </Card>
-        </Row>
-        <Row gutter={[16, 16]}>
-        <Col span={12}>
-          <BarChart/>
-        </Col>
-
-        </Row>
+      <Row gutter={[32, 16]}>
+                <Col span={12}>
+                  {(this.state.scatterPlotData.data.length !== 0) ?
+                  <ScatterPlotWrapper currCharSet={this.state.currCharSet} data={this.state.scatterPlotData} updateName={this.updateName}/>
+                  : <h3>Pending</h3>
+                  }
+                  </Col>
+                  <Col span={12}>
+                        {(this.state.scatterPlotData.data.length !== 0) ?
+                            <Table data={this.state.scatterPlotData} updateData={this.updateData} activeName={this.state.activeName} />
+                            : <h3>Pending</h3>
+                        }
+                  </Col>
+          </Row>
+              <Row gutter={[32, 16]}>
+                <Col span={12}>
+                {(this.state.barChartData.length !== 0) ?
+                    <BarChartWrapper data={this.state.barChartData} />
+                    : <h3>Pending</h3>
+                }
+                  </Col>
+                  <Col span={12}>
+                  
+                  </Col>
+                </Row>
       </div>
     );
   }

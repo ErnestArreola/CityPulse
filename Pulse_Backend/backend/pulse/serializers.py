@@ -21,7 +21,6 @@ class BusinessesInOneMileRadiusSerializer(serializers.ModelSerializer):
 class WordCloudPhotoSerializer(serializers.ModelSerializer):
     class Meta:
         model = WordCloudPhoto
-        # fields = ('businessID', 'businessName', 'businessURL', 'reviewCount')
         fields = '__all__'
 
 class TopBusinessSerializer(serializers.ModelSerializer):
