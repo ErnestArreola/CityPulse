@@ -69,8 +69,8 @@ export default class D3Chart {
 
           //UPDATE
          circles.transition(1000)
-             .attr("cx", d => vis.x(d))
-             .attr("cy", (d, i) => vis.y(i))
+             .attr("cx", (d, i) => vis.x(i))
+             .attr("cy", d => vis.y(d))
 
         //     console.log("ALERT")
           //   console.log()

@@ -4,6 +4,8 @@ import D3Chart from './d3-chart';
 
 export default class ChartWrapper extends Component {
     componentDidMount() {
+      console.log("inchartwrapper")
+      console.log(this.props.data)
         this.setState({
             chart: new D3Chart(this.refs.chart, this.props.data, this.props.updateName)
         })
@@ -13,8 +15,7 @@ export default class ChartWrapper extends Component {
         return false;
     }
 
-    componentDidUpdate(nextProps) {
-         this.state.chart.update(nextProps.currCharSet)
+    componentWillReceiveProps(nextProps) {
          this.state.chart.update(nextProps.data)
      }
 
