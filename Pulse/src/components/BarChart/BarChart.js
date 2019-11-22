@@ -11,6 +11,8 @@ export default class App extends Component {
 
     state = {
         barChartData: [],
+        activeName: null
+
       };
 
     componentDidMount() {
@@ -21,11 +23,16 @@ export default class App extends Component {
           .catch(error => console.log(error))
     }
 
+    updateName = (activeName) => this.setState({activeName})
+
+
     render() {
     return (
         <div>        
-          <h3>Month of January</h3>
-        <BarChartWrapper data={this.state.barChartData} />
+                        {(this.state.barChartData.length !== 0) ?
+                    <BarChartWrapper data={this.state.barChartData} />
+                    : <h3>Pending</h3>
+                }
         </div>
     );
     }
