@@ -13,7 +13,6 @@ export default class App extends Component {
     state = {
         barChartData: [],
         activeName: null
-
       };
 
     componentDidMount() {
@@ -26,15 +25,14 @@ export default class App extends Component {
 
     updateName = (activeName) => this.setState({activeName})
 
-
     render() {
-    return (
-        <div>
-                        {(this.state.barChartData.length !== 0) ?
-                    <BarChartWrapper data={this.state.barChartData} />
-                    : <Spin />
-                }
-        </div>
-    );
+      return (
+          <div>
+            {(this.state.barChartData.length !== 0) ?
+                <BarChartWrapper data={this.state.barChartData} />
+                : <Spin />
+            }
+          </div>
+      );
     }
 }

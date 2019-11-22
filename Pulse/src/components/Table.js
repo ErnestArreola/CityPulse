@@ -8,6 +8,7 @@ import { Modal } from 'antd';
 import { Card } from 'antd';
 
 const { Panel } = Collapse;
+
 const gridStyle = {
 width: '25%',
 height: 50,
@@ -27,8 +28,6 @@ export default class Table extends Component {
         this.setState({ [event.target.name]: this.props.data.data[parseInt(event.target.name)] })
     }
     showModal = () => {
-      console.log("inshowModal")
-      console.log(this.state.modalIsOpen)
       this.setState({visible: true});
 
       console.log(this.state.modalIsOpen)
@@ -49,7 +48,6 @@ export default class Table extends Component {
     };
 
     handleRemove = (event) => {
-
         const newMonths = this.props.data.months.filter( (d, i) => {
 
             if  (d !== parseInt(event.target.name))
@@ -74,14 +72,11 @@ export default class Table extends Component {
             month: "",
             modalIsOpen: false
         })
-      //  console.log("in handleSubmit")
-      //  console.log(newData)
     }
 
      callback = (key) =>  {
       console.log(key);
     }
-
 
     renderRows() {
         return (
@@ -100,7 +95,7 @@ export default class Table extends Component {
                          Remove
                         </Button>
                   </Card.Grid>
-                  <Card.Grid  style={gridStyle}>
+                  <Card.Grid  style={gridStyle, { marginTop: "10px", backgroundColor: background }}>
                         {this.props.data.months[i]}
                         <Icon type="calendar" height={'3em'} width={'3em'}/>
                   </Card.Grid>
@@ -108,22 +103,22 @@ export default class Table extends Component {
                         {d} <Icon type="star" height={'3em'} width={'3em'}/>
                   </Card.Grid>
                   <Card.Grid  style={gridStyle}>
-                        <Collapse accordion>
-                           <Panel header="Word Cloud" key="1">
+                    <Collapse accordion>
+                        <Panel header="Word Cloud" key="1">
                             <Button type="primary" onClick={this.showModal}>
-                             Word Cloud
+                              Word Cloud
                              </Button>
-                           <Modal
-                             title="Basic Modal"
-                             visible={this.state.visible}
-                             onOk={this.handleOk}
-                             onCancel={this.handleCancel}
-                           >
-                             <p>Some contents...</p>
-                             <WordCloud index={this.props.data.months[i]}/>
+                            <Modal
+                               title="Basic Modal"
+                               visible={this.state.visible}
+                               onOk={this.handleOk}
+                               onCancel={this.handleCancel}
+                            >
+                            <p>Some contents...</p>
+                            <WordCloud index={this.props.data.months[i]}/>
                            </Modal>
-                           </Panel>
-                         </Collapse>
+                         </Panel>
+                      </Collapse>
                 </Card.Grid>
                 </React.Fragment>
                 )
@@ -132,8 +127,8 @@ export default class Table extends Component {
     }
 
     render() {
-      console.log("in Table app ")
-      console.log(this.props.data)
+      console.log("in table app ")
+      console.log(this.props.activeName)
           return (
               <div>
               <Card title="Card Title">

@@ -41,7 +41,7 @@ export default class ScatterPlot extends Component {
 
     render() {
       console.log("in Scatterplot app ")
-      console.log(this.state.scatterPlotData)
+      console.log(this.state.activeName)
       return (
         <div>
         <Row gutter={[32, 16]}>

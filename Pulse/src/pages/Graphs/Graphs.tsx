@@ -7,33 +7,28 @@ import CompareTopBusiness from '../../components/TopBusinessGraph/CompareTopBusi
 import ScatterPlot from '../../components/ScatterPlot/ScatterPlot';
 import BarChart from '../../components/BarChart/BarChart';
 
-
 export default class App extends Component {
-
 
   constructor(props: Readonly<{}>) {
     super(props);
 
-    this.state = {
-    };
+    this.state = {  };
   }
 
-
-  componentDidMount() {
-  }
+  componentDidMount() {  }
 
   render() {
     return (
       <div>
-        <Card>
-          <ScatterPlot/>
-        </Card>
-        <Card>
-          <BarChart/>
-       </Card>
-       <Card>
-        <CompareTopBusiness/>
-       </Card>
+          <Card>
+              <ScatterPlot/>
+          </Card>
+          <Card>
+              <BarChart/>
+         </Card>
+         <Card>
+             <CompareTopBusiness/>
+         </Card>
       </div>
     );
   }
