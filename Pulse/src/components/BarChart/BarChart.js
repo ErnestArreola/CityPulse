@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { Row, Col } from 'antd';
+import { Spin } from 'antd';
 
 import BarChartWrapper from '../BarChart/subcomponents/charts/bar-chart/chart-wrapper';
 
@@ -28,10 +29,10 @@ export default class App extends Component {
 
     render() {
     return (
-        <div>        
+        <div>
                         {(this.state.barChartData.length !== 0) ?
                     <BarChartWrapper data={this.state.barChartData} />
-                    : <h3>Pending</h3>
+                    : <Spin />
                 }
         </div>
     );
