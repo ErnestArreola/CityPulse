@@ -51,11 +51,14 @@ export default class App extends Component {
 
   updateName = (activeName) => this.setState({activeName})
 
+
+
   render() {
     console.log("in main app ")
     console.log(this.state.scatterPlotData)
     return (
       <div>
+
       <Row gutter={[32, 16]}>
                 <Col span={12}>
                   {(this.state.scatterPlotData.data.length !== 0) ?
@@ -78,7 +81,7 @@ export default class App extends Component {
                 }
                   </Col>
                   <Col span={12}>
-                  
+
                   </Col>
                 </Row>
       </div>

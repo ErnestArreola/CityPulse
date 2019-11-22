@@ -3,7 +3,8 @@ import { Row, Col } from 'antd';
 import { Button, Form, Input } from 'antd';
 import { Collapse } from 'antd';
 import { Icon } from 'antd';
-import WordCloud from './word-cloud';
+import WordCloud from './WordCloud/word-cloud';
+import { Modal } from 'antd';
 
 const { Panel } = Collapse;
 
@@ -12,12 +13,34 @@ export default class Table extends Component {
       name: "",
       rating: "",
       month: "",
-      temp: []
+      temp: [],
+      visible: false
   }
 
   handleChange = (event) => {
         this.setState({ [event.target.name]: this.props.data.data[parseInt(event.target.name)] })
     }
+    showModal = () => {
+      console.log("inshowModal")
+      console.log(this.state.modalIsOpen)
+      this.setState({visible: true});
+
+      console.log(this.state.modalIsOpen)
+    };
+
+    handleOk = e => {
+    console.log(e);
+    this.setState({
+      visible: false,
+    });
+    };
+
+    handleCancel = e => {
+    console.log(e);
+    this.setState({
+      visible: false,
+    });
+    };
 
     handleRemove = (event) => {
 
@@ -46,7 +69,8 @@ export default class Table extends Component {
         this.setState({
             name: "",
             rating: "",
-            month: ""
+            month: "",
+            modalIsOpen: false
         })
       //  console.log("in handleSubmit")
       //  console.log(newData)
@@ -58,6 +82,8 @@ export default class Table extends Component {
 
 
     renderRows() {
+      console.log("in table Main")
+      console.log(this.state.modalIsOpen)
         return (
             this.props.data.data.map( (d, i) => {
                 const background = (this.props.data.months[i] === this.props.activeName) ? "grey" : "white"
@@ -82,7 +108,18 @@ export default class Table extends Component {
                         <Col xs={14} span={6}>
                         <Collapse accordion>
                            <Panel header="Word Cloud" key="1">
-                              <WordCloud index={this.props.data.months[i]}/>
+                            <Button type="primary" onClick={this.showModal}>
+                             Word Cloud
+                             </Button>
+                           <Modal
+                             title="Basic Modal"
+                             visible={this.state.visible}
+                             onOk={this.handleOk}
+                             onCancel={this.handleCancel}
+                           >
+                             <p>Some contents...</p>
+                             <WordCloud index={this.props.data.months[i]}/>
+                           </Modal>
                            </Panel>
 
                          </Collapse>
@@ -95,6 +132,8 @@ export default class Table extends Component {
 
 //data={this.state.graphsData} updateData={this.updateData} activeName={this.state.activeName}
     render() {
+      console.log("in table render this.state.ModalIsOpen")
+      console.log(this.state.modalIsOpen)
         return (
             <div>
               {this.renderRows()}
