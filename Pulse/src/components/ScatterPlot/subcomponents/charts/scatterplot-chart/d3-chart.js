@@ -26,6 +26,13 @@ export default class D3Chart {
         vis.y = d3.scaleLinear()
             .range([HEIGHT, 0])
 
+        vis.tooltip = d3.select('body')
+        .append('div')
+        .style('position', 'absolute')
+        .style('padding', '0 10px')
+        .style('background', 'white')
+        .style('opacity', 0)
+
         vis.xAxisGroup = vis.g.append("g").attr("transform", `translate(0, ${HEIGHT})`)
         vis.yAxisGroup = vis.g.append("g")
 
@@ -84,6 +91,15 @@ export default class D3Chart {
               .on("click", (d, i) => vis.updateName(vis.data.months[i]))
               .transition(1000)
               .attr("cy", d => vis.y(d))
+
+              circles.on("mouseover", d => {
+                vis.tooltip.transition().duration(200).style('opacity', .6)
+
+                vis.tooltip.html(d)
+                .style('left', (d3.event.pageX - 35) + 'px')
+                .style('top', (d3.event.pageY - 30) + 'px')
+
+              })
 
 
      }

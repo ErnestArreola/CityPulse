@@ -5,8 +5,14 @@ import { Collapse } from 'antd';
 import { Icon } from 'antd';
 import WordCloud from './WordCloud/word-cloud';
 import { Modal } from 'antd';
+import { Card } from 'antd';
 
 const { Panel } = Collapse;
+const gridStyle = {
+width: '25%',
+height: 50,
+textAlign: 'center'
+};
 
 export default class Table extends Component {
   state = {
@@ -36,11 +42,14 @@ export default class Table extends Component {
     };
 
     handleCancel = e => {
-    console.log(e);
-    this.setState({
-      visible: false,
-    });
+      console.log(e);
+      this.setState({
+        visible: false,
+      });
     };
+
+
+
 
     handleRemove = (event) => {
 
@@ -82,24 +91,26 @@ export default class Table extends Component {
             this.props.data.data.map( (d, i) => {
                 const background = (this.props.data.months[i] === this.props.activeName) ? "grey" : "white"
                 return (
-                    <Row gutter={[48, 16]}
-                        key={this.props.data.months[i]}
-                        style={{ marginTop: "10px", backgroundColor: background }}
-                    >
-                        <Col span={6} >
-                            <Button
-                                variant={"danger"}
-                                type={"button"}
-                                style={{ width: "100%" }}
-                                name={this.props.data.months[i]}
-                                onClick={this.handleRemove}
-                            >
-                             Remove
-                            </Button>
-                        </Col>
-                        <Col span={6} >{this.props.data.months[i]} <Icon type="calendar" height={'3em'} width={'3em'}/></Col>
-                        <Col span={6} >{d} <Icon type="star" height={'3em'} width={'3em'}/> </Col>
-                        <Col xs={14} span={6}>
+                  <React.Fragment>
+                  <Card.Grid key={this.props.data.months[i]} style={gridStyle}>
+                        <Button
+                            variant={"danger"}
+                            type={"button"}
+                            style={{ width: "100%" }}
+                            name={this.props.data.months[i]}
+                            onClick={this.handleRemove}
+                        >
+                         Remove
+                        </Button>
+                  </Card.Grid>
+                  <Card.Grid key={this.props.data.months[i]} style={gridStyle}>
+                        {this.props.data.months[i]}
+                        <Icon type="calendar" height={'3em'} width={'3em'}/>
+                  </Card.Grid>
+                  <Card.Grid key={this.props.data.months[i]} style={gridStyle}>
+                        {d} <Icon type="star" height={'3em'} width={'3em'}/>
+                  </Card.Grid>
+                  <Card.Grid key={this.props.data.months[i]} style={gridStyle}>
                         <Collapse accordion>
                            <Panel header="Word Cloud" key="1">
                             <Button type="primary" onClick={this.showModal}>
@@ -115,10 +126,9 @@ export default class Table extends Component {
                              <WordCloud index={this.props.data.months[i]}/>
                            </Modal>
                            </Panel>
-
                          </Collapse>
-                        </Col>
-                    </Row>
+                </Card.Grid>
+                </React.Fragment>
                 )
             })
         )
@@ -126,10 +136,14 @@ export default class Table extends Component {
 
 //data={this.state.graphsData} updateData={this.updateData} activeName={this.state.activeName}
     render() {
-        return (
-            <div>
-              {this.renderRows()}
-            </div>
-        )
+          return (
+              <div>
+              <Card title="Card Title">
+
+                    {this.renderRows()}
+              </Card>
+
+              </div>
+          )
+        }
     }
-}
