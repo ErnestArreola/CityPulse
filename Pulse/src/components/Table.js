@@ -3,7 +3,8 @@ import { Row, Col } from 'antd';
 import { Button, Form, Input } from 'antd';
 import { Collapse } from 'antd';
 import { Icon } from 'antd';
-import WordCloud from './word-cloud';
+import WordCloud from './WordCloud/word-cloud';
+import { Modal } from 'antd';
 
 const { Panel } = Collapse;
 
@@ -12,24 +13,42 @@ export default class Table extends Component {
       name: "",
       rating: "",
       month: "",
-      temp: []
+      temp: [],
+      visible: false
   }
 
   handleChange = (event) => {
         this.setState({ [event.target.name]: this.props.data.data[parseInt(event.target.name)] })
     }
+    showModal = () => {
+      console.log("inshowModal")
+      console.log(this.state.modalIsOpen)
+      this.setState({visible: true});
+
+      console.log(this.state.modalIsOpen)
+    };
+
+    handleOk = e => {
+    console.log(e);
+    this.setState({
+      visible: false,
+    });
+    };
+
+    handleCancel = e => {
+    console.log(e);
+    this.setState({
+      visible: false,
+    });
+    };
 
     handleRemove = (event) => {
 
         const newMonths = this.props.data.months.filter( (d, i) => {
-          console.log("d")
-          console.log(d)
-          console.log("event.target.name")
-          console.log(event.target.name)
+
             if  (d !== parseInt(event.target.name))
             {
                 this.state.temp.push(this.props.data.data[i])
-                console.log("ADDED")
             }
             return d !== parseInt(event.target.name)
         })
@@ -46,7 +65,8 @@ export default class Table extends Component {
         this.setState({
             name: "",
             rating: "",
-            month: ""
+            month: "",
+            modalIsOpen: false
         })
       //  console.log("in handleSubmit")
       //  console.log(newData)
@@ -82,7 +102,18 @@ export default class Table extends Component {
                         <Col xs={14} span={6}>
                         <Collapse accordion>
                            <Panel header="Word Cloud" key="1">
-                              <WordCloud index={this.props.data.months[i]}/>
+                            <Button type="primary" onClick={this.showModal}>
+                             Word Cloud
+                             </Button>
+                           <Modal
+                             title="Basic Modal"
+                             visible={this.state.visible}
+                             onOk={this.handleOk}
+                             onCancel={this.handleCancel}
+                           >
+                             <p>Some contents...</p>
+                             <WordCloud index={this.props.data.months[i]}/>
+                           </Modal>
                            </Panel>
 
                          </Collapse>

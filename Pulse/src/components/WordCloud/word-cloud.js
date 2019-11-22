@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 export default class WordCloud extends Component {
   constructor(props) {
     super(props);
@@ -7,13 +8,13 @@ export default class WordCloud extends Component {
 
   }
   render() {
-    console.log("WOOOOOOOOOO")
-    console.log(this.addi)
     return (
       <img
         src={this.addi}
         alt="new"
         />
+
+
 
     )
   }
