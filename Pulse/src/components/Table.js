@@ -127,7 +127,7 @@ export default class Table extends Component {
       console.log(this.props.activeName)
           return (
               <div>
-              <Card title="Card Title">
+              <Card title="Monthly Reviews">
                     {this.renderRows()}
               </Card>
               </div>
