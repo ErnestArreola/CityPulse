@@ -45,14 +45,10 @@ export default class Table extends Component {
     handleRemove = (event) => {
 
         const newMonths = this.props.data.months.filter( (d, i) => {
-          console.log("d")
-          console.log(d)
-          console.log("event.target.name")
-          console.log(event.target.name)
+
             if  (d !== parseInt(event.target.name))
             {
                 this.state.temp.push(this.props.data.data[i])
-                console.log("ADDED")
             }
             return d !== parseInt(event.target.name)
         })
@@ -82,8 +78,6 @@ export default class Table extends Component {
 
 
     renderRows() {
-      console.log("in table Main")
-      console.log(this.state.modalIsOpen)
         return (
             this.props.data.data.map( (d, i) => {
                 const background = (this.props.data.months[i] === this.props.activeName) ? "grey" : "white"
@@ -132,8 +126,6 @@ export default class Table extends Component {
 
 //data={this.state.graphsData} updateData={this.updateData} activeName={this.state.activeName}
     render() {
-      console.log("in table render this.state.ModalIsOpen")
-      console.log(this.state.modalIsOpen)
         return (
             <div>
               {this.renderRows()}
