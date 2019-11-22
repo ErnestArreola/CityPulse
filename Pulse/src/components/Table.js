@@ -3,9 +3,10 @@ import { Row, Col } from 'antd';
 import { Button, Form, Input } from 'antd';
 import { Collapse } from 'antd';
 import { Icon } from 'antd';
-import WordCloud from './WordCloud/word-cloud';
 import { Modal } from 'antd';
 import { Card } from 'antd';
+
+import WordCloud from './WordCloud/word-cloud';
 
 const { Panel } = Collapse;
 

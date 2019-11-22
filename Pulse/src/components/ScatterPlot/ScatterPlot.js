@@ -3,7 +3,7 @@ import ScatterPlotWrapper from '../../components/ScatterPlot/subcomponents/chart
 import Table from '../../components/Table';
 import { Row, Col } from 'antd';
 import { Spin } from 'antd';
-
+import { notification } from 'antd';
 
 const months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
@@ -37,7 +37,17 @@ export default class ScatterPlot extends Component {
             this.setState({ scatterPlotData: graphsData })
     }
 
-    updateName = (activeName) => this.setState({activeName})
+    updateName = (activeName) => {
+      notification.open({
+        message: 'Data Available',
+        description:
+          'Word Cloud Data available for this month!',
+        onClick: () => {
+            console.log('Notification Clicked!');
+        },
+      });
+      this.setState({activeName})
+    }
 
     render() {
       console.log("in Scatterplot app ")
