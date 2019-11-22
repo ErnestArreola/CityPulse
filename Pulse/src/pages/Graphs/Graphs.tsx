@@ -23,18 +23,16 @@ export default class App extends Component {
   }
 
   render() {
-    console.log("in main app ")
     return (
       <div>
         <Card>
-        <ScatterPlot/>
+          <ScatterPlot/>
         </Card>
-      
-      <Card>
-       <BarChart/>
+        <Card>
+          <BarChart/>
        </Card>
        <Card>
-       <CompareTopBusiness/>
+        <CompareTopBusiness/>
        </Card>
       </div>
     );

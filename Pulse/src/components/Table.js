@@ -15,15 +15,15 @@ textAlign: 'center'
 };
 
 export default class Table extends Component {
-  state = {
-      name: "",
-      rating: "",
-      month: "",
-      temp: [],
-      visible: false
-  }
+    state = {
+        name: "",
+        rating: "",
+        month: "",
+        temp: [],
+        visible: false
+    }
 
-  handleChange = (event) => {
+    handleChange = (event) => {
         this.setState({ [event.target.name]: this.props.data.data[parseInt(event.target.name)] })
     }
     showModal = () => {
@@ -47,9 +47,6 @@ export default class Table extends Component {
         visible: false,
       });
     };
-
-
-
 
     handleRemove = (event) => {
 
@@ -92,7 +89,7 @@ export default class Table extends Component {
                 const background = (this.props.data.months[i] === this.props.activeName) ? "grey" : "white"
                 return (
                   <React.Fragment>
-                  <Card.Grid key={this.props.data.months[i]} style={gridStyle}>
+                  <Card.Grid  style={gridStyle}>
                         <Button
                             variant={"danger"}
                             type={"button"}
@@ -103,14 +100,14 @@ export default class Table extends Component {
                          Remove
                         </Button>
                   </Card.Grid>
-                  <Card.Grid key={this.props.data.months[i]} style={gridStyle}>
+                  <Card.Grid  style={gridStyle}>
                         {this.props.data.months[i]}
                         <Icon type="calendar" height={'3em'} width={'3em'}/>
                   </Card.Grid>
-                  <Card.Grid key={this.props.data.months[i]} style={gridStyle}>
+                  <Card.Grid  style={gridStyle}>
                         {d} <Icon type="star" height={'3em'} width={'3em'}/>
                   </Card.Grid>
-                  <Card.Grid key={this.props.data.months[i]} style={gridStyle}>
+                  <Card.Grid  style={gridStyle}>
                         <Collapse accordion>
                            <Panel header="Word Cloud" key="1">
                             <Button type="primary" onClick={this.showModal}>
@@ -134,15 +131,14 @@ export default class Table extends Component {
         )
     }
 
-//data={this.state.graphsData} updateData={this.updateData} activeName={this.state.activeName}
     render() {
+      console.log("in Table app ")
+      console.log(this.props.data)
           return (
               <div>
               <Card title="Card Title">
-
                     {this.renderRows()}
               </Card>
-
               </div>
           )
         }

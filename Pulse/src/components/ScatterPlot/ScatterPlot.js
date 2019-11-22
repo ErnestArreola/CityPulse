@@ -9,12 +9,10 @@ const months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 
 export default class ScatterPlot extends Component {
-
-
     constructor(props) {
       super(props);
     }
-  
+
     state = {
       scatterPlotData: {
         months: [],
@@ -23,7 +21,7 @@ export default class ScatterPlot extends Component {
       currCharSet: "one",
       activeName: null
     };
-  
+
     componentDidMount() {
         fetch(`http://localhost:8000/api/business/ZzcLWjY0UjPb4_DLAQDVbQ/get_avg_data/`, {
           method: 'GET',
@@ -34,15 +32,15 @@ export default class ScatterPlot extends Component {
           }}))
           .catch(error => console.log(error))
     }
-  
+
     updateData = (graphsData) => {
             this.setState({ scatterPlotData: graphsData })
-        }
-  
+    }
+
     updateName = (activeName) => this.setState({activeName})
-  
+
     render() {
-      console.log("in main app ")
+      console.log("in Scatterplot app ")
       console.log(this.state.scatterPlotData)
       return (
         <div>
@@ -64,4 +62,3 @@ export default class ScatterPlot extends Component {
       );
     }
   }
-  
