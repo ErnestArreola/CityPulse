@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {setDefaultOptions, loadModules, DotDensityRenderer, Legend, Bookmarks} from 'esri-loader';
+import {Spin, Alert} from 'antd';
+
 
 const options = {
   url: 'https://js.arcgis.com/4.13/',
@@ -18,7 +20,7 @@ const options = {
 const styles =  {
   container: {
     height: '100vh',
-    width: '100vw'
+    width: '100%'
   },
   mapDiv: {
     padding: 0,
@@ -38,7 +40,9 @@ class EsriMap extends Component {
     this.state = {
         map: null,
         view: null,
-      status: 'loading'
+      status: 'loading',
+      loading: false
+
     }
   }
 
@@ -86,6 +90,9 @@ class EsriMap extends Component {
           zoom: 10,
         });
         view.when(() => {
+
+
+
 
           const dotDensityRenderer = new DotDensityRenderer({
             dotValue: 1,
@@ -223,6 +230,7 @@ class EsriMap extends Component {
             renderer: dotDensityRenderer
           });
 
+
           map.add(layer);
 
 
@@ -250,12 +258,22 @@ class EsriMap extends Component {
   }
 
   renderMap() {
-    if(this.state.status === 'loading') {
-      return <div>loading</div>;
-    }
+
+    if(this.state.loading) {
+      return <div>
+      <center>
+      <Spin tip="Loading...">
+        <Alert type="info"/>
+        </Spin>,
+    </center>
+  </div>;
+
+  }
   }
 
   render() {
+
+
 
     return(
           <div style={styles.container}>
