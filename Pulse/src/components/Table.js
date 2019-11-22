@@ -8,11 +8,8 @@ import { Card } from 'antd';
 
 import WordCloud from './WordCloud/word-cloud';
 
-const { Panel } = Collapse;
-
 const gridStyle = {
-width: '25%',
-height: 50,
+width: '100%',
 textAlign: 'center'
 };
 
@@ -28,17 +25,17 @@ export default class Table extends Component {
     handleChange = (event) => {
         this.setState({ [event.target.name]: this.props.data.data[parseInt(event.target.name)] })
     }
+
     showModal = () => {
       this.setState({visible: true});
-
       console.log(this.state.modalIsOpen)
     };
 
     handleOk = e => {
-    console.log(e);
-    this.setState({
-      visible: false,
-    });
+      console.log(e);
+      this.setState({
+        visible: false,
+      });
     };
 
     handleCancel = e => {
@@ -84,44 +81,54 @@ export default class Table extends Component {
             this.props.data.data.map( (d, i) => {
                 const background = (this.props.data.months[i] === this.props.activeName) ? "grey" : "white"
                 return (
-                  <React.Fragment>
-                  <Card.Grid  style={gridStyle}>
-                        <Button
-                            variant={"danger"}
-                            type={"button"}
-                            style={{ width: "100%" }}
-                            name={this.props.data.months[i]}
-                            onClick={this.handleRemove}
-                        >
-                         Remove
-                        </Button>
-                  </Card.Grid>
-                  <Card.Grid  style={gridStyle, { marginTop: "10px", backgroundColor: background }}>
-                        {this.props.data.months[i]}
-                        <Icon type="calendar" height={'3em'} width={'3em'}/>
-                  </Card.Grid>
-                  <Card.Grid  style={gridStyle}>
-                        {d} <Icon type="star" height={'3em'} width={'3em'}/>
-                  </Card.Grid>
-                  <Card.Grid  style={gridStyle}>
-                    <Collapse accordion>
-                        <Panel header="Word Cloud" key="1">
-                            <Button type="primary" onClick={this.showModal}>
-                              Word Cloud
-                             </Button>
-                            <Modal
-                               title="Basic Modal"
-                               visible={this.state.visible}
-                               onOk={this.handleOk}
-                               onCancel={this.handleCancel}
-                            >
-                            <p>Some contents...</p>
-                            <WordCloud index={this.props.data.months[i]}/>
-                           </Modal>
-                         </Panel>
-                      </Collapse>
-                </Card.Grid>
-                </React.Fragment>
+
+
+                  <Row gutter={[8, 16]}>
+                  <Col span={12}>
+                            <Row gutter={[16, 16]}>
+                                  <Col span={12} >
+                                      {this.props.data.months[i]}
+                                  </Col>
+                                  <Col span={12} >
+                                      <Icon type="calendar" height={'20em'} width={'20em'}/>
+                                  </Col>
+                            </Row>
+                            <Row gutter={[16, 16]}>
+                                  <Col span={12} >
+                                      {d}
+                                  </Col>
+                                  <Col span={12} >
+                                       <Icon type="star" height={'20em'} width={'20em'}/>
+                                  </Col>
+                            </Row>
+                </Col>
+                <Col span={12}>
+                <Card  style={gridStyle}>
+                      <Button
+                          variant={"danger"}
+                          type={"dashed"}
+                          style={{ backgroundColor: "red", color: "white" }}
+                          name={this.props.data.months[i]}
+                          onClick={this.handleRemove}
+                      >
+                       Remove
+                      </Button>
+                      <Button type="primary" onClick={this.showModal}
+                      style={{  backgroundColor: "red", color: "white" }}>
+                        Word Cloud
+                       </Button>
+                      <Modal
+                         title="Basic Modal"
+                         visible={this.state.visible}
+                         onOk={this.handleOk}
+                         onCancel={this.handleCancel}
+                      >
+                      <p>Some contents...</p>
+                      <WordCloud index={this.props.data.months[i-1]}/>
+                     </Modal>
+                </Card>
+                </Col>
+                </Row>
                 )
             })
         )
@@ -132,7 +139,7 @@ export default class Table extends Component {
       console.log(this.props.activeName)
           return (
               <div>
-              <Card title="Card Title">
+              <Card title="Card Title" style={ {height: 600}}>
                     {this.renderRows()}
               </Card>
               </div>
