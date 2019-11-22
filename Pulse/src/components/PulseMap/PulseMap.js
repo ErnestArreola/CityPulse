@@ -83,12 +83,12 @@ class EsriMap extends Component {
             constraints: {
               maxScale: 35000
             },
-          zoom: 12,
+          zoom: 10,
         });
         view.when(() => {
 
           const dotDensityRenderer = new DotDensityRenderer({
-            dotValue: 5,
+            dotValue: 1,
             outline: null,
             referenceScale: 577790,
             legendOptions: {
