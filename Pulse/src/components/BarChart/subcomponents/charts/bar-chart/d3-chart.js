@@ -27,8 +27,7 @@ export default class D3Chart {
       .attr('x', -(HEIGHT / 2))
       .attr('y', -20)
       .attr('text-anchor', 'middle')
-      .text('Ratings')
-      .attr('tranform', 'rotate(-90)');
+      .text('Ratings');
 
     vis.xAxisGroup = vis.svg.append('g').attr('transform', `translate(0, ${HEIGHT})`);
 

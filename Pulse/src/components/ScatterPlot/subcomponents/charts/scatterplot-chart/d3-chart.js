@@ -68,7 +68,6 @@ export default class D3Chart {
         vis.yAxisGroup.transition(1000).call(yAxisCall)
 
         //JOIN
-        console.log(vis.data)
         const circles = vis.g.selectAll("circle")
             .data(vis.data.data, (d, i) => vis.data.months[i])
 

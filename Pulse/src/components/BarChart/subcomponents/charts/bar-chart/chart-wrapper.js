@@ -12,7 +12,6 @@ export default class ChartWrapper extends Component {
     return false;
   }
 
-
   render() {
     return <div ref="chart"></div>;
   }

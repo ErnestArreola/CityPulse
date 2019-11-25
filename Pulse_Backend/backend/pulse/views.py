@@ -70,11 +70,12 @@ class BusinessViewSet(viewsets.ModelViewSet):
 class YelpReviewViewSet(viewsets.ModelViewSet):
     queryset = YelpReviews.objects.all()
     serializer_class = YelpSerializer
-
+    permission_classes = [permissions.AllowAny]
     def get_queryset(self):
         req = self.request
         yelp_id = req.query_params['yelpid']
         self.queryset = YelpReviews.objects.filter(business__exact=yelp_id).order_by('date')
+
         return self.queryset
 
 

@@ -6,6 +6,9 @@ import { Divider } from 'antd';
 import CompareTopBusiness from '../../components/TopBusinessGraph/CompareTopBusiness';
 import ScatterPlot from '../../components/ScatterPlot/ScatterPlot';
 import BarChart from '../../components/BarChart/BarChart';
+import TimeGraph from '../../components/TimeGraph/TimeGraph';
+import AreaChart from '../../components/Charts/AreaChart/AreaChart';
+
 
 export default class App extends Component {
 
@@ -20,12 +23,16 @@ export default class App extends Component {
   render() {
     return (
       <div>
-          <Card>
-              <ScatterPlot/>
-          </Card>
-          <Card>
-              <BarChart/>
+      <Card>
+          <TimeGraph/>
+     </Card>
+
+         <Card>
+             <ScatterPlot/>
          </Card>
+         <Card>
+             <BarChart/>
+        </Card>
          <Card>
              <CompareTopBusiness/>
          </Card>

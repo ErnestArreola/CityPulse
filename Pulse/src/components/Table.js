@@ -28,7 +28,6 @@ export default class Table extends Component {
 
     showModal = () => {
       this.setState({visible: true});
-      console.log(this.state.modalIsOpen)
     };
 
     handleOk = e => {
@@ -59,7 +58,6 @@ export default class Table extends Component {
 
           this.setState({temp: []})
           this.props.updateData(rand)
-          console.log(this.props.data)
     }
 
     handleSubmit = () => {
@@ -123,8 +121,6 @@ export default class Table extends Component {
     }
 
     render() {
-      console.log("in table app ")
-      console.log(this.props.activeName)
           return (
               <div>
               <Card title="Monthly Reviews">
