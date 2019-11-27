@@ -83,7 +83,7 @@ export default class D3Chart {
       .call(xAxisCall);
 
     vis.svg.append('path').datum(vis.data)
-    .attr("fill", "#ccc")
+    .attr("fill", "lightgreen")
     .attr('stroke', 'black')
       .attr('d', area);
 

@@ -57,9 +57,10 @@ export default class D3Chart {
       .domain(d3.extent(vis.data, d => d.date))
       .range([0, WIDTH]);
 
-    const line = d3.line()
+    const area = d3.area()
     .x(d => vis.x(d.date))
-    .y(d => vis.y(d.rating));
+    .y0(HEIGHT)
+    .y1(d => vis.y(d.rating));
 
     const xAxisCall = d3.axisBottom(vis.x);
     vis.xAxisGroup
@@ -75,10 +76,10 @@ export default class D3Chart {
 
     vis.svg.selectAll("path").remove();
 
-    vis.svg.append('path')
-    .attr("fill", "none")
+    vis.svg.append('path').datum(vis.data)
+    .attr("fill", "lightblue")
     .attr('stroke', 'black')
-    .attr('d', line(vis.data));
+    .attr('d', area);
   }
 }
 /* */
