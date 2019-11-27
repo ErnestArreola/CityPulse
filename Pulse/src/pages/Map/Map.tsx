@@ -15,7 +15,6 @@ return(
         <Card>
             <EsriMap/>
         </Card>
-
     </div>
 );
 

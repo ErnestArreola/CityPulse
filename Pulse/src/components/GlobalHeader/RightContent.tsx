@@ -30,7 +30,7 @@ const GlobalHeaderRight: React.SFC<GlobalHeaderRightProps> = props => {
         placeholder={formatMessage({
           id: 'component.globalHeader.search',
         })}
-        defaultValue="umi ui"
+        defaultValue=""
         dataSource={[
           formatMessage({
             id: 'component.globalHeader.search.example1',
@@ -49,7 +49,7 @@ const GlobalHeaderRight: React.SFC<GlobalHeaderRightProps> = props => {
           console.log('enter', value);
         }}
       />
-      <Tooltip
+      {/* <Tooltip
         title={formatMessage({
           id: 'component.globalHeader.help',
         })}
@@ -62,9 +62,9 @@ const GlobalHeaderRight: React.SFC<GlobalHeaderRightProps> = props => {
         >
           <Icon type="question-circle-o" />
         </a>
-      </Tooltip>
-      <Avatar />
-      <SelectLang className={styles.action} />
+      </Tooltip> */}
+      {/* <Avatar />
+      <SelectLang className={styles.action} /> */}
     </div>
   );
 };

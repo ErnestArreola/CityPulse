@@ -52,7 +52,7 @@ const UserLayout: React.SFC<UserLayoutProps> = props => {
                 <span className={styles.title}>Pulse</span>
               </Link>
             </div>
-            <div className={styles.desc}>Ant Design 是西湖区最具影响力的 Web 设计规范</div>
+            <div className={styles.desc}>Pulse Design Web </div>
           </div>
           {children}
         </div>

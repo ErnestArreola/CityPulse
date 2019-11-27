@@ -99,8 +99,6 @@ export default class D3Chart {
                 .style('top', (d3.event.pageY - 30) + 'px')
 
               })
-
-
      }
 }
 /* */

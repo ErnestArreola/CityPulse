@@ -123,6 +123,25 @@ export default {
               component: './Map/Map',
             },
             {
+              path: '/dashboard',
+              name: 'Dashboard',
+              icon: 'home',
+              routes: [
+                {
+                  path: '/dashboard/analysis',
+                  name: 'Analysis',
+                  component: './Dashboard/Analysis'
+                },
+                {
+                  path: '/dashboard/advancedprofile',
+                  // name: 'Test/Profile',
+                  component: './Dashboard/AdvancedProfile'
+                },
+    
+              ],
+            },
+            
+            {
               component: './404',
             },
           ],

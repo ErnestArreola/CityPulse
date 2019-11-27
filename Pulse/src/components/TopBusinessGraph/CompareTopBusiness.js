@@ -61,13 +61,11 @@ export default class App extends Component {
     },
 
     {
-
       month: 2,
 
       reviewCount: 1,
 
       rating: '5.0',
-
     },
 
     {
