@@ -11,9 +11,10 @@ import {
   curveBasis
 } from 'd3';
 
-const MARGIN = { TOP: 50, BOTTOM: 19, LEFT: 80, RIGHT: 10 };
-const WIDTH = 800 - MARGIN.LEFT - MARGIN.RIGHT;
-const HEIGHT = 500 - MARGIN.TOP - MARGIN.BOTTOM;
+const MARGIN = { TOP: 40, BOTTOM: 0, LEFT: 0, RIGHT: 0 };
+const WIDTH = 250 - MARGIN.LEFT - MARGIN.RIGHT;
+const HEIGHT = 250 - MARGIN.TOP - MARGIN.BOTTOM;
+const RADIUS = Math.min(WIDTH, HEIGHT) / 2;
 
 export default class D3Chart {
   constructor(element, data0) {
@@ -27,6 +28,16 @@ export default class D3Chart {
       .attr('height', HEIGHT + MARGIN.TOP + MARGIN.BOTTOM)
       .append('g')
       .attr('transform', `translate(${MARGIN.LEFT}, ${MARGIN.TOP})`);
+
+      vis.pie = d3.pie()
+		.padAngle(0.03)
+		.value(d => { return d.rating; })
+		.sort(null);
+
+      vis.arc = d3.arc()
+		.innerRadius(RADIUS - 60)
+		.outerRadius(RADIUS - 30);
+
 
     vis.xLabel = vis.svg
       .append('text')
@@ -62,9 +73,7 @@ export default class D3Chart {
 
     vis.y = d3
       .scaleLinear()
-      .domain([
-        0,
-        d3.max(vis.data, d => d.rating)+1])
+      .domain(d3.max(d3.extent(vis.data, d => d.rating)))
       .range([HEIGHT, 0]);
 
     vis.x = d3

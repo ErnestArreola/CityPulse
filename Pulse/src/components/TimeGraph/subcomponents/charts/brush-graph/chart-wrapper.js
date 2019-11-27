@@ -3,11 +3,9 @@ import D3Chart from './d3-chart';
 
 export default class ChartWrapper extends Component {
 
-
   componentDidMount() {
 
         this.props.data.sort((a, b) => {
-
           var now = new Date(a.date);
           var start = new Date(now.getFullYear(), 0, 0);
           var diff = now - start;
@@ -30,8 +28,9 @@ export default class ChartWrapper extends Component {
           d.date = new Date(d.date)
           d.rating = d.rating
         })
+        
     this.setState({
-      chart: new D3Chart(this.refs.chart, this.props.data),
+      chart: new D3Chart(this.refs.chart, this.props.data, this.props.updateBrushed),
     });
   }
 

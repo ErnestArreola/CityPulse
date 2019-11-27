@@ -51,9 +51,9 @@ REST_FRAMEWORK = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'businessdb',
+        'NAME': 'testingDB',
         'USER': 'postgres',
-        'PASSWORD': 'password',
+        'PASSWORD': 'admin',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }

@@ -13,6 +13,7 @@ export default class D3Chart {
 
         vis.updateName = updateName
         vis.updateModalShow = updateModalShow
+        vis.brushed
          vis.g = d3.select(element)
              .append("svg")
              .attr("width", WIDTH + MARGIN.LEFT + MARGIN.RIGHT)
@@ -51,7 +52,7 @@ export default class D3Chart {
             .attr("text-anchor", "middle")
             .text("Avg Rating Per Month")
 
-        vis.update(data)
+        vis.update(data, )
     }
 
     update(data) {
@@ -79,8 +80,6 @@ export default class D3Chart {
              .attr("cx", (d, i) => vis.x(vis.data.months[i]))
              .attr("cy", d => vis.y(d))
 
-        //     console.log("ALERT")
-          //   console.log()
           //ENTER
           circles.enter()
               .append("circle")
@@ -93,7 +92,7 @@ export default class D3Chart {
               .transition(1000)
               .attr("cy", d => vis.y(d))
 
-              circles.on("mouseover", (d, i) => {
+            circles.on("mouseover", (d, i) => {
                 vis.tooltip.transition().duration(200).style('opacity', .6)
                 vis.updateName(vis.data.months[i])
                 vis.tooltip.html(d)

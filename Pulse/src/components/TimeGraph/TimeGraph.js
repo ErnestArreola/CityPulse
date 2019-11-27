@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
-import { Row, Col, Spin, Slider, Card, Modal} from 'antd';
-import { notification } from 'antd';
+import { Row, Col, Spin, Card, Modal, notification} from 'antd';
+
 import TimeChartWrapper from './subcomponents/charts/time-graph/chart-wrapper';
 import BrushGraphWrapper from './subcomponents/charts/brush-graph/chart-wrapper';
 import PieChartWrapper from './subcomponents/charts/pie-chart/chart-wrapper';
@@ -21,11 +21,13 @@ export default class App extends Component {
         barChartData: [],
         scatterPlotData: {
           months: [],
-          data: []
+          data: ["10-20-2019"]
         },
         currCharSet: "one",
         activeName: null,
-        visible: false
+        visible: false,
+        brushed: false,
+        brushMinMax: {}
       };
 
     componentDidMount() {
@@ -48,10 +50,6 @@ export default class App extends Component {
     handleChange = (event) => {
         this.setState({ [event.target.name]: this.props.data.data[parseInt(event.target.name)] })
     }
-
-    showModal = () => {
-
-    };
 
     handleOk = e => {
       console.log(e);
@@ -87,28 +85,22 @@ export default class App extends Component {
             this.setState({ scatterPlotData: graphsData })
     }
 
+    updateBrushed = (set) => {
+          this.setState({ barChartData: set })
+    }
 
     render() {
       return (
           <div>
-
             {(this.state.barChartData.length !== 0) ?
               <div>
               <Card >
                   <Row gutter={[8, 16]}>
                     <Col span={12}>
+                    {(this.state.scatterPlotData.data.length !== 0) ?
                         <Card>
-                                <Slider
-                                    range={true}
-                                    max={new Date("12/10/2017").getTime()}
-                                    min={new Date("12/5/2013").getTime()}
-                                    style={{ paddingLeft: 50}}
-                                    step={86400000}  // one day
-                                    defaultValue={[new Date("12/5/2013").getTime(), new Date("12/10/2017").getTime()]}
-                                    onChange={console.log("inOnCHnageforSlider")}>
-                                </Slider>
-                                <TimeChartWrapper data={this.state.barChartData} />
-                                <BrushGraphWrapper data={this.state.barChartData} />
+                                <TimeChartWrapper data={this.state.barChartData} brushed={this.state.brushed} brushMinMax={this.state.brushMinMax}/>
+                                <BrushGraphWrapper data={this.state.barChartData} updateBrushed={this.updateBrushed}/>
                                 <Modal
                                    title="Basic Modal"
                                    visible={this.state.visible}
@@ -119,13 +111,15 @@ export default class App extends Component {
                                 <WordCloud index={(this.state.activeName)-1}/>
                                </Modal>
                         </Card>
+                        : <Spin />
+                        }
                     </Col>
                     <Col span={12}>
                         <Card>
                           <Row gutter={[8, 16]}>
                             <Col span={12}>
                                 {(this.state.scatterPlotData.data.length !== 0) ?
-                                <ScatterPlotWrapper currCharSet={this.state.currCharSet} data={this.state.scatterPlotData} updateName={this.updateName} updateModalShow={this.updateModalShow}/>
+                                <ScatterPlotWrapper brushed={this.state.brushed} currCharSet={this.state.currCharSet} data={this.state.scatterPlotData} updateName={this.updateName} updateModalShow={this.updateModalShow}/>
                                 : <Spin />
                                 }
                             </Col>

@@ -8,6 +8,7 @@ export default class D3Chart {
   constructor(element, data0) {
     const vis = this;
     vis.data = data0
+
     vis.svg = d3
       .select(element)
       .append('svg')
