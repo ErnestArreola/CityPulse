@@ -8,10 +8,7 @@ import { Card } from 'antd';
 
 import WordCloud from './WordCloud/word-cloud';
 const monthNames = ["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "November", "October", "December"]
-const gridStyle = {
-  height: 400,
-textAlign: 'center'
-};
+
 
 export default class Table extends Component {
     state = {
@@ -79,12 +76,10 @@ export default class Table extends Component {
             this.props.data.data.map( (d, i) => {
                 const background = (this.props.data.months[i] === this.props.activeName) ? "grey" : "white"
                 return (
-
-
                   <Row style={{background: background}}>
                   <Col span={12}>
                       <p> <Icon type="calendar" style={{ marginRight: "1px"}} height={'20em'} width={'20em'}/>
-                        {monthNames[this.props.data.months[i]-1]} <br></br>
+                        {monthNames[this.props.data.months[i]-1]}
                         <Icon type="star" style={{marginRight: "1px"}} height={'20em'} width={'20em'}/>
                         {d} Avg Rating
                       </p>
@@ -99,19 +94,8 @@ export default class Table extends Component {
                                   >
                                    Remove
                                   </Button>
-                                  <Button type="primary" onClick={this.showModal}
-                                  style={{ backgroundColor: "lightblue", color: "white" }}>
-                                    Word Cloud
-                                   </Button>
-                                  <Modal
-                                     title="Basic Modal"
-                                     visible={this.state.visible}
-                                     onOk={this.handleOk}
-                                     onCancel={this.handleCancel}
-                                  >
-                                  <p>Some contents...</p>
-                                  <WordCloud index={this.props.data.months[i-1]}/>
-                                 </Modal>
+
+
                       </Col>
             </Row>
 

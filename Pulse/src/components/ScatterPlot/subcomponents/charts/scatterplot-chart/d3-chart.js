@@ -8,11 +8,11 @@ const months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 export default class D3Chart {
 
-    constructor(element, data, updateName) {
+    constructor(element, data, updateName, updateModalShow) {
         const vis = this
 
         vis.updateName = updateName
-
+        vis.updateModalShow = updateModalShow
          vis.g = d3.select(element)
              .append("svg")
              .attr("width", WIDTH + MARGIN.LEFT + MARGIN.RIGHT)
@@ -87,13 +87,15 @@ export default class D3Chart {
               .attr("cy", vis.y(0))
               .attr("cx", (d, i) => vis.x(vis.data.months[i]))
               .attr("r", 5).attr("fill", "lightblue")
-              .on("click", (d, i) => vis.updateName(vis.data.months[i]))
+              .on("click", (d, i) => {
+                vis.updateModalShow()
+              })
               .transition(1000)
               .attr("cy", d => vis.y(d))
 
-              circles.on("mouseover", d => {
+              circles.on("mouseover", (d, i) => {
                 vis.tooltip.transition().duration(200).style('opacity', .6)
-
+                vis.updateName(vis.data.months[i])
                 vis.tooltip.html(d)
                 .style('left', (d3.event.pageX - 35) + 'px')
                 .style('top', (d3.event.pageY - 30) + 'px')
