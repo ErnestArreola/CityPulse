@@ -5,8 +5,7 @@ import { Divider } from 'antd';
 
 import CompareTopBusiness from '../../components/TopBusinessGraph/CompareTopBusiness';
 import ScatterPlot from '../../components/ScatterPlot/ScatterPlot';
-import BarChart from '../../components/BarChart/BarChart';
-import TimeGraph from '../../components/TimeGraph/TimeGraph';
+import Dashboard from '../../components/TimeGraph/TimeGraph';
 import AreaChart from '../../components/Charts/AreaChart/AreaChart';
 
 
@@ -24,15 +23,8 @@ export default class App extends Component {
     return (
       <div>
       <Card>
-          <TimeGraph/>
+          <Dashboard/>
      </Card>
-
-         <Card>
-             <ScatterPlot/>
-         </Card>
-         <Card>
-             <BarChart/>
-        </Card>
          <Card>
              <CompareTopBusiness/>
          </Card>

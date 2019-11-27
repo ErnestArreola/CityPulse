@@ -11,8 +11,8 @@ import {
   curveBasis
 } from 'd3';
 
-const MARGIN = { TOP: 0, BOTTOM: 150, LEFT: 134, RIGHT: 75 };
-const WIDTH = 800 - MARGIN.LEFT - MARGIN.RIGHT;
+const MARGIN = { TOP: 0, BOTTOM: 150, LEFT: 10, RIGHT: 10 };
+const WIDTH = 700 - MARGIN.LEFT - MARGIN.RIGHT;
 const HEIGHT = 200 - MARGIN.TOP - MARGIN.BOTTOM;
 
 export default class D3Chart {
@@ -41,7 +41,10 @@ export default class D3Chart {
 
     vis.yAxisGroup = vis.svg.append('g');
 
+
+
     vis.update('');
+
   }
 
   update(bus) {
@@ -87,6 +90,7 @@ export default class D3Chart {
       .extent([[0,0], [WIDTH, HEIGHT]]);
 
       vis.brushComp = vis.svg.append("g").attr("class", "brush").call(vis.brush);
+      vis.brush.on("brush", d => {console.log(d3.event)});
   }
 }
 /* */

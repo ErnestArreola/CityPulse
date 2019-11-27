@@ -9,7 +9,7 @@ import { Card } from 'antd';
 import WordCloud from './WordCloud/word-cloud';
 const monthNames = ["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "November", "October", "December"]
 const gridStyle = {
-width: '100%',
+  height: 400,
 textAlign: 'center'
 };
 
@@ -83,9 +83,9 @@ export default class Table extends Component {
 
                   <Row style={{background: background}}>
                   <Col span={12}>
-                      <p> <Icon type="calendar" style={{ marginRight: "4px", marginLeft: "4px"}} height={'20em'} width={'20em'}/>
-                        {monthNames[this.props.data.months[i]-1]}
-                        <Icon type="star" style={{marginRight: "4px", marginLeft: "8px"}} height={'20em'} width={'20em'}/>
+                      <p> <Icon type="calendar" style={{ marginRight: "1px"}} height={'20em'} width={'20em'}/>
+                        {monthNames[this.props.data.months[i]-1]} <br></br>
+                        <Icon type="star" style={{marginRight: "1px"}} height={'20em'} width={'20em'}/>
                         {d} Avg Rating
                       </p>
                   </Col>
@@ -100,7 +100,7 @@ export default class Table extends Component {
                                    Remove
                                   </Button>
                                   <Button type="primary" onClick={this.showModal}
-                                  style={{ marginLeft: "10px", backgroundColor: "lightblue", color: "white" }}>
+                                  style={{ backgroundColor: "lightblue", color: "white" }}>
                                     Word Cloud
                                    </Button>
                                   <Modal
@@ -123,7 +123,7 @@ export default class Table extends Component {
     render() {
           return (
               <div>
-              <Card title="Monthly Reviews">
+              <Card title="Monthly Reviews" >
                     {this.renderRows()}
               </Card>
               </div>

@@ -11,9 +11,9 @@ import {
   curveBasis
 } from 'd3';
 
-const MARGIN = { TOP: 50, BOTTOM: 19, LEFT: 42, RIGHT: 30 };
-const WIDTH = 680 - MARGIN.LEFT - MARGIN.RIGHT;
-const HEIGHT = 580 - MARGIN.TOP - MARGIN.BOTTOM;
+const MARGIN = { TOP: 50, BOTTOM: 19, LEFT: 80, RIGHT: 10 };
+const WIDTH = 800 - MARGIN.LEFT - MARGIN.RIGHT;
+const HEIGHT = 500 - MARGIN.TOP - MARGIN.BOTTOM;
 
 export default class D3Chart {
   constructor(element, data0) {
