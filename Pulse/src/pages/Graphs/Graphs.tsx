@@ -3,6 +3,7 @@ import { Row, Col } from 'antd';
 import { Slider, Card } from 'antd';
 import { Divider } from 'antd';
 import CompareTopBusiness from '../../components/TopBusinessGraph/CompareTopBusiness';
+import SentimentAnalysis from '../../components/SentimentAnalysisGraph/SentimentAnalysis';
 
 import ScatterPlotWrapper from './subcomponents/charts/scatterplot-chart/chart-wrapper';
 import BarChart from '../../components/BarChart/BarChart';
@@ -46,12 +47,16 @@ export default class App extends Component {
         <h3> Comparing to Top Business within One Mile Radius</h3>
         <h5> Top business is the business that is rated 4 stars or higher with largest number of review </h5>{' '}
           <Card>
-          <CompareTopBusiness/>
+            <CompareTopBusiness/>
           </Card>
+          <Card>
+            <SentimentAnalysis/>
+          </Card>
+          
         </Row>
         <Row gutter={[16, 16]}>
         <Col span={12}>
-          <BarChart/>
+          
         </Col>
 
         </Row>

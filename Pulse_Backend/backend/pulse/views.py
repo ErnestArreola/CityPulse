@@ -108,6 +108,7 @@ class YelpMonthReviewSummaryViewSet(viewsets.ModelViewSet):
         self.queryset = (YelpReviews.objects.filter(business__exact=yelp_id)
             .annotate(month = Month('date'))
             .values('month')
+            .order_by('month')
             .annotate(reviewCount=Count('rating'))
             .annotate(rating=Avg('rating'))
         )
