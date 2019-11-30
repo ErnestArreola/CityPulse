@@ -51,7 +51,6 @@ export default class ScatterPlot extends Component {
 
     render() {
       return (
-        <div>
         <Row gutter={[32, 16]}>
                   <Col span={12}>
                     {(this.state.scatterPlotData.data.length !== 0) ?
@@ -66,7 +65,6 @@ export default class ScatterPlot extends Component {
                           }
                     </Col>
             </Row>
-        </div>
       );
     }
   }
