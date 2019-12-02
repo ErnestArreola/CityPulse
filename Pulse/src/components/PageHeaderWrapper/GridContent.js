@@ -4,6 +4,7 @@ import styles from './GridContent.less';
 
 class GridContent extends PureComponent {
   render() {
+    console.log("Hello");
     const { contentWidth, children } = this.props;
     let className = `${styles.main}`;
     if (contentWidth === 'Fixed') {
@@ -13,6 +14,6 @@ class GridContent extends PureComponent {
   }
 }
 
-export default connect(({ setting }) => ({
-  contentWidth: setting.contentWidth,
+export default connect(({ settings }) => ({
+  contentWidth: settings.contentWidth,
 }))(GridContent);

@@ -47,5 +47,5 @@ export async function zipcoderatio() {
 }
 
 export async function socialmediascore() {
-  return request("/api/socialmediascore/");
+  return request(corsProxy + "https://cityvitality.com/api/socialmediascore/");
 }

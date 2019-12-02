@@ -7,7 +7,6 @@ import {GridContent} from '@ant-design/pro-layout';
 import PageLoading from '@/components/PageLoading';
 import styles from '../Graphs/Graphs.less';
 
-
 import CompareTopBusiness from '../../components/TopBusinessGraph/CompareTopBusiness';
 import ScatterPlot from '../../components/ScatterPlot/ScatterPlot';
 import BarChart from '../../components/BarChart/BarChart';
@@ -26,7 +25,7 @@ export default class App extends Component {
   }
 
 
-  setBusiness(business){
+  setBusiness(business) {
     this.setState({
       businessID: business.business
     })
@@ -35,9 +34,10 @@ export default class App extends Component {
 
 
   componentDidUpdate(prevProps) {
+    console.log("Hi" + prevProps + "This is current" + this.props.children);
     if (this.props !== prevProps && this.props.children !== null) {
+            console.log("HERRRO");
       this.setBusiness(this.props);
-      console.log("HERRRO");
     }
   }
 

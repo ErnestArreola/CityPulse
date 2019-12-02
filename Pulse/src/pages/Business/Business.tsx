@@ -26,25 +26,25 @@ return(
               <Card 
                 title={
                   <FormattedMessage
-                    id="dashboardmonitor.monitor.trading-activity"
-                    defaultMessage="Real-Time Trading Activity"
+                    id="Business"
+                    defaultMessage="Long Beach Businesses"
                   />
                 }
                 bordered={false}
               >
                 <Row>
                   <Col md={6} sm={12} xs={24}>
-                    <Statistic
+                    {/* <Statistic
                       title={
                         <FormattedMessage
                           id="dashboardmonitor.monitor.total-transactions"
                           defaultMessage="Total transactions today"
                         />
                       }
-                    />
+                    /> */}
                   </Col>
                   <Col md={6} sm={12} xs={24}>
-                    <Statistic
+                    {/* <Statistic
                       title={
                         <FormattedMessage
                           id="dashboardmonitor.monitor.sales-target"
@@ -52,28 +52,28 @@ return(
                         />
                       }
                       value="92%"
-                    />
+                    /> */}
                   </Col>
                   <Col md={6} sm={12} xs={24}>
-                    <Statistic
+                    {/* <Statistic
                       title={
                         <FormattedMessage
                           id="dashboardmonitor.monitor.remaining-time"
                           defaultMessage="Remaining time of activity"
-                        />
-                      }
+                        /> */}
+                      {/* }
                     >
-                    </Statistic>
+                    </Statistic> */}
                   </Col>
                   <Col md={6} sm={12} xs={24}>
-                    <Statistic
+                    {/* <Statistic
                       title={
                         <FormattedMessage
                           id="dashboardmonitor.monitor.total-transactions-per-second"
                           defaultMessage="Total transactions per second"
                         />
                       }
-                    />
+                    /> */}
                   </Col>
                 </Row>
                 <div className={styles.mapChart}>
@@ -94,8 +94,8 @@ return(
               <Card
                 title={
                   <FormattedMessage
-                    id="dashboardmonitor.monitor.activity-forecast"
-                    defaultMessage="Activity forecast"
+                    id="Categories"
+                    defaultMessage="Categories"
                   />
                 }
                 style={{ marginBottom: 24 }}
@@ -107,7 +107,7 @@ return(
                 title={
                   <FormattedMessage
                     id="dashboardmonitor.monitor.efficiency"
-                    defaultMessage="Efficiency"
+                    defaultMessage="Categories"
                   />
                 }
                 style={{ marginBottom: 24 }}

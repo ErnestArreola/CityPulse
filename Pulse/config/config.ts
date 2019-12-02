@@ -13,14 +13,14 @@ const plugins: IPlugin[] = [
     {
       antd: true,
       dva: {
-        hmr: false,
+        hmr: true,
       },
       locale: {
         // default false
         enable: false,
         default: 'en-US',
         // default true, when it is true, will use `navigator.language` overwrite default
-        baseNavigator: false,
+        baseNavigator: true,
       },
       // dynamicImport: {
       //   loadingComponent: './components/PageLoading/index',
@@ -47,7 +47,7 @@ const plugins: IPlugin[] = [
     {
       moveMock: false,
       moveService: false,
-      modifyRequest: false,
+      modifyRequest: true,
       autoAddMenu: true,
     },
   ],
@@ -146,6 +146,12 @@ export default {
                   icon: 'smile',
                   path: '/dashboardmonitor',
                   component: './DashboardMonitor',
+                },
+                {
+                  name: '工作台',
+                  icon: 'smile',
+                  path: '/dashboardworkplace',
+                  component: './DashboardWorkplace',
                 },
               ],
             },
