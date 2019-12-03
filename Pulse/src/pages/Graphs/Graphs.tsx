@@ -1,81 +1,200 @@
-import React, { Component, Fragment, Suspense } from 'react';
-import { Row, Col, Dropdown, Icon, Menu } from 'antd';
-import { FormattedMessage } from 'umi-plugin-react/locale';
+import React, { Component, Suspense } from 'react';
+import { Col, Dropdown, Icon, Menu, Row } from 'antd';
 import { Slider, Card } from 'antd';
 import { Divider } from 'antd';
-import {GridContent} from '@ant-design/pro-layout';
-import PageLoading from '@/components/PageLoading';
-import styles from '../Graphs/Graphs.less';
+
+import { Dispatch } from 'redux';
+import { GridContent } from '@ant-design/pro-layout';
+import { RadioChangeEvent } from 'antd/es/radio';
+import { RangePickerValue } from 'antd/es/date-picker/interface';
+import { connect } from 'dva';
+import PageLoading from '../DashboardAnalysis/components/PageLoading';
+import { getTimeDistance } from '../DashboardAnalysis/utils/utils';
+import { AnalysisData } from '../DashboardAnalysis/data.d';
+import styles from '../DashboardAnalysis/style.less';
+
 
 import CompareTopBusiness from '../../components/TopBusinessGraph/CompareTopBusiness';
-import ScatterPlot from '../../components/ScatterPlot/ScatterPlot';
+import SentimentAnalysis from '@/components/SentimentAnalysis/SentimentAnalysis';
+
+// import ScatterPlotWrapper from './subcomponents/charts/scatterplot-chart/chart-wrapper';
 import BarChart from '../../components/BarChart/BarChart';
-import TimeGraph from '../../components/TimeGraph/TimeGraph';
-import AreaChart from '../../components/Charts/AreaChart/AreaChart';
 
 
-export default class App extends Component {
+const IntroduceRow = React.lazy(() => import('../DashboardAnalysis/components/IntroduceRow'));
+const SalesCard = React.lazy(() => import('../DashboardAnalysis/components/SalesCard'));
+const TopSearch = React.lazy(() => import('../DashboardAnalysis/components/TopSearch'));
+const ProportionSales = React.lazy(() => import('../DashboardAnalysis/components/ProportionSales'));
+const OfflineData = React.lazy(() => import('../DashboardAnalysis/components/OfflineData'));
 
-  constructor(props) {
-    super(props);
+interface DashboardAnalysisProps {
+  dashboardAnalysis: AnalysisData;
+  dispatch: Dispatch<any>;
+  loading: boolean;
+}
 
-    this.state = {
-      businessID: null
-      };
+interface DashboardAnalysisState {
+  salesType: 'all' | 'online' | 'stores';
+  currentTabKey: string;
+  rangePickerValue: RangePickerValue;
+}
+
+@connect(
+  ({
+    dashboardAnalysis,
+    loading,
+  }: {
+    dashboardAnalysis: any;
+    loading: {
+      effects: { [key: string]: boolean };
+    };
+  }) => ({
+    dashboardAnalysis,
+    loading: loading.effects['dashboardAnalysis/fetch'],
+  }),
+)
+
+
+
+export default class App extends Component <
+
+
+
+  
+  DashboardAnalysisProps,
+  DashboardAnalysisState
+> {
+  
+  state: DashboardAnalysisState = {
+    salesType: 'all',
+    currentTabKey: '',
+    rangePickerValue: getTimeDistance('year'),
+  };
+
+  reqRef: number = 0;
+
+  timeoutId: number = 0;
+
+  componentDidMount() {
+    const { dispatch } = this.props;
+    this.reqRef = requestAnimationFrame(() => {
+      dispatch({
+        type: 'dashboardAnalysis/fetch',
+      });
+    });
   }
 
+  componentWillUnmount() {
+    const { dispatch } = this.props;
+    dispatch({
+      type: 'dashboardAnalysis/clear',
+    });
+    cancelAnimationFrame(this.reqRef);
+    clearTimeout(this.timeoutId);
+  }
 
-  setBusiness(business) {
+  handleChangeSalesType = (e: RadioChangeEvent) => {
     this.setState({
-      businessID: business.business
-    })
-    console.log(businessID);
-  }
+      salesType: e.target.value,
+    });
+  };
 
+  handleTabChange = (key: string) => {
+    this.setState({
+      currentTabKey: key,
+    });
+  };
 
-  componentDidUpdate(prevProps) {
-    console.log("Hi" + prevProps + "This is current" + this.props.children);
-    if (this.props !== prevProps && this.props.children !== null) {
-            console.log("HERRRO");
-      this.setBusiness(this.props);
+  handleRangePickerChange = (rangePickerValue: RangePickerValue) => {
+    const { dispatch } = this.props;
+    this.setState({
+      rangePickerValue,
+    });
+
+    dispatch({
+      type: 'dashboardAnalysis/fetchSalesData',
+    });
+  };
+
+  selectDate = (type: 'today' | 'week' | 'month' | 'year') => {
+    const { dispatch } = this.props;
+    this.setState({
+      rangePickerValue: getTimeDistance(type),
+    });
+
+    dispatch({
+      type: 'dashboardAnalysis/fetchSalesData',
+    });
+  };
+
+  isActive = (type: 'today' | 'week' | 'month' | 'year') => {
+    const { rangePickerValue } = this.state;
+    const value = getTimeDistance(type);
+    if (!rangePickerValue[0] || !rangePickerValue[1]) {
+      return '';
     }
-  }
-
-
-
-  componentDidMount() {  }
+    if (
+      rangePickerValue[0].isSame(value[0], 'day') &&
+      rangePickerValue[1].isSame(value[1], 'day')
+    ) {
+      return styles.currentDate;
+    }
+    return '';
+  };
 
   render() {
+    const { rangePickerValue, salesType, currentTabKey } = this.state;
+    const { dashboardAnalysis, loading } = this.props;
+    const {
+      visitData,
+      visitData2,
+      salesData,
+      searchData,
+      offlineData,
+      offlineChartData,
+      salesTypeData,
+      salesTypeDataOnline,
+      salesTypeDataOffline,
+    } = dashboardAnalysis;
+    let salesPieData;
+    if (salesType === 'all') {
+      salesPieData = salesTypeData;
+    } else {
+      salesPieData = salesType === 'online' ? salesTypeDataOnline : salesTypeDataOffline;
+    }
+    const menu = (
+      <Menu>
+        <Menu.Item>操作一</Menu.Item>
+        <Menu.Item>操作二</Menu.Item>
+      </Menu>
+    );
+
+    const dropdownGroup = (
+      <span className={styles.iconGroup}>
+        <Dropdown overlay={menu} placement="bottomRight">
+          <Icon type="ellipsis" />
+        </Dropdown>
+      </span>
+    );
+
+    const activeKey = currentTabKey || (offlineData[0] && offlineData[0].name);
     return (
       <GridContent>
         <React.Fragment>
-          <Suspense fallback={<PageLoading/>}>
-     </Suspense>
-
-     <Suspense fallback ={null}>
-     <Card bordered={false} bodyStyle={{ padding: 14 }}>
-     <div className={styles.salesCard}>
-          <TimeGraph />
-          </div>
-     </Card>
-     </Suspense>
-
-     <Suspense fallback ={null}>
-      <Card 
-        bordered={false} 
-        bodyStyle={{ padding: 20 } }    
-        title={
-        <FormattedMessage
-          id="Scatter Plot"
-          defaultMessage="Reviews Per Month"
-        />}>
-      <div>
-            <ScatterPlot />
-            </div>
-      </Card>
-     </Suspense>
-
-     <Row
+          <Suspense fallback={<PageLoading />}>
+            <IntroduceRow loading={loading} visitData={visitData} />
+          </Suspense>
+          <Suspense fallback={null}>
+            {/* <SalesCard
+              rangePickerValue={rangePickerValue}
+              salesData={salesData}
+              isActive={this.isActive}
+              handleRangePickerChange={this.handleRangePickerChange}
+              loading={loading}
+              selectDate={this.selectDate}
+            /> */}
+          </Suspense>
+          <Row
             gutter={24}
             type="flex"
             style={{
@@ -83,20 +202,44 @@ export default class App extends Component {
             }}
           >
             <Col xl={12} lg={24} md={24} sm={24} xs={24}>
-              <Suspense fallback={null}>
-                <Card></Card>
-
-              </Suspense>
+              {/* <Suspense fallback={null}> */}
+              <SentimentAnalysis/>
+              {/* </Suspense> */}
             </Col>
             <Col xl={12} lg={24} md={24} sm={24} xs={24}>
-              <Suspense fallback={null}>
-                <BarChart
+              {/* <Suspense fallback={null}>
+                <ProportionSales
+                  dropdownGroup={dropdownGroup}
+                  salesType={salesType}
+                  loading={loading}
+                  salesPieData={salesPieData}
+                  handleChangeSalesType={this.handleChangeSalesType}
                 />
-              </Suspense>
+              </Suspense> */}
             </Col>
           </Row>
-         </React.Fragment>
-         </GridContent>    
-         );
+          {/* <Suspense fallback={null}>
+            <OfflineData
+              activeKey={activeKey}
+              loading={loading}
+              offlineData={offlineData}
+              offlineChartData={offlineChartData}
+              handleTabChange={this.handleTabChange}
+            />
+          </Suspense> */}
+        <Row gutter={24} style={{marginBottom: 24, marginLeft:0, marginRight: 0, paddingLeft:0, paddingTop: 24}}>
+          <Card
+            bodyStyle={{ paddingTop: 12, paddingBottom: 12, paddingRight:0, paddingLeft:0}}
+            bordered={false}
+            // title="Card"
+          >
+            <Col xl={6} >
+              <CompareTopBusiness/>
+            </Col>
+          </Card>
+        </Row>
+        </React.Fragment>
+      </GridContent>
+    );
   }
 }

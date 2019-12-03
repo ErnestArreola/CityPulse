@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import { Card, Typography, Alert } from 'antd';
+import { Card, Typography, Alert, Button } from 'antd';
 import { Col, Row, Statistic, Tooltip } from 'antd';
 import { FormattedMessage, formatMessage } from 'umi-plugin-react/locale';
 import { GridContent } from '@ant-design/pro-layout';
 import styles from './Business.less';
+import { Link } from "react-router-dom";
+
 
 import BusinessMap from '../../components/BusinessMap/BusinessMap';
 
@@ -11,12 +13,44 @@ const styless =  {
     container: {
       height: '55vh',
     },
+  
 }
 
+ var id;
 
 export default class Map extends React.Component {
 
+  constructor(props) {
+    super(props)
+
+    this.state= {
+      businessID: null,
+      businessName: 'Business Name'
+    }
+
+  }
+
+    myCallBack = (businessfromMap) => {
+    id = businessfromMap;
+    this.setState({
+      businessID: id
+    })
+    }
+
+
+    myCallBackforName = (businessfrom) => {
+    name = businessfrom;
+    this.setState({
+      businessName: name
+    })
+    }
+
+
+
+
+
 render() {
+
 return(
 
 <GridContent>
@@ -85,7 +119,8 @@ return(
                       />
                     }
                   >
-                      <BusinessMap/>
+                      <BusinessMap  callbackFromParent={this.myCallBack}
+                                    callbackFrom={this.myCallBackforName}/>
                   </Tooltip>
                 </div>
               </Card>
@@ -106,14 +141,23 @@ return(
               <Card
                 title={
                   <FormattedMessage
-                    id="dashboardmonitor.monitor.efficiency"
-                    defaultMessage="Categories"
+                    id="Title"
+                    defaultMessage= {<Link to= {{
+              pathname: '/dashboard/advancedprofile',
+              state: {
+                licenseNum: 12456
+              }
+            }}>
+            {this.state.businessName}
+            </Link>}
                   />
                 }
                 style={{ marginBottom: 24 }}
                 bodyStyle={{ textAlign: 'center' }}
                 bordered={false}
-              >
+              >    
+
+              
               </Card>
             </Col>
           </Row>

@@ -15,30 +15,19 @@ var bID;
 class Map extends Component {
     constructor(props) {
       super(props);
-      // this.callMeMaybe = this.callMeMaybe.bind(this);
+
       var self = this;
       this.state = {
           businessID: props.value || '0'
       }
-                this.onScriptLoad = this.onScriptLoad.bind(this)
+          this.onScriptLoad = this.onScriptLoad.bind(this)
           this.onBusinessClick=this.onBusinessClick.bind(this);
 
     }
 
 
-    onBusinessClick = (bID) => {
-      // console.log(bID);
-        this.setState({
-            businessID: bID
-        })
-        // console.log(this.businessID);
-        // // console.log(this.state.businessID);
-
-        // return <Link to= {{
-        //       pathname: '/dashboard/advancedprofile',
-
-        //     }}>
-        //     </Link>
+    onBusinessClick = (bName) => {
+      this.props.callbackFrom(bName);
     }
 
 
@@ -50,6 +39,12 @@ class Map extends Component {
       }
 
     }
+
+    someFn = (bID) => {
+      this.props.callbackFromParent(bID);
+    }
+
+
 
 
     onScriptLoad() {
@@ -84,29 +79,29 @@ class Map extends Component {
         // addDataLayerListeners(map.data, 'businessName');
         // });
 
-                  map.data.loadGeoJson(data);
+        map.data.loadGeoJson(data);
 
 
         infowindow = new google.maps.InfoWindow();
 
 
-
-
-
-
         map.data.addListener('click', function(event) {
+
             bID = event.feature.getProperty("businessID");
-            self.onBusinessClick(bID);
+            // self.onBusinessClick(bID);
             var myHTML = event.feature.getProperty("businessName");
             // infowindow.setContent("<div style='width:250px; text-align: center;'>"+ myHTML + '<button onclick="callMeMaybe()">Click me</button>');
-            infowindow.setContent('<br/><button onclick="callMeMaybe()" class="btn btn-success btn-sm">Add to Route</button>');
+            infowindow.setContent('<Link> Take me home </Link>');
+            // infowindow.setContent('<br/><button onclick="callMeMaybe()" class="btn btn-success btn-sm">Add to Route</button>');
             infowindow.setPosition(event.feature.getGeometry().get());
             infowindow.setOptions({pixelOffset: new google.maps.Size(0,-30)});
             // onBusinessClick(bID);
             // bID = event.feature.getProperty("businessID");
 
-            infowindow.open(map);
+            self.someFn(bID);
+            self.onBusinessClick(event.feature.getProperty("businessName"));
 
+            infowindow.open(map);
         });  
 
 
@@ -136,7 +131,7 @@ class Map extends Component {
       if (!window.google) {
         var s = document.createElement('script');
         s.type = 'text/javascript';
-        s.src = `https://maps.google.com/maps/api/js?key=AIzaSyDy1V6zDkmLEvmufytYxg48G7FoEz3Qago`;
+        s.src = `https://maps.google.com/maps/api/js?key=`;
         var x = document.getElementsByTagName('script')[0];
         x.parentNode.insertBefore(s, x);
         // Below is important. 
@@ -151,9 +146,7 @@ class Map extends Component {
   
     render() {
 
-              <Graphs
-            business = {this.state.businessID} />
-
+              <Graphs business = {this.state.businessID} />
       return (
           <div>
         <div id="mapContainer">

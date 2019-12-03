@@ -726,7 +726,7 @@ class Map extends Component {
     if (!window.google) {
       var s = document.createElement("script");
       s.type = "text/javascript";
-      s.src = `https://maps.google.com/maps/api/js?key=AIzaSyDy1V6zDkmLEvmufytYxg48G7FoEz3Qago`;
+      s.src = `https://maps.google.com/maps/api/js?key=`;
       var x = document.getElementsByTagName("script")[0];
       x.parentNode.insertBefore(s, x);
       // Below is important.

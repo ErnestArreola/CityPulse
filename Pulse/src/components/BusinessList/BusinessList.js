@@ -6,6 +6,7 @@ import styles from "./BusinessList.less";
 import React from "react";
 
 
+
 const listData = [];
 
 function me (score) {
