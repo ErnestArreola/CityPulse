@@ -4,8 +4,18 @@ import data from './model/pulse_geo.geojson';
 import Graphs from  '@/pages/Graphs/Graphs';
 import { Link } from "react-router-dom";
 import router from 'umi/router';
+//trying things
+import zip__90802 from "./model/zip_90802.json";
+import zip__90803 from "./model/zip_90803.json";
+import zip__90804 from "./model/zip_90804.json";
+import zip__90805 from "./model/zip_90805.json";
+import zip__90806 from "./model/zip_90806.json";
+import zip__90807 from "./model/zip_90807.json";
+import zip__90808 from "./model/zip_90808.json";
+import zip__90810 from "./model/zip_90810.json";
+//import zip__90802 from "./model/zip_90802.json";
 
-
+var ctaLayer = "";
 
 var infowindow;
 var bID;
@@ -59,8 +69,42 @@ class Map extends Component {
             //   style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR
             // }
           });
+          ctaLayer = new google.maps.KmlLayer({
+            url:
+              "https://sites.google.com/site/longbeachprojectqwer/kml/City_Of_Long_Beach_City_Boundary.kml",
+            map: map
+          });
 
           let self = this;
+
+          //var lb_boundary = new google.maps.Data();
+          var zip_90802 = new google.maps.Data();
+          var zip_90803 = new google.maps.Data();
+          var zip_90804 = new google.maps.Data();
+          var zip_90805 = new google.maps.Data();
+          var zip_90806 = new google.maps.Data();
+          var zip_90807 = new google.maps.Data();
+          var zip_90808 = new google.maps.Data();
+          var zip_90810 = new google.maps.Data();
+        //  var zip_90802 = new google.maps.Data();
+          zip_90802.addGeoJson(zip__90802);
+          zip_90802.addGeoJson(zip__90803);
+          zip_90802.addGeoJson(zip__90804);
+          zip_90802.addGeoJson(zip__90805);
+          zip_90802.addGeoJson(zip__90806);
+          zip_90802.addGeoJson(zip__90807);
+          zip_90802.addGeoJson(zip__90808);
+          zip_90802.addGeoJson(zip__90810);
+
+          zip_90802.setMap(map);
+          zip_90803.setMap(map);
+          zip_90804.setMap(map);
+          zip_90805.setMap(map);
+          zip_90806.setMap(map);
+          zip_90807.setMap(map);
+          zip_90808.setMap(map);
+          zip_90810.setMap(map);
+
 
 
           
@@ -131,7 +175,7 @@ class Map extends Component {
       if (!window.google) {
         var s = document.createElement('script');
         s.type = 'text/javascript';
-        s.src = `https://maps.google.com/maps/api/js?key=`;
+        s.src = `https://maps.google.com/maps/api/js?key=AIzaSyDy1V6zDkmLEvmufytYxg48G7FoEz3Qago`;
         var x = document.getElementsByTagName('script')[0];
         x.parentNode.insertBefore(s, x);
         // Below is important. 
