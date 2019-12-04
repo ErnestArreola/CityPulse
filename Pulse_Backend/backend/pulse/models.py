@@ -24,13 +24,22 @@ class Business(models.Model):
     reviewCount = models.IntegerField(default=None, blank=True)
     zipcode = models.CharField(max_length=500, blank=True)
     category = models.CharField(max_length=100, blank=True)
+    # success = models.CharField(max_length=100, blank=True)
 
     def __str__(self):
         return self.businessID
 
+
+class BusinessAnalysis(models.Model):
+    success = models.CharField(max_length=100, blank=True)
+    business = models.ForeignKey('Business', null=True, blank=True, db_constraint=False, on_delete=models.CASCADE)
+
 class WordCloudPhoto(models.Model):
     title = models.CharField(max_length=100)
     image = models.ImageField(upload_to='images')
+
+
+
 
 class YelpReviews(models.Model):
     reviewID = models.CharField(primary_key=True, max_length=100)

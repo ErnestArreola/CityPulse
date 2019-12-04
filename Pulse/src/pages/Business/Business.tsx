@@ -24,8 +24,9 @@ export default class Map extends React.Component {
     super(props)
 
     this.state= {
-      businessID: null,
-      businessName: 'Business Name'
+      businessID: 1245,
+      businessName: 'Business Name',
+      isLoggedIn: false
     }
 
   }
@@ -44,6 +45,8 @@ export default class Map extends React.Component {
       businessName: name
     })
     }
+
+
 
 
 
@@ -143,22 +146,31 @@ return(
                   <FormattedMessage
                     id="Title"
                     defaultMessage= {<Link to= {{
-              pathname: '/dashboard/advancedprofile',
-              state: {
-                licenseNum: 12456
-              }
+              pathname: `/Graphs/${this.state.businessID}`
+
             }}>
-            {this.state.businessName}
+            {this.state.businessID}
             </Link>}
                   />
                 }
                 style={{ marginBottom: 24 }}
                 bodyStyle={{ textAlign: 'center' }}
                 bordered={false}
-              >    
+              >   
 
-              
+            
+                        <Card>
+
+          {/*{item.score}*/}
+          {/*{item.status}*/}
+          </Card>
+
+
+
+
+
               </Card>
+              
             </Col>
           </Row>
           {/* <Row gutter={24}>

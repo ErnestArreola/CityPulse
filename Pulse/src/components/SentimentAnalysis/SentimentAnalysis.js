@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-// import { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } from "constants";
 import { Bar } from 'react-chartjs-2';
 import ReactWordcloud from 'react-wordcloud';
-// import { Resizable } from 're-resizable';
-import {Col, Row} from 'antd';
-
+import {Card, Col, Row} from 'antd';
+import PageHeaderWrapper from "@/components/PageHeaderWrapper";
 
 
 const resizeStyle = {
@@ -41,7 +39,12 @@ export default class SentimentAnalysis extends Component {
                 {
                     scaleLabel: {
                         display: true,
-                        labelString: 'Months'
+                        labelString: 'Months',
+                        fontSize: 26,
+                        fontStyle: 'bold'
+                    },
+                    ticks: {
+                      fontSize: 20
                     }
                 }
             ],
@@ -49,7 +52,12 @@ export default class SentimentAnalysis extends Component {
                 {
                     scaleLabel: {
                         display: true,
-                        labelString: 'Sentiment Analysis Score'
+                        labelString: 'Sentiment Analysis Score',
+                        fontSize: 26,
+                        fontStyle: 'bold'
+                    },
+                    ticks: {
+                      fontSize: 20
                     }
                 }
             ],
@@ -57,6 +65,10 @@ export default class SentimentAnalysis extends Component {
         legend: {
             display: false
         },
+        tooltips: {
+          titleFontSize: 20,
+          bodyFontSize: 20
+        }
     },
     reviewArray: [],
     reviewString: '',
@@ -80,8 +92,11 @@ export default class SentimentAnalysis extends Component {
 
   componentDidMount(){
     // this.retrieveInfo("3_Em74Ug0q-lpIFFnime5g");
-    this.retrieveInfo("qXfYflEmDKlYQGaPbVxqDA");
-    // this.retrieveInfo("WXC0aRjhmk82H9_fCa9uDA");
+    // this.retrieveInfo("qXfYflEmDKlYQGaPbVxqDA");
+    // this.retrieveInfo("TS4ApwnNRVmKPbgOudNxAw");
+    // alert(this.props.businessID);
+
+    this.retrieveInfo(this.props.businessID);
   }
 
 
@@ -102,7 +117,9 @@ export default class SentimentAnalysis extends Component {
         //   console.log('$$$$$$$$$ temp date: ' + this.temp[i].date);
         //   console.log('$$$$$$$$$ month: ' + date.getMonth());
           // reviewStrArr[date.getMonth()].concat(this.temp[i].review);
+          if(reviewStrArr[date.getMonth()]) {
           reviewStrArr[date.getMonth()].push(response[i].review);
+          }
       }
         // console.log(">>>>>>Sentiment review string array month 0:   " + reviewStrArr[0]);
         // console.log(">>>>>>Sentiment review string array month 1:   " + reviewStrArr[1]);
@@ -147,7 +164,7 @@ export default class SentimentAnalysis extends Component {
 
   setGradientColor = (canvas, color) => {
     const ctx = canvas.getContext('2d');
-    const gradient = ctx.createLinearGradient(0, 0, 0, 350);
+    const gradient = ctx.createLinearGradient(0, 0, 0, 420);
     gradient.addColorStop(0, color);
     gradient.addColorStop(0.9, 'rgba(207, 211, 212, 0.8)');
     return gradient;
@@ -262,7 +279,7 @@ export default class SentimentAnalysis extends Component {
 
   render(){
     
-    if(!this.state.apiFinished){
+    if(!this.state.apiFinished) {
         return <div></div>
     }
 
@@ -298,29 +315,46 @@ export default class SentimentAnalysis extends Component {
 
     
     return(
-        <div style={{ position: 'relative', width: 600, height: 500}}>
         
-            <h1>Sentiment Analysis</h1>
-            <Bar
-                data = {this.getChartData}
-                options = {this.state.options}
-                onElementsClick={elems => {
-                    if(elems[0] && (this.state.reviewArray[elems[0]._index])[0]){
-                        var newWords = this.getWords((this.state.reviewArray[elems[0]._index])[0]);
-                        this.setState({
-                            wordObjArr: newWords
-                        })
-                    }
-                }}
-            />
+        <Row gutter={24} style={{marginBottom: 24, marginLeft:0, marginRight: 0, paddingLeft:0}}>
+            <Card bodyStyle={{ paddingTop: 12, paddingBottom: 12, paddingRight:0, paddingLeft:0}}
+            bordered={false}>
+              <h1 style={{fontSize:40, fontWeight:'bold', color:'#4F5050', paddingBottom:50, textAlign: 'center'}}>
+                Sentiment Analysis
+              </h1>
+              <Col xl={14} style={{height: 600, width: 900}}>
+              <h1 style={{fontSize:30, fontWeight:'bold', color:'#4F5050', paddingBottom:20, textAlign: 'center'}}>
+                Polarity of Business Reviews by Month
+              </h1>
+                <Bar
+                  data = {this.getChartData}
+                  options = {this.state.options}
+                  onElementsClick={elems => {
+                      if(elems[0] && (this.state.reviewArray[elems[0]._index])[0]){
+                          var newWords = this.getWords((this.state.reviewArray[elems[0]._index])[0]);
+                          this.setState({
+                              wordObjArr: newWords
+                          })
+                      }
+                  }}
+                />
+                {/* <h2>col1</h2> */}
+              </Col>
+            
+              <Col xl={16} lg={12} md={12} sm={12} xs={12} style={{height: '100%', width: '40%', paddingLeft:100, paddingTop:0, maginTop:0}}>
+              <h1 style={{fontSize:30, fontWeight:'bold', color:'#4F5050', paddingBottom:20, textAlign: 'center'}}>
+                Word Cloud of Business Reviews
+              </h1>
+                <ReactWordcloud words={this.state.wordObjArr} 
+                    options = {wordCloudOptions}
 
-            <div style={{ width: '100%', height: '100%' }}>
-                    <ReactWordcloud words={this.state.wordObjArr} 
-                        options = {wordCloudOptions}
-                    />
-            </div>
-
-      </div>
+                />
+                {/* <h2>col2</h2> */}
+              </Col>
+            
+          </Card>      
+        </Row>
+      
     )
   }
 

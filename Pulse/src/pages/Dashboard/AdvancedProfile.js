@@ -20,16 +20,14 @@ import {
   Divider,
   PageHeader
 } from "antd";
-
-
 import PageHeaderWrapper from "@/components/PageHeaderWrapper";
 import classNames from "classnames";
 import DescriptionList from "@/components/DescriptionList";
 import GridContent from '@/components/PageHeaderWrapper/GridContent';
 import styles from "./AdvancedProfile.less";
-import googleIcon from "@/assets/google.png"
-import yelpIcon from "@/assets/yelp.png"
-import defaultImage from "@/assets/no_image.png"
+import googleIcon from "../../assets/google.png"
+import yelpIcon from "../../assets/yelp.png"
+import defaultImage from "../../assets/no_image.png"
 import StarRatings from 'react-star-ratings';
 import { queryBusinessList, querySocialMediaScore } from "@/services/api";
 
@@ -39,9 +37,6 @@ const ButtonGroup = Button.Group;
 
 const getWindowWidth = () =>
   window.innerWidth || document.documentElement.clientWidth;
-
-  // const getWindowWidth = () => 
-  //   $(window).width();
 
 
 class AdvancedProfile extends Component {
@@ -174,7 +169,7 @@ class AdvancedProfile extends Component {
     let licenseNum = buss;
     //let licenseNum = "BU20535520";
     // let businessAPI = "http://localhost:8000/api/business/" + licenseNum;
-    let scoreAPI = "https://pulse-reroute.herokuapp.com/https://cityvitality.com/api/socialmediascore/" + licenseNum;
+    let scoreAPI = "http://localhost:8000/api/socialmediascore/" + licenseNum;
 
 
       queryBusiness(licenseNum)
@@ -182,8 +177,8 @@ class AdvancedProfile extends Component {
         // handle success
         this.setInfo(response);
 
-        let yelpHistoryAPI = "https://pulse-reroute.herokuapp.com/https://cityvitality.com/api/yelphistory/" + this.state.yelp_id;
-        let googleHistoryAPI = "https://pulse-reroute.herokuapp.com/https://cityvitality.com/api/googlehistory/" + this.state.google_id;
+        let yelpHistoryAPI = "http://localhost:8000/api/yelphistory/" + this.state.yelp_id;
+        let googleHistoryAPI = "http://localhost:8000/api/googlehistory/" + this.state.google_id;
 
           querySocialMediaScore(buss)
           .then(response => {
@@ -269,6 +264,7 @@ class AdvancedProfile extends Component {
 
     return(
       <PageHeaderWrapper>
+
 
         <Row gutter={24} style={{marginBottom: 24, marginLeft:0, marginRight: 0, paddingLeft:0}}>
           <Card
