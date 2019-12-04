@@ -8,7 +8,10 @@ import { Card } from 'antd';
 
 import WordCloud from './WordCloud/word-cloud';
 const monthNames = ["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "November", "October", "December"]
-
+const gridStyle = {
+width: '100%',
+textAlign: 'center'
+};
 
 export default class Table extends Component {
     state = {
@@ -76,11 +79,13 @@ export default class Table extends Component {
             this.props.data.data.map( (d, i) => {
                 const background = (this.props.data.months[i] === this.props.activeName) ? "grey" : "white"
                 return (
+
+
                   <Row style={{background: background}}>
                   <Col span={12}>
-                      <p> <Icon type="calendar" style={{ marginRight: "1px"}} height={'20em'} width={'20em'}/>
+                      <p> <Icon type="calendar" style={{ marginRight: "4px", marginLeft: "4px"}} height={'20em'} width={'20em'}/>
                         {monthNames[this.props.data.months[i]-1]}
-                        <Icon type="star" style={{marginRight: "1px"}} height={'20em'} width={'20em'}/>
+                        <Icon type="star" style={{marginRight: "4px", marginLeft: "8px"}} height={'20em'} width={'20em'}/>
                         {d} Avg Rating
                       </p>
                   </Col>
@@ -94,8 +99,19 @@ export default class Table extends Component {
                                   >
                                    Remove
                                   </Button>
-
-
+                                  <Button type="primary" onClick={this.showModal}
+                                  style={{ marginLeft: "10px", backgroundColor: "lightblue", color: "white" }}>
+                                    Word Cloud
+                                   </Button>
+                                  <Modal
+                                     title="Basic Modal"
+                                     visible={this.state.visible}
+                                     onOk={this.handleOk}
+                                     onCancel={this.handleCancel}
+                                  >
+                                  <p>Some contents...</p>
+                                  <WordCloud index={this.props.data.months[i-1]}/>
+                                 </Modal>
                       </Col>
             </Row>
 
@@ -107,7 +123,7 @@ export default class Table extends Component {
     render() {
           return (
               <div>
-              <Card title="Monthly Reviews" >
+              <Card title="Monthly Reviews">
                     {this.renderRows()}
               </Card>
               </div>

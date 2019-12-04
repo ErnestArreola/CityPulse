@@ -3,9 +3,8 @@ import defaultSettings from './defaultSettings'; // https://umijs.org/config/
 
 import slash from 'slash2';
 import webpackPlugin from './plugin.config';
-const { pwa, primaryColor } = defaultSettings;
+const { pwa, primaryColor } = defaultSettings; // preview.pro.ant.design only do not use in your production ;
 
-// preview.pro.ant.design only do not use in your production ;
 const { ANT_DESIGN_PRO_ONLY_DO_NOT_USE_IN_YOUR_PRODUCTION } = process.env;
 const isAntDesignProPreview = ANT_DESIGN_PRO_ONLY_DO_NOT_USE_IN_YOUR_PRODUCTION === 'site';
 const plugins: IPlugin[] = [
@@ -18,7 +17,7 @@ const plugins: IPlugin[] = [
       },
       locale: {
         // default false
-        enable: true,
+        enable: false,
         default: 'en-US',
         // default true, when it is true, will use `navigator.language` overwrite default
         baseNavigator: true,
@@ -35,8 +34,7 @@ const plugins: IPlugin[] = [
               importWorkboxFrom: 'local',
             },
           }
-        : false,
-      // default close dll, because issue https://github.com/ant-design/ant-design-pro/issues/4665
+        : false, // default close dll, because issue https://github.com/ant-design/ant-design-pro/issues/4665
       // dll features https://webpack.js.org/plugins/dll-plugin/
       // dll: {
       //   include: ['dva', 'dva/router', 'dva/saga', 'dva/fetch'],
@@ -111,16 +109,51 @@ export default {
               component: './Business/Business',
             },
             {
-              path: '/Graphs',
-              name: 'Graphs',
-              icon: 'home',
+              path: '/Graphs/:busID',
+              // name: 'Graphs',
+              // icon: 'home',
               component: './Graphs/Graphs',
             },
+            // {
+            //   path: '/Map',
+            //   name: 'Map',
+            //   icon: 'home',
+            //   component: './Map/Map',
+            // },
             {
-              path: '/Map',
-              name: 'Map',
+              path: '/dashboard',
+              name: 'Dashboard',
               icon: 'home',
-              component: './Map/Map',
+              routes: [
+                {
+                  path: '/dashboard/analysis',
+                  name: 'Analysis',
+                  component: './Dashboard/Analysis',
+                },
+                {
+                  path: '/dashboard/advancedprofile',
+                  // name: 'Test/Profile',
+                  component: './Dashboard/AdvancedProfile',
+                },
+                // {
+                //   name: '分析页',
+                //   icon: 'smile',
+                //   path: '/dashboard/dashboardanalysis',
+                //   component: './DashboardAnalysis',
+                // },
+                // {
+                //   name: '监控页',
+                //   icon: 'smile',
+                //   path: '/dashboardmonitor',
+                //   component: './DashboardMonitor',
+                // },
+                // {
+                //   name: '工作台',
+                //   icon: 'smile',
+                //   path: '/dashboardworkplace',
+                //   component: './DashboardWorkplace',
+                // },
+              ],
             },
             {
               component: './404',
@@ -132,12 +165,11 @@ export default {
         },
       ],
     },
-
     {
       component: './404',
     },
   ],
-  // Theme for antd: 
+  // Theme for antd:
   theme: {
     'primary-color': primaryColor,
   },
@@ -157,7 +189,7 @@ export default {
         resourcePath: string;
       },
       _: string,
-      localName: string,
+      localName: string
     ) => {
       if (
         context.resourcePath.includes('node_modules') ||

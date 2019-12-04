@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Card, Typography, Alert } from 'antd';
 import EsriMap from '../../components/PulseMap/PulseMap';
-
+import App from '@/components/PulseMap/app';
 
 
 
@@ -13,9 +13,8 @@ return(
 
     <div>
         <Card>
-            <EsriMap/>
+            <App/>
         </Card>
-
     </div>
 );
 

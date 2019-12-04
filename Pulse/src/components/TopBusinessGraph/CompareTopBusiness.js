@@ -1,375 +1,288 @@
 import React, { Component, Fragment } from 'react';
-
 import { Line } from 'react-chartjs-2';
+import { Col, Dropdown, Icon, Menu, Row, Button, Card } from 'antd';
+import GridContent from '../PageHeaderWrapper/GridContent';
 
 export default class App extends Component {
 
   constructor(props) {
 
     super(props);
-
+    // alert(JSON.stringify(this.props));
   }
 
 
-
   state = {
-
     data: {
-
       labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'Jul', 'Aug', 'Sept', 'Oct'],
-
       datasets: [
-
         {
-
           label: '',
-
           backgroundColor: 'rgba(46, 232, 53, 0.75)',
-
           data: [],
-
         },
-
         {
-
           label: '',
-
           backgroundColor: 'rgba(78, 190, 242, 0.75)',
-
           data: [],
-
         },
-
       ],
-
     },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+        scales: {
+            xAxes: [
+                {
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Months',
+                        fontSize: 26,
+                        fontStyle: 'bold'
+                    },
+                    ticks: {
+                      fontSize: 20
+                    }
+                }
+            ],
+            yAxes: [
+                {
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Review Count',
+                        fontSize: 26,
+                        fontStyle: 'bold'
+                    },
+                    ticks: {
+                      fontSize: 20
+                    }
+                }
+            ],
+        },
+        tooltips: {
+          titleFontSize: 20,
+          bodyFontSize: 20
+        },
+        legend: {
+          position: 'right',
+          labels: {
+              fontSize: 30,
+              fontColor: '#4F5050',
+              boxWidth: 80,
+              padding: 80
+          }
+      }
+    },
+
+    apiFinished: false
 
   };
 
 
-
-  bus = [
-
-    {
-
-      month: 1,
-
-      reviewCount: 3,
-
-      rating: '4.7',
-
-    },
-
-    {
-
-      month: 2,
-
-      reviewCount: 1,
-
-      rating: '5.0',
-
-    },
-
-    {
-
-      month: 3,
-
-      reviewCount: 1,
-
-      rating: '5.0',
-
-    },
-
-    {
-
-      month: 4,
-
-      reviewCount: 3,
-
-      rating: '3.7',
-
-    },
-
-    {
-
-      month: 5,
-
-      reviewCount: 4,
-
-      rating: '5.0',
-
-    },
-
-    {
-
-      month: 6,
-
-      reviewCount: 1,
-
-      rating: '5.0',
-
-    },
-
-    {
-
-      month: 7,
-
-      reviewCount: 3,
-
-      rating: '3.7',
-
-    },
-
-    {
-
-      month: 8,
-
-      reviewCount: 4,
-
-      rating: '4.5',
-
-    },
-
-    {
-
-      month: 9,
-
-      reviewCount: 5,
-
-      rating: '5.0',
-
-    },
-
-  ];
-
-
-
-  topBus = [
-
-    {
-
-      month: 1,
-
-      reviewCount: 3,
-
-      rating: '4.3',
-
-    },
-
-    {
-
-      month: 2,
-
-      reviewCount: 4,
-
-      rating: '4.8',
-
-    },
-
-    {
-
-      month: 3,
-
-      reviewCount: 3,
-
-      rating: '5.0',
-
-    },
-
-    {
-
-      month: 4,
-
-      reviewCount: 4,
-
-      rating: '4.0',
-
-    },
-
-    {
-
-      month: 5,
-
-      reviewCount: 11,
-
-      rating: '3.9',
-
-    },
-
-    {
-
-      month: 6,
-
-      reviewCount: 6,
-
-      rating: '4.2',
-
-    },
-
-    {
-
-      month: 7,
-
-      reviewCount: 5,
-
-      rating: '3.6',
-
-    },
-
-    {
-
-      month: 8,
-
-      reviewCount: 4,
-
-      rating: '3.8',
-
-    },
-
-    {
-
-      month: 9,
-
-      reviewCount: 4,
-
-      rating: '3.0',
-
-    },
-
-    {
-
-      month: 10,
-
-      reviewCount: 2,
-
-      rating: '4.5',
-
-    },
-
-  ];
-
-
-
+  bus = [];
+  topBus = [];
+  busDetail = {};
+
+
+  componentDidMount() {
+    // this.retrieveInfo("Sb0OMCB8_qn1EJ57Ra3jQQ");
+    // this.retrieveInfo("IZG-gNsnhTTk_Npgh9OFxQ");
+    this.retrieveInfo(this.props.businessID);
+  }
+
+
+  retrieveInfo(businessID) {
+    let yelpID = businessID;
+
+    let topBusAPI = "http://localhost:8000/api/topbusinessinonemileradius/?yelpid=" + yelpID;
+    let thisBusReviewAPI = "http://localhost:8000/api/yelpmonthlyreviewsummary/?yelpid=" + yelpID;
+    let busDetailAPI = "http://localhost:8000/api/business/" + yelpID;
+
+
+    // jQuery
+    // .get(busDetailAPI)
+    // .then(response => {
+
+    //   this.busDetail = response;
+
+      jQuery
+      .get(thisBusReviewAPI)
+      .then(response => {
+        // handle success
+        this.bus = response;
+        console.log(">>>>>> this biz" + response);
+        
+        //get top business info
+        jQuery
+        .get(topBusAPI)
+        .then(response => {
+          // handle success
+          if(response[0].businessID != yelpID){  //this business itself is the top within one mile radius
+            let topBusReviewAPI = "http://localhost:8000/api/yelpmonthlyreviewsummary/?yelpid=" + response[0].businessID;
+            console.log(">>>>>> res " + response);
+            console.log(">>>>>>>>>> " + topBusReviewAPI);
+            jQuery
+              .get(topBusReviewAPI)
+              .then(response => {
+                // handle success
+                this.topBus = response;
+                console.log(">>>>>>topBus review res " + response);
+                console.log("##### this topBus " + this.topBus);
+                this.setBusinessData();
+              })
+              .then( () => {
+                // always executed
+              })
+              .catch(function(error) {
+                // handle error
+                console.log("Error Top Business Review Summary API");
+                console.log(error);
+              });
+          }
+          else{
+            this.setBusinessData();
+          }
+        })
+        .catch(function(error) {
+          // handle error
+          console.log("Error Top Business in One Mile Radius API");
+          console.log(error);
+        })
+        .then(() => {
+          // always executed
+        });  
+      })
+      .then(() => {
+        // always executed
+        
+      })
+      .catch(function(error) {
+        // handle error
+        console.log("Error This Business Review Summary API");
+        console.log(error);
+      });
+
+    // })
+    // .then(() => {
+    //   // always executed
+      
+    // })
+    // .catch(function(error) {
+    //   // handle error
+    //   console.log("Error in Business Detail API");
+    //   console.log(error);
+    // });
+
+
+
+    
+   
+  }
+
+    
   setBusinessData = () => {
-
+    console.log("hello");
+    console.log(this.bus);
+    console.log(this.topBus);
     var thisBusData = [];
-
     var topBusData = [];
 
-    var i;
-
-    for (i = 0; i < 12; i++) {
-
-      if (this.bus[i]) {
-
-        thisBusData.push(this.bus[i].reviewCount);
-
+    var cur = 0;
+    for (var i = 0; i < 10; i++) {
+      if (this.bus[cur]) {
+        if(this.bus[cur].month != i+1){
+          thisBusData.push(0);
+        }
+        else{
+          thisBusData.push(this.bus[cur].reviewCount); 
+          cur++;
+        }
       } else {
-
         thisBusData.push(0);
-
       }
-
-      if (this.topBus[i]) {
-
-        topBusData.push(this.topBus[i].reviewCount);
-
-      } else {
-
-        topBusData.push(0);
-
-      }
-
     }
 
-
+    cur = 0;
+    for (var i = 0; i < 10; i++) {
+      if (this.topBus[cur]) {
+        if(this.topBus[cur].month != i+1){
+          topBusData.push(0);
+        }
+        else{
+          topBusData.push(this.topBus[cur].reviewCount); 
+          cur++;
+        }
+      } else {
+        topBusData.push(0);
+      }
+    }
 
     var datas = [thisBusData, topBusData];
-
-    var labels = ['This Business', 'Top Business'];
-
-
+    var labels = ['This Business', 'Most Active Business'];
 
     this.state.data.datasets.forEach((set, i) => {
-
       set.data = datas[i];
-
       set.label = labels[i];
-
     });
 
+    this.setState({
+      apiFinished: true
+    })
   };
-
 
 
   setGradientColor = (canvas, color) => {
-
     const ctx = canvas.getContext('2d');
-
-    const gradient = ctx.createLinearGradient(0, 0, 0, 350);
-
+    const gradient = ctx.createLinearGradient(0, 0, 0, 550);
     gradient.addColorStop(0, color);
-
     gradient.addColorStop(0.9, 'rgba(207, 211, 212, 0.8)');
-
     return gradient;
-
   };
 
 
-
   getChartData = canvas => {
-
     const data = this.state.data;
 
     if (data.datasets) {
-
-      let colors = ['rgba(29, 224, 49, 0.8)', 'rgba(10, 190, 242, 0.8)'];
-
-      let borderColor = ['rgba(29, 224, 49, 0.7)', 'rgba(10, 190, 242, 0.7)'];
-
+      let colors = ['rgba(29, 224, 49, 0.8)', 'rgba(79, 197, 247, 0.8'];
+      let borderColor = ['rgba(29, 224, 49, 0.7)', 'rgba(79, 197, 247, 0.7'];
       data.datasets.forEach((set, i) => {
-
         set.backgroundColor = this.setGradientColor(canvas, colors[i]);
-
         set.borderColor = borderColor[i];
-
         set.borderWidth = 2;
-
       });
-
     }
-
-    this.setBusinessData();
-
+    console.log("@@@@@ in getChartData: " + JSON.stringify(data));
     return data;
-
   };
 
 
 
   render() {
-
+    if(!this.state.apiFinished){
+      return <div></div>
+    }
     return (
-
-      <div style={{ position: 'relative', width: 600, height: 500 }}>
-
+      // <GridContent>
+      <Row>
+      {/* <Card> */}
+      <h1 style={{fontSize:35, fontWeight:'bold', color:'#4F5050', paddingBottom:30, textAlign: 'center'}}>
+                Comparing to Most Active Business within One Mile Radius
+      </h1>
+      <div >
         <Line
-
-          options={{
-
-            responsive: true,
-
-          }}
-
-          data={this.getChartData}
-
+          data = {this.getChartData}
+          options = {this.state.options}
+          width = {800}
+          height = {400}
         />
-
+        
       </div>
+      {/* </Card> */}
+      </Row>
+
+      // </GridContent>
 
     );
-
   }
-
 }

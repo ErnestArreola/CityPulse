@@ -1,19 +1,18 @@
 import * as d3 from 'd3';
 
-const MARGIN = { TOP: 10, BOTTOM: 60, LEFT: 70, RIGHT: 10}
-const WIDTH = 360 - MARGIN.LEFT - MARGIN.RIGHT;
-const HEIGHT = 350 - MARGIN.TOP - MARGIN.BOTTOM;
+const MARGIN = { TOP: 10, BOTTOM: 80, LEFT: 70, RIGHT: 10}
+const WIDTH = 600 - MARGIN.LEFT - MARGIN.RIGHT;
+const HEIGHT = 500 - MARGIN.TOP - MARGIN.BOTTOM;
 
 const months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 export default class D3Chart {
 
-    constructor(element, data, updateName, updateModalShow) {
+    constructor(element, data, updateName) {
         const vis = this
 
         vis.updateName = updateName
-        vis.updateModalShow = updateModalShow
-        vis.brushed
+
          vis.g = d3.select(element)
              .append("svg")
              .attr("width", WIDTH + MARGIN.LEFT + MARGIN.RIGHT)
@@ -52,7 +51,7 @@ export default class D3Chart {
             .attr("text-anchor", "middle")
             .text("Avg Rating Per Month")
 
-        vis.update(data, )
+        vis.update(data)
     }
 
     update(data) {
@@ -80,28 +79,26 @@ export default class D3Chart {
              .attr("cx", (d, i) => vis.x(vis.data.months[i]))
              .attr("cy", d => vis.y(d))
 
+        //     console.log("ALERT")
+          //   console.log()
           //ENTER
           circles.enter()
               .append("circle")
               .attr("cy", vis.y(0))
               .attr("cx", (d, i) => vis.x(vis.data.months[i]))
               .attr("r", 5).attr("fill", "lightblue")
-              .on("click", (d, i) => {
-                vis.updateModalShow()
-              })
+              .on("click", (d, i) => vis.updateName(vis.data.months[i]))
               .transition(1000)
               .attr("cy", d => vis.y(d))
 
-            circles.on("mouseover", (d, i) => {
+              circles.on("mouseover", d => {
                 vis.tooltip.transition().duration(200).style('opacity', .6)
-                vis.updateName(vis.data.months[i])
+
                 vis.tooltip.html(d)
                 .style('left', (d3.event.pageX - 35) + 'px')
                 .style('top', (d3.event.pageY - 30) + 'px')
 
               })
-
-
      }
 }
 /* */
