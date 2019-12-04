@@ -1,0 +1,4105 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "1",
+        "businessID": "K_15Pq8DM5CMU3GJDVAUTQ",
+        "businessName": "Long Beach",
+        "address": "235 E 8th St Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/long-beach-long-beach-10?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/ogGqkgv4s3hf6yQtFdICAg/o.jpg",
+        "description": "Beaches beaches",
+        "reviewCount": "26",
+        "zipcode": "90813",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1808242,
+          33.76327851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "2",
+        "businessID": "qUa6mPKIPzMerD5OH5gVlQ",
+        "businessName": "Stearns Champions Park",
+        "address": "4520 E 23rd St Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/stearns-champions-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/pcdbdiI86RH_JE8NthrzHw/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "13",
+        "zipcode": "90815",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1407613,
+          33.7995451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "3",
+        "businessID": "pL0yUun2R3CWFcCoWeFv9A",
+        "businessName": "Playground And Park",
+        "address": "21St & San Fransican St Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/playground-and-park-long-beach?adjust_creative=6R7bY-TEXsuchaHKYsqNdQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=6R7bY-TEXsuchaHKYsqNdQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/cOHPHoy0Cz_HJqEHqianLA/o.jpg",
+        "description": "Playgrounds playgrounds Parks parks",
+        "reviewCount": "5",
+        "zipcode": "90806",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2041439,
+          33.7956889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "4",
+        "businessID": "-Y3woAa6s3QhpfDMc8EK-A",
+        "businessName": "Coolidge Park",
+        "address": "E Artesia Blvd Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/coolidge-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/vM8SWDP5S2ReB7O4dRE8Cg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "1",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1948937,
+          33.8722857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "5",
+        "businessID": "b_VhonxWK37YqwOYl95HyQ",
+        "businessName": "Skate Kids",
+        "address": "Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/skate-kids-long-beach?adjust_creative=KGi4eiEUr-LxOCoOlo_n5A&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KGi4eiEUr-LxOCoOlo_n5A",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/4-6lGeWRmoYp1XrtIY0iSA/o.jpg",
+        "description": "Skate Parks skate_parks Kids Activities kids_activities",
+        "reviewCount": "12",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1266327,
+          33.82667542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "6",
+        "businessID": "fvuwn2Aa3SNGeCTlC3O8Ew",
+        "businessName": "Shoreline Yacht Club of Long Beach",
+        "address": "386 E Shoreline Dr Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/shoreline-yacht-club-of-long-beach-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/kuGsNTziGLlFGGSQP1MHsg/o.jpg",
+        "description": "Boating boating",
+        "reviewCount": "6",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1863,
+          33.7620999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "7",
+        "businessID": "8N2W3GxatHRySB-63wuXHA",
+        "businessName": "The Peninsula",
+        "address": "5535 E Ocean Blvd Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/the-peninsula-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/Imvwfrllmx68jVKHurlXEQ/o.jpg",
+        "description": "Beaches beaches",
+        "reviewCount": "3",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.127685,
+          33.751516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "8",
+        "businessID": "sO_ERXgRZ1237Pm33u8kCg",
+        "businessName": "Carson Park",
+        "address": "3865 N Los Coyotes Diagonal Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/carson-park-long-beach?adjust_creative=Nrw9P_0NW9s_1-yXky3yAQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=Nrw9P_0NW9s_1-yXky3yAQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/Ywb_1i1Zsj9zSJzUbDVxiw/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "1",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0988459,
+          33.8321342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "9",
+        "businessID": "eDvl4WeubViqnZA20Ry5FQ",
+        "businessName": "Plaza Zaferia",
+        "address": "Pacific Coast Hwy & Redondo Ave Long Beach CA US 90804",
+        "businessURL": "https://www.yelp.com/biz/plaza-zaferia-long-beach-2?adjust_creative=6R7bY-TEXsuchaHKYsqNdQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=6R7bY-TEXsuchaHKYsqNdQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/zMy1BCn-FKMQo7jUAt1-bA/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "1",
+        "zipcode": "90804",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1543295,
+          33.78928244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "10",
+        "businessID": "aOQjQmt1R_iT3SWIOV_lxQ",
+        "businessName": "Long Beach Sportfishing",
+        "address": "555 Pico Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/long-beach-sportfishing-long-beach-3?adjust_creative=B5tPrMxHjgDTb_5zgCrYbQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=B5tPrMxHjgDTb_5zgCrYbQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/xCBb4S5mRWHqPMODiV26XA/o.jpg",
+        "description": "Boat Charters boatcharters Fishing fishing",
+        "reviewCount": "107",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2082667,
+          33.772979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "11",
+        "businessID": "_mY47kq05G43tAv8kDfK-Q",
+        "businessName": "Belmont Shore Beach",
+        "address": "4000 East Olympic Plz Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/belmont-shore-beach-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/ClO_rwTA3MkNPnLnxTgfvg/o.jpg",
+        "description": "Beaches beaches",
+        "reviewCount": "32",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1453287,
+          33.7580218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "12",
+        "businessID": "k96vSajImpMvT0VYOb_7Zw",
+        "businessName": "Long Beach Fit Club",
+        "address": "4105 N Viking Way Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/long-beach-fit-club-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/5Xls_4KZRkjQh5rAWYLWAA/o.jpg",
+        "description": "Boot Camps bootcamps Trainers healthtrainers Gyms gyms",
+        "reviewCount": "14",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.12692,
+          33.8328599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "13",
+        "businessID": "oMOLedZZvoOIfyBlHjQUWA",
+        "businessName": "Horny Corner",
+        "address": "48-98 54th Pl Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/horny-corner-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/rJgzFeiaG9KEUNpa5V_zOw/o.jpg",
+        "description": "Beaches beaches",
+        "reviewCount": "17",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1321945,
+          33.75507736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "14",
+        "businessID": "LiPDCFuwbFs3CbULJqZQ1A",
+        "businessName": "Silverado Park",
+        "address": "1545 W 31st St Long Beach CA US 90810",
+        "businessURL": "https://www.yelp.com/biz/silverado-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/aJgE696mW-64cnFUA4Nbag/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "18",
+        "zipcode": "90810",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2130887,
+          33.8141149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "15",
+        "businessID": "ZM0uXea0E9RS7pV3sle4NQ",
+        "businessName": "Cherry Park",
+        "address": "1901 East 45th St Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/cherry-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/XaqvuHQhXVqwQ-wjYuDTWg/o.jpg",
+        "description": "Tennis tennis Parks parks Playgrounds playgrounds",
+        "reviewCount": "16",
+        "zipcode": "90807",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.168315,
+          33.83861497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "16",
+        "businessID": "MDl0gxa0N0cJVPKxVt9NHg",
+        "businessName": "Los Cerritos Park",
+        "address": "3750 Del Mar Avenue Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/los-cerritos-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/0mRFJmZ76bSAyhBLWtgCbQ/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "25",
+        "zipcode": "90807",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1997602,
+          33.8259285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "17",
+        "businessID": "v-X46YzabaoO7JWpbgUgGQ",
+        "businessName": "Bayshore Roller Hockey Rink",
+        "address": "14-54TH Pl Long Beach CA US 90899",
+        "businessURL": "https://www.yelp.com/biz/bayshore-roller-hockey-rink-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/UwC2rM-fB60UG8uE5Uq53Q/o.jpg",
+        "description": "Skating Rinks skatingrinks",
+        "reviewCount": "2",
+        "zipcode": "90899",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1320546,
+          33.7536867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "18",
+        "businessID": "g6vG0YK1KICtKFbu3CnYEw",
+        "businessName": "Cineyard",
+        "address": "None Long Beach CA US 90712",
+        "businessURL": "https://www.yelp.com/biz/cineyard-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/lIDHnJgSxS4dBcXSHCFJhQ/o.jpg",
+        "description": "Outdoor Movies outdoormovies",
+        "reviewCount": "1",
+        "zipcode": "90712",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1924,
+          33.76673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "19",
+        "businessID": "JtzTvmHhN_ct2DDy9nPKIQ",
+        "businessName": "Victory Park",
+        "address": "448 E Ocean Blvd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/victory-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/imvMDSW-WjRoyuxZhb7jZA/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "1",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1885382,
+          33.76621566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "20",
+        "businessID": "nCbpRdAz-KtijhizmaWGMQ",
+        "businessName": "Chittick Field",
+        "address": "1900 Walnut Ave Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/chittick-field-long-beach?adjust_creative=6R7bY-TEXsuchaHKYsqNdQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=6R7bY-TEXsuchaHKYsqNdQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/RoXgCCrGdBbprsOdnYntyQ/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "14",
+        "zipcode": "90806",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1719708,
+          33.7918029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "21",
+        "businessID": "FUuzbmkniEBzj7EG_4HgcA",
+        "businessName": "Gondola Getaway",
+        "address": "5437 E Ocean Blvd Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/gondola-getaway-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/ybwdLuzYMKtfArHtyLVDWw/o.jpg",
+        "description": "Boat Charters boatcharters",
+        "reviewCount": "363",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.13148,
+          33.75324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "22",
+        "businessID": "LTvIpFLL8OkTZFCmpaHB9g",
+        "businessName": "Pan American Park",
+        "address": "5157 Centralia Ave Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/pan-american-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/IJIGkO7p9dVzaNskVOA0tw/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "10",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1320036,
+          33.8397249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "23",
+        "businessID": "in_MMuG5iEnwj7o8VoK_2g",
+        "businessName": "Pelican Pier Pavillion",
+        "address": "411 Shoreline Village Dr Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/pelican-pier-pavillion-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/wfhx1lbg65pYfXGrdVI22Q/o.jpg",
+        "description": "Amusement Parks amusementparks",
+        "reviewCount": "10",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1893442,
+          33.76055852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "24",
+        "businessID": "Ccyn9wv7RQADGfvY0jOaXg",
+        "businessName": "Bluff Park",
+        "address": "2500 E Ocean Blvd Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/bluff-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/zfeChktGiqfwO8yapn3A5g/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "103",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1631968,
+          33.7631732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "25",
+        "businessID": "fS5KV4KjxYUcDKnYjOG6rA",
+        "businessName": "Recreation Park Golf Course Banquet Facilities",
+        "address": "5001 Deukmejian Dr Long Beach CA US 90804",
+        "businessURL": "https://www.yelp.com/biz/recreation-park-golf-course-banquet-facilities-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/IV794GiN3tEgLETGmqmSVw/o.jpg",
+        "description": "Golf golf",
+        "reviewCount": "3",
+        "zipcode": "90804",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1353332,
+          33.77980471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "26",
+        "businessID": "fvkb7UtaL5-7vw2N45swGA",
+        "businessName": "CeeRay Dive Boat",
+        "address": "555 Pico Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/ceeray-dive-boat-long-beach?adjust_creative=B5tPrMxHjgDTb_5zgCrYbQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=B5tPrMxHjgDTb_5zgCrYbQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/W_uh4mCROW5Wg37ZHeW6QA/o.jpg",
+        "description": "Scuba Diving scuba",
+        "reviewCount": "17",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2081179,
+          33.772622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "27",
+        "businessID": "RMSNKOQVqnzW5CgWqRkHHQ",
+        "businessName": "Concerts in the Park",
+        "address": "3750 Del Mar Ave Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/concerts-in-the-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/5uA9FzZ0-UIAa1kzPUS77w/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "3",
+        "zipcode": "90807",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1988338,
+          33.82548774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "28",
+        "businessID": "Ng0XWLlWAXk7VCTw9ZBwIQ",
+        "businessName": "Straight Up Fitness",
+        "address": "8121 E Wardlow Rd Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/straight-up-fitness-long-beach?adjust_creative=B5tPrMxHjgDTb_5zgCrYbQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=B5tPrMxHjgDTb_5zgCrYbQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/siKjCLLcOSeiE1BMvdW0Mg/o.jpg",
+        "description": "Gyms gyms Boot Camps bootcamps",
+        "reviewCount": "26",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.070936,
+          33.81846253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "29",
+        "businessID": "3RCvAJ1birtm3c-NLnHwhQ",
+        "businessName": "ASC Landscaping",
+        "address": "3535 Caspian Ave Long Beach CA US 90810",
+        "businessURL": "https://www.yelp.com/biz/asc-landscaping-long-beach-3?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/Ems-b1PPv8uhlhF7zlIbqg/o.jpg",
+        "description": "Landscaping landscaping Masonry/Concrete masonry_concrete",
+        "reviewCount": "10",
+        "zipcode": "90810",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2129062,
+          33.8208037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "30",
+        "businessID": "ZZbMZlOX-vlw5jaUPvNhUw",
+        "businessName": "The Boat Tenders",
+        "address": "Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/the-boat-tenders-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/mPbTO4VXFI1kQveP2MPdDA/o.jpg",
+        "description": "Boat Charters boatcharters Boating boating",
+        "reviewCount": "4",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1298234,
+          33.7523035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "31",
+        "businessID": "SfAJtN2mvF9f74xRXbcUHg",
+        "businessName": "Bixby Park",
+        "address": "130 Cherry Ave Long Beach CA US 90899",
+        "businessURL": "https://www.yelp.com/biz/bixby-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/6JXUnqcbMaW-5J70nkalKA/o.jpg",
+        "description": "Playgrounds playgrounds",
+        "reviewCount": "64",
+        "zipcode": "90899",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1673438,
+          33.7649786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "32",
+        "businessID": "xnVjckuOKQsnREKAqRa0Nw",
+        "businessName": "Orange Park",
+        "address": "Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/orange-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/PiXG7NW01npwJKC97RFLqA/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "1",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1808167,
+          33.86485291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "33",
+        "businessID": "0thPffNwjkgD6e2Tig8onw",
+        "businessName": "Seaside Way Dog Zone",
+        "address": "500 E Seaside Way Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/seaside-way-dog-zone-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/N-n6Vbonon708LshwiLqHg/o.jpg",
+        "description": "Dog Parks dog_parks",
+        "reviewCount": "8",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1867385,
+          33.76571616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "34",
+        "businessID": "XhWp7WDvd8f4c_g7ESW1bw",
+        "businessName": "Granada Volleyball Courts",
+        "address": "20-2 S 46th Pl Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/granada-volleyball-courts-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/5eh5cco0UW8EaPdSs1bmFA/o.jpg",
+        "description": "Beaches beaches Amateur Sports Teams amateursportsteams",
+        "reviewCount": "4",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1235886,
+          33.76276779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "35",
+        "businessID": "eUhs9grg_LEIy0t5tcBrsw",
+        "businessName": "Cabrillo Boat Shop",
+        "address": "1500 Pier C St Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/cabrillo-boat-shop-long-beach?adjust_creative=n0jfwtvONpj6-MP04rm31A&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=n0jfwtvONpj6-MP04rm31A",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/BA6Z3P-ErgJf1yxyCl72lQ/o.jpg",
+        "description": "Boating boating Boat Repair boatrepair",
+        "reviewCount": "21",
+        "zipcode": "90813",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.212569,
+          33.772207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "36",
+        "businessID": "ZNzysmwrPvyI7Djhl1lshw",
+        "businessName": "The Federal Breakwater",
+        "address": "Long Beach CA US 90899",
+        "businessURL": "https://www.yelp.com/biz/the-federal-breakwater-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Swimming Pools swimmingpools Beaches beaches",
+        "reviewCount": "2",
+        "zipcode": "90899",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1994171,
+          33.76763153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "37",
+        "businessID": "l_mk6DSbSfsPbc7jKb3LRw",
+        "businessName": "Harvey Milk Promenade Park",
+        "address": "212 E Third St Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/harvey-milk-promenade-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/EVNnn-KBAAYAl4t38gXZOw/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "5",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.191188,
+          33.77057401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "38",
+        "businessID": "-HNarR-Eg1ijfFCzdSpPLQ",
+        "businessName": "Houghton Skate Park",
+        "address": "601-723 E Harding St Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/houghton-skate-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/-vBxM20RcYvj_JZRaGQMBw/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "6",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1842499,
+          33.86769867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "39",
+        "businessID": "cGR2R8Th3oD7ndAwIL5rIg",
+        "businessName": "Grace Park",
+        "address": "Elm Ave & Plymouth St Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/grace-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/ouAjQ019Y08_hW4X70PYOg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "1",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1882874,
+          33.85338146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "40",
+        "businessID": "3-hFidydfpIykS0likqsgQ",
+        "businessName": "College Estates Park",
+        "address": "808 Stevely Ave Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/college-estates-park-long-beach?adjust_creative=6R7bY-TEXsuchaHKYsqNdQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=6R7bY-TEXsuchaHKYsqNdQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/XH00dbkQpONvHmV0Ny43_A/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "3",
+        "zipcode": "90815",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0990982,
+          33.776535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "41",
+        "businessID": "K-wLExpfx-7Tg0pQ8uJB7Q",
+        "businessName": "Best Trailer Park",
+        "address": "5602 Long Beach Blvd Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/best-trailer-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/X9JV54z8h7-5gDNcdo_uPw/o.jpg",
+        "description": "Hiking hiking",
+        "reviewCount": "3",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.19655,
+          33.8588499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "42",
+        "businessID": "X0AXMqyXQjfEzvEIv_Xp4w",
+        "businessName": "Long Beach Rising",
+        "address": "205 E Anaheim St Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/long-beach-rising-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/KXJY2cRwGfBeAGwnOA27bg/o.jpg",
+        "description": "Rock Climbing rock_climbing Yoga yoga Saunas saunas",
+        "reviewCount": "16",
+        "zipcode": "90813",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.19077,
+          33.78291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "43",
+        "businessID": "OofmVVS_lSodfmqcSCSfww",
+        "businessName": "Colorado Lagoon",
+        "address": "5119 E Colorado St Long Beach CA US 90814",
+        "businessURL": "https://www.yelp.com/biz/colorado-lagoon-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/paLrbTl5jAazRnoM7epCJA/o.jpg",
+        "description": "Swimming Pools swimmingpools Parks parks Beaches beaches",
+        "reviewCount": "53",
+        "zipcode": "90814",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1324984,
+          33.7700139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "44",
+        "businessID": "zP00yD3pECAP9NXhpYl7HQ",
+        "businessName": "Long Beach Hydroponics and Organics",
+        "address": "1732 Clark Ave Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/long-beach-hydroponics-and-organics-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/hkIYLoWeP5smk99l9YZevw/o.jpg",
+        "description": "Hydroponics hydroponics",
+        "reviewCount": "11",
+        "zipcode": "90815",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1336102,
+          33.78872933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "45",
+        "businessID": "3RNSqjaMft23Gf3g3j4kFQ",
+        "businessName": "Drake Park",
+        "address": "951 Maine Ave Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/drake-park-long-beach?adjust_creative=6R7bY-TEXsuchaHKYsqNdQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=6R7bY-TEXsuchaHKYsqNdQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/urxE1k-zhjpM-LXgzjROPQ/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "11",
+        "zipcode": "90813",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2008743,
+          33.77799694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "46",
+        "businessID": "ylEd8lcSF4XCxqxrzCg8tQ",
+        "businessName": "Shoreline Pedestrian Bikepath",
+        "address": "Alamitos Ave And Ocean Blvd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/shoreline-pedestrian-bikepath-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/0TLGF9YUePAhoipOS9OsNg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "88",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18311,
+          33.76637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "47",
+        "businessID": "ji9i4dI2-NAgqaR15DGr0w",
+        "businessName": "Lincoln Park",
+        "address": "W Broadway And Pacific Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/lincoln-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/Vp4bwLrYbypl3dajtWMIAQ/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "20",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.19373,
+          33.7693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "48",
+        "businessID": "vK50ygI2lu8VGlIT3BCjMg",
+        "businessName": "Long Beach Greenbelt",
+        "address": "7TH And Park Ave Long Beach CA US 90899",
+        "businessURL": "https://www.yelp.com/biz/long-beach-greenbelt-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/kn8ZViHSHNa6WTWc7uo7-A/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "3",
+        "zipcode": "90899",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.142657,
+          33.775465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "49",
+        "businessID": "LicHUiCHCZlJNygt3wppOA",
+        "businessName": "Spirit Cruises",
+        "address": "429 Shoreline Village Dr Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/spirit-cruises-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/Xk63Usxv4QXNbjzX-GJzkw/o.jpg",
+        "description": "Boating boating Boat Charters boatcharters",
+        "reviewCount": "27",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.189415,
+          33.7603111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "50",
+        "businessID": "xOowcEO3pPv02AsUdnNsdA",
+        "businessName": "Marine Stadium",
+        "address": "5255 E Paoli Way Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/marine-stadium-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/KDBRnsaLhq-Q6ixD9AOn6A/o.jpg",
+        "description": "Parks parks Boating boating",
+        "reviewCount": "17",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1304895,
+          33.7679056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "51",
+        "businessID": "WmjD7akUkgR4Z4quoqm4xA",
+        "businessName": "Belmont Plaza Olympic Pool",
+        "address": "4320 Olympic Plz Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/belmont-plaza-olympic-pool-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/2O3meS1uAcByN-Rcw4Mmsw/o.jpg",
+        "description": "Swimming Pools swimmingpools",
+        "reviewCount": "26",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1444378,
+          33.7575942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "52",
+        "businessID": "f0RNVtGXKck8M_eLM5JBvg",
+        "businessName": "Absolutraining",
+        "address": "5315 Brittain Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/absolutraining-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/_qs-we4820Q6E2BNSHtFLw/o.jpg",
+        "description": "Trainers healthtrainers Nutritionists nutritionists Boot Camps bootcamps",
+        "reviewCount": "16",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1289749,
+          33.8261261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "53",
+        "businessID": "BDWm0yfEzEA-m4Ee8fN2nQ",
+        "businessName": "B Ballers Hoop School",
+        "address": "4400 E 10th St Long Beach CA US 90804",
+        "businessURL": "https://www.yelp.com/biz/b-ballers-hoop-school-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/_MkGhw6SpeXO8SH6xhc29Q/o.jpg",
+        "description": "Amateur Sports Teams amateursportsteams Sports Clubs sports_clubs",
+        "reviewCount": "18",
+        "zipcode": "90804",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.141521,
+          33.778943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "54",
+        "businessID": "mgzjw1qcqJ3dpp8vT-NqrQ",
+        "businessName": "Alamitos Bay Yacht Club",
+        "address": "7201 E Ocean Blvd Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/alamitos-bay-yacht-club-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/XUvkm3ftWu__8c7DTDs83w/o.jpg",
+        "description": "Boating boating",
+        "reviewCount": "5",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1173815,
+          33.7458764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "55",
+        "businessID": "c42Kgur4BmJhUsito_tj3Q",
+        "businessName": "Kat Cary Fitness",
+        "address": "Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/kat-cary-fitness-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/NOeS2kXhySeRQDjjrADXbw/o.jpg",
+        "description": "Trainers healthtrainers",
+        "reviewCount": "2",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1450166,
+          33.7641923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "56",
+        "businessID": "GKq8UzkUxnylGC0FkzGQ4A",
+        "businessName": "Gumbiner Park",
+        "address": "880 E 7th St Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/gumbiner-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/v3r1e_PRYHQL0J49Dqup7Q/o.jpg",
+        "description": "Skate Parks skate_parks",
+        "reviewCount": "1",
+        "zipcode": "90813",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.180685,
+          33.774701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "57",
+        "businessID": "wov0L4y3rBt9730jtEFtiQ",
+        "businessName": "Daisy Avenue Christmas Tree Lane",
+        "address": "1800 Daisy Ave Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/daisy-avenue-christmas-tree-lane-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/Ca92LMVMMA_XpD0e0eVevA/o.jpg",
+        "description": "Landmarks & Historical Buildings landmarks",
+        "reviewCount": "5",
+        "zipcode": "90806",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1992368,
+          33.79022777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "58",
+        "businessID": "IBSLO-2o12ydo4Yc6t1pqQ",
+        "businessName": "Ed 'Pops' Davenport Park",
+        "address": "2910 E 55th Way Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/ed-pops-davenport-park-long-beach-2?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/4fqQ2ihG5ETcHF47RzFoMg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "1",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1567001,
+          33.8568001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "59",
+        "businessID": "-HXgm1twl3DcQlceoPUE2g",
+        "businessName": "Long Beach Junior Lifeguards",
+        "address": "2100 E Ocean Blvd Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/long-beach-junior-lifeguards-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Fitness & Instruction fitness Swimming Pools swimmingpools Beaches beaches",
+        "reviewCount": "2",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1665006,
+          33.7640173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "60",
+        "businessID": "xLdcZrY_QxEN2lo-lP4eNA",
+        "businessName": "Jack Dunster Marine Reserve",
+        "address": "5801 Boathouse Ln Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/jack-dunster-marine-reserve-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/ccqPlgouUrcwix8-vNscUg/o.jpg",
+        "description": "Parks parks Local Flavor localflavor",
+        "reviewCount": "7",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1218751,
+          33.76293353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "61",
+        "businessID": "c1oXTiwyX3aW7to1xoM1yQ",
+        "businessName": "Heartwell Golf Course",
+        "address": "6700 E. Carson Street Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/heartwell-golf-course-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/ZkVd6vrXcAo_KpKydb21zw/o.jpg",
+        "description": "Golf golf",
+        "reviewCount": "122",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1037998,
+          33.8309338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "62",
+        "businessID": "iZ_TYufjsWkjUQQpPLwMNQ",
+        "businessName": "Los Altos Park",
+        "address": "5485 Stearns St Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/los-altos-park-long-beach?adjust_creative=6R7bY-TEXsuchaHKYsqNdQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=6R7bY-TEXsuchaHKYsqNdQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/yZv6fCqXar4pAvKC-OtU0Q/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "8",
+        "zipcode": "90815",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1276964,
+          33.79659145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "63",
+        "businessID": "RGF7FZ39rZm6y1U7mxexLg",
+        "businessName": "Aqua Link",
+        "address": "Long Beach CA US 90899",
+        "businessURL": "https://www.yelp.com/biz/aqua-link-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/zU16FX3GFUCQiXmrZWR9rg/o.jpg",
+        "description": "Boating boating",
+        "reviewCount": "46",
+        "zipcode": "90899",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1924,
+          33.76673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "64",
+        "businessID": "S2L2iSCFX6DkzZTVQLOQUA",
+        "businessName": "Kristina Lee Photography",
+        "address": "4439 1/2 E Village Rd Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/kristina-lee-photography-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/s5SieXjPewmb4h1JYvBlPg/o.jpg",
+        "description": "Event Photography eventphotography Session Photography sessionphotography Boudoir Photography boudoirphotography",
+        "reviewCount": "21",
+        "zipcode": "90815",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1410895,
+          33.83380964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "65",
+        "businessID": "_GX3uukzSQNRYsMhpAUV_Q",
+        "businessName": "Buns And Guns Bootcamp",
+        "address": "250 W Ocean Blvd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/buns-and-guns-bootcamp-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/3k4FqYzpC-EJL17G0Ytszw/o.jpg",
+        "description": "Boot Camps bootcamps Cardio Classes cardioclasses",
+        "reviewCount": "15",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.19452,
+          33.76653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "66",
+        "businessID": "pvnzA_8G8XBLskBJIxTCXA",
+        "businessName": "Justin Rudd's 30-Minute Beach Cleanup",
+        "address": "1 S Granada Ave Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/justin-rudds-30-minute-beach-cleanup-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/kwjZfXXh5rMzDP0TF7rGMA/o.jpg",
+        "description": "Local Flavor localflavor Public Services & Government publicservicesgovt",
+        "reviewCount": "3",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1386444,
+          33.75650276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "67",
+        "businessID": "6lLovtX23JpsnXvJ4dWDuA",
+        "businessName": "Birdcage Park",
+        "address": "6501 E Parkcrest St Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/birdcage-park-long-beach?adjust_creative=KGi4eiEUr-LxOCoOlo_n5A&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KGi4eiEUr-LxOCoOlo_n5A",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/rgZvAQDgOWHd7lboWR5k3A/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "4",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1051657,
+          33.8301841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "68",
+        "businessID": "WrMcrmjo2eRUSyV76RgOMg",
+        "businessName": "Dominguez Gap Wetlands Project",
+        "address": "Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/dominguez-gap-wetlands-project-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/mJjs1NG-FYTg-e0WQ9dgfg/o.jpg",
+        "description": "Hiking hiking",
+        "reviewCount": "27",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.202426,
+          33.839516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "69",
+        "businessID": "LNTtiP8y4TtzgcVTNc6k_Q",
+        "businessName": "Bixby Knolls Park",
+        "address": "1000 E San Antonio Dr Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/bixby-knolls-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/R1udKNrDaZftA2YOdjrrKA/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "4",
+        "zipcode": "90807",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1815014,
+          33.83863561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "70",
+        "businessID": "xbavh_G28g40s9RnZCgJvQ",
+        "businessName": "Harry Bridges Memorial Park",
+        "address": "1126 Queens Hwy Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/harry-bridges-memorial-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/NonC-20XCH8bmXcQcRVozQ/o.jpg",
+        "description": "Parks parks Beaches beaches",
+        "reviewCount": "1",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1947356,
+          33.75440047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "71",
+        "businessID": "RYp0iCKDNHUTfU38XRWJGA",
+        "businessName": "El Dorado Archers",
+        "address": "7550 E Spring St Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/el-dorado-archers-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/RqLzRq1PyqCsp39ZaofDXw/o.jpg",
+        "description": "Archery archery",
+        "reviewCount": "14",
+        "zipcode": "90815",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0853725,
+          33.8111084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "72",
+        "businessID": "rilUvpngkoT8nUSKJP9Jng",
+        "businessName": "Marina Vista Park",
+        "address": "Colorado St & E Santiago Ave Long Beach CA US 90814",
+        "businessURL": "https://www.yelp.com/biz/marina-vista-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/_bibbPZlKEC7tfYrK9yyMg/o.jpg",
+        "description": "Parks parks Playgrounds playgrounds",
+        "reviewCount": "17",
+        "zipcode": "90814",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.12851,
+          33.76988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "73",
+        "businessID": "FsxHgZd_z1qJaqnl-qeSRw",
+        "businessName": "Cerritos Bahia Marina",
+        "address": "6289 E Pacific Coast Hwy Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/cerritos-bahia-marina-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/R7m7pMf-2RCrauWB6u66uA/o.jpg",
+        "description": "Marinas marinas",
+        "reviewCount": "2",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1146696,
+          33.765183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "74",
+        "businessID": "zKrx8numsIrK4iwJC9k5kA",
+        "businessName": "Belmont Veterans Memorial Pier",
+        "address": "15 39th Pl Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/belmont-veterans-memorial-pier-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/X6ZszGgYM06MomRh3B78_Q/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "57",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1480994,
+          33.75795796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "75",
+        "businessID": "KjQFGKP6kTMU20f1k5CPDQ",
+        "businessName": "Los Angeles Bike Paths",
+        "address": "287 W Del Amo Blvd Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/los-angeles-bike-paths-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/ort7qYga70w0biWdmQ2JZg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "12",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2815497,
+          33.8464449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "76",
+        "businessID": "wdP50TUQqp53ntOHKysjcw",
+        "businessName": "MacArthur Park",
+        "address": "1321 E Anaheim Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/macarthur-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/jFr6GhZPS1EudxfCCwSh3w/o.jpg",
+        "description": "Parks parks Playgrounds playgrounds",
+        "reviewCount": "3",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.174773,
+          33.78334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "77",
+        "businessID": "Rfj5p7QA9S-oHMEu1cmcyw",
+        "businessName": "Baker Street Park",
+        "address": "673-699 Baker St Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/baker-street-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/CUjyfaGSkCBJpC0VMmTJxw/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "1",
+        "zipcode": "90806",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2022363,
+          33.82342065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "78",
+        "businessID": "Ti5oCjnGgOkobxix1QNPjA",
+        "businessName": "Channel View Park",
+        "address": "7TH St To Loynes Dr At Los Cerritos Channel Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/channel-view-park-long-beach?adjust_creative=6R7bY-TEXsuchaHKYsqNdQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=6R7bY-TEXsuchaHKYsqNdQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/doJmMYi9fkbf7tbPF_ecUw/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "2",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1041527,
+          33.77183934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "79",
+        "businessID": "0fvCXc192HrKDZB4Odg8ZA",
+        "businessName": "Jetski TO Catalina",
+        "address": "700 Queensway Dr Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/jetski-to-catalina-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/-duGqpjIVfjojqj6GJ-ZPg/o.jpg",
+        "description": "Boat Tours boattours Jet Skis jetskis",
+        "reviewCount": "34",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1987124,
+          33.7567328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "80",
+        "businessID": "vFLmILkK2a8YTRZHlKDJYQ",
+        "businessName": "Cesar E Chavez Park",
+        "address": "401 Golden Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/cesar-e-chavez-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/OQIzNS39L72UJt9TtR041A/o.jpg",
+        "description": "Playgrounds playgrounds",
+        "reviewCount": "10",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2019449,
+          33.7718501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "81",
+        "businessID": "BYki1dPewY4JKLzxfcVmbA",
+        "businessName": "Gold Shore Marine Preserve",
+        "address": "401 Golden Shore Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/gold-shore-marine-preserve-long-beach?adjust_creative=Nrw9P_0NW9s_1-yXky3yAQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=Nrw9P_0NW9s_1-yXky3yAQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/gexu8_d6gJuj15IAj_Hbsw/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "4",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2018625,
+          33.76396067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "82",
+        "businessID": "NG9xFtUMFjzd-CLBgllHrw",
+        "businessName": "Lone Sailor Memorial",
+        "address": "3000 E Ocean Blvd Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/lone-sailor-memorial-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/y-MPQhSBhZgOLMq0jEWvtA/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "1",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.156136,
+          33.761552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "83",
+        "businessID": "RExuV7IktO_xhGUGVaMtLQ",
+        "businessName": "Los Angeles River Bicycle Path",
+        "address": "Whittier Narrows In South El Monte To The Long Beach Shoreline Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/los-angeles-river-bicycle-path-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/Pv5sHFwwSoLeJMtgwXg03A/o.jpg",
+        "description": "Bike tours biketours",
+        "reviewCount": "4",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1983091,
+          33.76600011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "84",
+        "businessID": "cmht7jJn2MotiNc-ExUHow",
+        "businessName": "El dorado East Regional Park",
+        "address": "7550 E. Spring St Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/el-dorado-east-regional-park-long-beach-3?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/snDqVjRY3kJT6wchifskRg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "136",
+        "zipcode": "90815",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.086668,
+          33.811187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "85",
+        "businessID": "xz8U8ywk-BEOgFBMWOeeXA",
+        "businessName": "Long Beach Yacht Club",
+        "address": "6201 E Appian Way Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/long-beach-yacht-club-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/YgOfEFF6IfkA9qnUN3rhKQ/o.jpg",
+        "description": "Boating boating",
+        "reviewCount": "22",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.113874,
+          33.753096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "86",
+        "businessID": "UDfoohSAjBxD-tqnMJcIsw",
+        "businessName": "Joe Rodgers Field",
+        "address": "1040 Park Ave Long Beach CA US 90804",
+        "businessURL": "https://www.yelp.com/biz/joe-rodgers-field-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/ubtjIpZuiKkDbGcyVpQWjg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "1",
+        "zipcode": "90804",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1400304,
+          33.77980404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "87",
+        "businessID": "pJt_U17Cm7HGOylfL7NebQ",
+        "businessName": "Long Beach",
+        "address": "195 Bay Shore Ave Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/long-beach-long-beach-7?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/-u5DtlJEBshN6pHZNxka8g/o.jpg",
+        "description": "Beaches beaches",
+        "reviewCount": "15",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1304855,
+          33.7580871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "88",
+        "businessID": "aJEnHDSUX92i-YgJK5NvQA",
+        "businessName": "DeForest Park",
+        "address": "6255 DeForest Ave Long Beach CA US 90899",
+        "businessURL": "https://www.yelp.com/biz/deforest-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/muG__VksW3wRzf_1M8Dklw/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "10",
+        "zipcode": "90899",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1917902,
+          33.8677548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "89",
+        "businessID": "bRKuQKcKIY3-UTzkeZmmow",
+        "businessName": "Marina Green Park",
+        "address": "384 E Shoreline Dr Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/marina-green-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/jXPBdMUBhalU77uV5GbRaQ/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "2",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1858674,
+          33.76262703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "90",
+        "businessID": "bnUGp93ZfOntX82THAVepA",
+        "businessName": "Recreation Dog Park",
+        "address": "5201 E 7th St Long Beach CA US 90804",
+        "businessURL": "https://www.yelp.com/biz/recreation-dog-park-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/YRwzHatXNzDWA2dLpFDX-g/o.jpg",
+        "description": "Dog Parks dog_parks",
+        "reviewCount": "143",
+        "zipcode": "90804",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1316627,
+          33.7754749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "91",
+        "businessID": "VQ2mP8Sjye3iKDKk0q632w",
+        "businessName": "El Dorado Regional Park West",
+        "address": "2800 Studebaker Rd Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/el-dorado-regional-park-west-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/s0Sr0jVgeRAWx7qnRg_-XA/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "49",
+        "zipcode": "90815",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0989751,
+          33.80683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "92",
+        "businessID": "NpDwOhtpN8zeYuZcUA0Fqg",
+        "businessName": "Sweaty Mommy Meet up",
+        "address": "Beach Access Rd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/sweaty-mommy-meet-up-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/wdOMjFp8G14dCLGVHrJChg/o.jpg",
+        "description": "Barre Classes barreclasses Cardio Classes cardioclasses",
+        "reviewCount": "17",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.182173,
+          33.770936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "93",
+        "businessID": "rUOHXnvFPyaF-CqkK5j70w",
+        "businessName": "Bembridge House",
+        "address": "953 Park Circle Dr Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/bembridge-house-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/6cD48Yfdzos9auZ4Pi9EWA/o.jpg",
+        "description": "Historical Tours historicaltours",
+        "reviewCount": "5",
+        "zipcode": "90813",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2016283,
+          33.77900476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "94",
+        "businessID": "nGmGvkRPq3yHAYhzldd3UA",
+        "businessName": "C David Molina Park",
+        "address": "4951 Oregon Ave Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/c-david-molina-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/0t8D4-cWxYMKM-IADXNSKQ/o.jpg",
+        "description": "Parks parks Playgrounds playgrounds",
+        "reviewCount": "4",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2009853,
+          33.84588129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "95",
+        "businessID": "6CzUKLdmIyFqvcn3NB2jmA",
+        "businessName": "Jenni Rivera Memorial Park",
+        "address": "2001 Walnut Ave Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/jenni-rivera-memorial-park-long-beach?adjust_creative=6R7bY-TEXsuchaHKYsqNdQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=6R7bY-TEXsuchaHKYsqNdQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/uxoEOPBdekIwiJPWlbB0tg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "5",
+        "zipcode": "90806",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1741426,
+          33.79544745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "96",
+        "businessID": "_5-SvLWQ95_pG8l9ag9kgg",
+        "businessName": "Orizaba Park",
+        "address": "1435 Orizaba Ave Long Beach CA US 90804",
+        "businessURL": "https://www.yelp.com/biz/orizaba-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/BSwaZ3V3iEScW4ur5OPwDQ/o.jpg",
+        "description": "Skate Parks skate_parks",
+        "reviewCount": "2",
+        "zipcode": "90804",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1573565,
+          33.78510775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "97",
+        "businessID": "VLRliUqRbW418G0tYpWQcA",
+        "businessName": "Recreation Fitness",
+        "address": "4234 Atlantic Ave Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/recreation-fitness-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/ihArZGXkChEvrxmbU27Brw/o.jpg",
+        "description": "Trainers healthtrainers Boot Camps bootcamps",
+        "reviewCount": "25",
+        "zipcode": "90807",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.184696,
+          33.833357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "98",
+        "businessID": "GDvdc9dTh86rFCpLYE0bxQ",
+        "businessName": "El Dorado Dog Park",
+        "address": "7550 E Spring St Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/el-dorado-dog-park-long-beach-2?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/EFfnibG3qXDqGm292Plq5g/o.jpg",
+        "description": "Dog Parks dog_parks",
+        "reviewCount": "66",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.084829,
+          33.81117598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "99",
+        "businessID": "8K8tesPY-ks16-AaXEwVvQ",
+        "businessName": "Rainbow Harbor and Marina",
+        "address": "200 Aquarium Way Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/rainbow-harbor-and-marina-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/KPPdxr2o5hkh8UXtMDPNQA/o.jpg",
+        "description": "Marinas marinas",
+        "reviewCount": "22",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1951272,
+          33.7629779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "100",
+        "businessID": "5TEUHLZ6FgqBQaJfrtIDEQ",
+        "businessName": "Spirit Cruises",
+        "address": "429 Shoreline Village Dr Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/spirit-cruises-long-beach-3?adjust_creative=B5tPrMxHjgDTb_5zgCrYbQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=B5tPrMxHjgDTb_5zgCrYbQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/spmZ4mv7XDAGwaUYf7ZCRA/o.jpg",
+        "description": "Boating boating Boat Charters boatcharters",
+        "reviewCount": "27",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1918066,
+          33.7600905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "101",
+        "businessID": "xhU0bnqcFhv7qO6z3x9eJQ",
+        "businessName": "Uptown Dog Park",
+        "address": "4600 Long Beach Blvd Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/uptown-dog-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/MXb5wO4QwsyJODtUiFpKTg/o.jpg",
+        "description": "Dog Parks dog_parks",
+        "reviewCount": "79",
+        "zipcode": "90807",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1913584,
+          33.8409983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "102",
+        "businessID": "CNhmtkxvVDFmJ3wfvefboQ",
+        "businessName": "Trolley Park",
+        "address": "Redondo And 1st St Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/trolley-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/SPTymn-ygCeMNtSz8hznSw/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "4",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1521008,
+          33.76322517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "103",
+        "businessID": "JgXJqRFSR7LCYO5T2hmHRg",
+        "businessName": "Heartwell Park",
+        "address": "4055 North Bellflower Blvd Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/heartwell-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/57HrnfMtO8lpZIrs-dfeXQ/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "46",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1252949,
+          33.8317884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "104",
+        "businessID": "hpYGcUfZsbSPuhkJsKqv7A",
+        "businessName": "K-9 Corner",
+        "address": "9th St and Pacific Ave Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/k-9-corner-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/Toq_cvUjG44DU1_gkXQ3Tg/o.jpg",
+        "description": "Dog Parks dog_parks",
+        "reviewCount": "29",
+        "zipcode": "90813",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.193307,
+          33.777948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "105",
+        "businessID": "5ZTELMJlOrfHqLPxM1yrzQ",
+        "businessName": "Anchors Away Boat Rental",
+        "address": "6272 E Pacific Coast Hwy Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/anchors-away-boat-rental-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/oKn07J77icER0prRirYhBg/o.jpg",
+        "description": "Boat Charters boatcharters Boating boating",
+        "reviewCount": "126",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1167027,
+          33.76121941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "106",
+        "businessID": "HGhBeCfTTKgi1jGrUNxJEw",
+        "businessName": "Live In Fit",
+        "address": "2800 N Studebaker Rd Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/live-in-fit-long-beach-2?adjust_creative=6bwIwdKjwaTPKdmAEs-hRg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=6bwIwdKjwaTPKdmAEs-hRg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/5qXeKFO-mwfamOls05QqKg/o.jpg",
+        "description": "Trainers healthtrainers Boot Camps bootcamps",
+        "reviewCount": "14",
+        "zipcode": "90815",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0989751,
+          33.80683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "107",
+        "businessID": "kJzGOe_9W-vtuO87v_rqug",
+        "businessName": "Kayaks On the Water",
+        "address": "5411 E Ocean Blvd Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/kayaks-on-the-water-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/dUkFh_7aMllz9fZbPPldAg/o.jpg",
+        "description": "Rafting/Kayaking rafting Paddleboarding paddleboarding",
+        "reviewCount": "447",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1317978,
+          33.75407791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "108",
+        "businessID": "Zbi1YHv5Daq_-KCFskpywA",
+        "businessName": "Douglas Park",
+        "address": "Lakewood Bl & Carson St Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/douglas-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/OgxSVPJC52TP0qNmAY7f0w/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "2",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.14247,
+          33.83229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "109",
+        "businessID": "ovCC3rdd1LFvZp80s_0jcw",
+        "businessName": "Scherer Park",
+        "address": "4600 Long Beach Blvd Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/scherer-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/-kWHUQxGvObsYaVjtQjWmw/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "18",
+        "zipcode": "90807",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1913584,
+          33.8409985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "110",
+        "businessID": "rmXNfE7sBPwYISAXqOeJGQ",
+        "businessName": "Rainbow Lagoon Park",
+        "address": "Rainbow Lagoon Path Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/rainbow-lagoon-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/qb40uJnRMsW9q5LZ47S5TA/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "4",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.189422,
+          33.76321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "111",
+        "businessID": "NKuiiZyidrOovZJ84eqY0A",
+        "businessName": "Rosie the Riveter Park",
+        "address": "Clark Ave And Conant St Long Beach CA US 90899",
+        "businessURL": "https://www.yelp.com/biz/rosie-the-riveter-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/NgaEanrsGqrwUVM7MSRemQ/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "6",
+        "zipcode": "90899",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1344456,
+          33.82430685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "112",
+        "businessID": "XKZ95I-VmjXZr8XS52tzQw",
+        "businessName": "Island Trader Charters",
+        "address": "429 Shoreline Village Dr Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/island-trader-charters-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/5A7tU7qJxTV5jTVNmO33fg/o.jpg",
+        "description": "Boat Charters boatcharters Tours tours",
+        "reviewCount": "9",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1911217,
+          33.76138999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "113",
+        "businessID": "RmPBJMMJING1d-h2sat45A",
+        "businessName": "The Charter Boat Company",
+        "address": "401 Shoreline Village Dr Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/the-charter-boat-company-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/tqDlN5-8VuwdOWEpyLuPTA/o.jpg",
+        "description": "Boat Charters boatcharters",
+        "reviewCount": "4",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1894815,
+          33.7614918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "114",
+        "businessID": "D_ydZethdDcMpvIS818Lqg",
+        "businessName": "Veterans Memorial Park",
+        "address": "101 E 28th St Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/veterans-memorial-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/u187htabCbq842Sa4eEscg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "7",
+        "zipcode": "90806",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.192477,
+          33.8082674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "115",
+        "businessID": "nLY9NbcpdVcd97Y82IIBGw",
+        "businessName": "Hudson Park",
+        "address": "2335 Webster Ave Long Beach CA US 90810",
+        "businessURL": "https://www.yelp.com/biz/hudson-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/7WZtkVctUXFAkfVm361MEQ/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "1",
+        "zipcode": "90810",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2213878,
+          33.79805067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "116",
+        "businessID": "kSZZgIwZtC8E3Igk8Pd_ww",
+        "businessName": "Long Beach Waterbikes",
+        "address": "110B N Marina Dr Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/long-beach-waterbikes-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/-V53f51soH8JMtN0wk_y6g/o.jpg",
+        "description": "Boating boating Rafting/Kayaking rafting Paddleboarding paddleboarding",
+        "reviewCount": "40",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1147731,
+          33.7464055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "117",
+        "businessID": "8-sy3FYkCoMkIBxX15gnRA",
+        "businessName": "Tanaka Park",
+        "address": "1400 W Wardlow Rd Long Beach CA US 90810",
+        "businessURL": "https://www.yelp.com/biz/tanaka-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/rzH1dSL23VtBtSfny0DBfw/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "1",
+        "zipcode": "90810",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2132547,
+          33.8242109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "118",
+        "businessID": "9DuO_GmL22eDY7U4MQ7Fuw",
+        "businessName": "Somerset Park",
+        "address": "1500 E Carson St Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/somerset-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/_3EPi2TUsue40IpOzRPgVA/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "7",
+        "zipcode": "90807",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1730593,
+          33.83240146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "119",
+        "businessID": "9RJALttbWvIlzAcLdiGx4A",
+        "businessName": "Long Beach Park Jam",
+        "address": "401 Golden Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/long-beach-park-jam-long-beach-2?adjust_creative=6R7bY-TEXsuchaHKYsqNdQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=6R7bY-TEXsuchaHKYsqNdQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/5WIDo-QGKoqsHuRCxJao-Q/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "3",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2019449,
+          33.7718501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "120",
+        "businessID": "jKvWWxRSyD0AHDZ94Q7DsA",
+        "businessName": "Will Rogers Mini Park",
+        "address": "Appian Way & Nieto Long Beach CA US 90814",
+        "businessURL": "https://www.yelp.com/biz/will-rogers-mini-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/5tFrNPze6zYRgYeswIaz6g/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "2",
+        "zipcode": "90814",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.132868,
+          33.76882811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "121",
+        "businessID": "HNZMJ7yF3lhzBlpoolEviw",
+        "businessName": "International Tower",
+        "address": "700 E Ocean Blvd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/international-tower-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/wmUqPtxRH-FIvuyJhmF52A/o.jpg",
+        "description": "Condominiums condominiums Landmarks & Historical Buildings landmarks",
+        "reviewCount": "2",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1843177,
+          33.76560643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "122",
+        "businessID": "gaGFCqCTMeonrPD8woUdPw",
+        "businessName": "Chill Out Sailing",
+        "address": "Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/chill-out-sailing-long-beach?adjust_creative=6bwIwdKjwaTPKdmAEs-hRg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=6bwIwdKjwaTPKdmAEs-hRg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/JHqQQ_exmbOIbQb13COo6Q/o.jpg",
+        "description": "Boat Charters boatcharters Sailing sailing",
+        "reviewCount": "21",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1860275,
+          33.76597977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "123",
+        "businessID": "_HweoJztlko9Cv1U9QRm_w",
+        "businessName": "Michael K. Green Skate Park",
+        "address": "14TH St Between Pacific And Pine Ave Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/michael-k-green-skate-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/Rjd-YJk7mVHF3k-5qvAXGw/o.jpg",
+        "description": "Skate Parks skate_parks",
+        "reviewCount": "3",
+        "zipcode": "90813",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.193058,
+          33.783811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "124",
+        "businessID": "03MpYEwTmClja3Mf30rJMA",
+        "businessName": "Flex Revolution Personalized Fitness Training",
+        "address": "Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/flex-revolution-personalized-fitness-training-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/HNc9nU1y6Uv50VT2TZOdQw/o.jpg",
+        "description": "Trainers healthtrainers",
+        "reviewCount": "7",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1924435,
+          33.77186425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "125",
+        "businessID": "k1iwirmt__3Xj_qCecWTgg",
+        "businessName": "Jackson Park",
+        "address": "1600-1678 E Jackson St Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/jackson-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/pOWuQLBtI_B1lqEk_RLV2g/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "3",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.171761,
+          33.85146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "126",
+        "businessID": "gYTGsWVA6V2ksiXeOzSo_Q",
+        "businessName": "Rainbow Lagoon",
+        "address": "E. Shoreline Dr & The Promenade Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/rainbow-lagoon-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/pBRRCx0wA9M1ZO-IvO3GVA/o.jpg",
+        "description": "Swimming Pools swimmingpools Beaches beaches",
+        "reviewCount": "12",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1965727,
+          33.76523155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "127",
+        "businessID": "xjheOrwlHt4-D7f55UofWA",
+        "businessName": "Bixby Dog Park",
+        "address": "130 Cherry Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/bixby-dog-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/egrh_fvuCkHyk2lgX7QtcA/o.jpg",
+        "description": "Dog Parks dog_parks",
+        "reviewCount": "8",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1677829,
+          33.7669622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "128",
+        "businessID": "pNTKsgskva-LsEFJQfDWcQ",
+        "businessName": "Admiral Kidd Park",
+        "address": "2125 Santa Fe Ave Long Beach CA US 90810",
+        "businessURL": "https://www.yelp.com/biz/admiral-kidd-park-long-beach?adjust_creative=6R7bY-TEXsuchaHKYsqNdQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=6R7bY-TEXsuchaHKYsqNdQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/I1SQBx-DBCAzBbT3MeL64A/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "2",
+        "zipcode": "90810",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2160325,
+          33.79535168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "129",
+        "businessID": "zCB7b2ilNQQTHyttNQzXsA",
+        "businessName": "Ramona Park",
+        "address": "Indiana Ave Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/ramona-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/Anc7LNg68pX8bB7ntP5UDA/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "7",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.154397,
+          33.87307014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "130",
+        "businessID": "0-aLOrQkR6ryXFk1am4Q-A",
+        "businessName": "The Promenade, Long Beach",
+        "address": "210 E 3rd Street / 111 East Ocean Blvd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/the-promenade-long-beach-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/k7zZKeVpGriUAdYqmDWRCg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "12",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1915634,
+          33.7674056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "131",
+        "businessID": "VGP7BF_ZTiTpaEh9TE8zOg",
+        "businessName": "Jackson Dog Park",
+        "address": "Jackson St And Rose Ave Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/jackson-dog-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/hk_wE0dBSaJhTx9WrDhh3w/o.jpg",
+        "description": "Dog Parks dog_parks",
+        "reviewCount": "5",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1704988,
+          33.85175982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "132",
+        "businessID": "ougBmBsSnZ8TwmPSgRY_9A",
+        "businessName": "Coolidge Dog Park",
+        "address": "E Artesia Blvd Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/coolidge-dog-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/jVF_Xs0Eu7DZFIW9BqkqAQ/o.jpg",
+        "description": "Dog Parks dog_parks",
+        "reviewCount": "9",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1949156,
+          33.87378267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "133",
+        "businessID": "it_RHtDUV2eJ18ZNCsBwjA",
+        "businessName": "Long Beach 710 Bike Path",
+        "address": "710 Fwy Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/long-beach-710-bike-path-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "1",
+        "zipcode": "90806",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2070381,
+          33.8226889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "134",
+        "businessID": "yBS4QxDozcgDXs-OifGbPw",
+        "businessName": "Sundiver Charters",
+        "address": "182 N Marina Dr Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/sundiver-charters-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/Nk0ERJLRWpxOV3m3M6lamw/o.jpg",
+        "description": "Boating boating Boat Charters boatcharters Scuba Diving scuba",
+        "reviewCount": "66",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1134865,
+          33.7475162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "135",
+        "businessID": "eyf7dPbX5dV3W_VoZr6u0A",
+        "businessName": "CSULB Pool",
+        "address": "1250 Bellflower Blvd Long Beach CA US 90840",
+        "businessURL": "https://www.yelp.com/biz/csulb-pool-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/2b7bIXINHAliOJeRXimKZA/o.jpg",
+        "description": "Swimming Pools swimmingpools Beaches beaches",
+        "reviewCount": "6",
+        "zipcode": "90840",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1222751,
+          33.782236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "136",
+        "businessID": "JH1aknPuxak6Wr1RLlSOXw",
+        "businessName": "El Dorado Park Disc Golf Course",
+        "address": "2900 N Studebaker Rd Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/el-dorado-park-disc-golf-course-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/Je8_1JEfTkv0uy9EdX3Mng/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "23",
+        "zipcode": "90815",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0984615,
+          33.80963895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "137",
+        "businessID": "aoT4XxBReWZtgDTtflzb-g",
+        "businessName": "Bixby Village Golf Course",
+        "address": "6180 Bixby Village Dr Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/bixby-village-golf-course-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/ZYwPvIzb14V7vS560WOoyg/o.jpg",
+        "description": "Golf golf",
+        "reviewCount": "51",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1143819,
+          33.7695198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "138",
+        "businessID": "ytHijnsvvtzb1fqx05zVUw",
+        "businessName": "Barry Bassin, Certified Personal Trainer",
+        "address": "6337 E Spring St Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/barry-bassin-certified-personal-trainer-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/Hz4pCaJ7NNzQC6yUnoBRKw/o.jpg",
+        "description": "Trainers healthtrainers",
+        "reviewCount": "1",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.154896,
+          33.770658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "139",
+        "businessID": "pVanVodcYb6NCB6iamkgHw",
+        "businessName": "Virginia Country Club",
+        "address": "4602 N Virginia Rd Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/virginia-country-club-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/XKqCUV0xawSsOfomwyj0fw/o.jpg",
+        "description": "Country Clubs countryclubs",
+        "reviewCount": "11",
+        "zipcode": "90807",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1959967,
+          33.83837476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "140",
+        "businessID": "ivIchICaH-Iej2icX0j27g",
+        "businessName": "Wardlow Park",
+        "address": "3457 Stanbridge Ave Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/wardlow-park-long-beach-2?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/Jea5D_BFVrbhfx67G3kUuQ/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "9",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1289607,
+          33.82052569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "141",
+        "businessID": "Nw7rBv4-azndamdKvMub4w",
+        "businessName": "Long Beach POA Park",
+        "address": "Dovey Dr Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/long-beach-poa-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/IrXk2HV3hHtKmzj9QgOmRg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "4",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0900247,
+          33.82711868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "142",
+        "businessID": "lRtaQgBNqmAk7EQKiSh17Q",
+        "businessName": "Bodyflex Personal Training and Nutrition",
+        "address": "3408 E Broadway Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/bodyflex-personal-training-and-nutrition-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/DV0sgQmogag3hX-DywzzpA/o.jpg",
+        "description": "Trainers healthtrainers Nutritionists nutritionists",
+        "reviewCount": "19",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1522191,
+          33.7644264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "143",
+        "businessID": "JjZbeX8i9ViJ-AQVdG1Ocw",
+        "businessName": "Marina Long Beach",
+        "address": "100 Aquarium Way Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/marina-long-beach-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/s0qm7xtZ6uiBQLuJxktyyw/o.jpg",
+        "description": "Beaches beaches",
+        "reviewCount": "1",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1945343,
+          33.7635002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "144",
+        "businessID": "5BugtbabF1S17IasFxkTsA",
+        "businessName": "Seal Beach Yacht Club",
+        "address": "255 N Marina Dr Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/seal-beach-yacht-club-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/17-ULYjn33adsf8aHogsPw/o.jpg",
+        "description": "Boating boating",
+        "reviewCount": "7",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.111766,
+          33.74930397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "145",
+        "businessID": "-3dNCPb5QZ1aMaN_lDAZQQ",
+        "businessName": "Wardlow Park Community Center",
+        "address": "3457-3599 Stanbridge Ave Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/wardlow-park-community-center-long-beach?adjust_creative=KGi4eiEUr-LxOCoOlo_n5A&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KGi4eiEUr-LxOCoOlo_n5A",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/z2JXcJJFP30vQmuJpKFc2Q/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "6",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1284332,
+          33.82024986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "146",
+        "businessID": "TS4ApwnNRVmKPbgOudNxAw",
+        "businessName": "Long Beach Boot Camp",
+        "address": "5255 E Paoli Way Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/long-beach-boot-camp-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/749cDNP3FgAYR_OcD46vOA/o.jpg",
+        "description": "Trainers healthtrainers Nutritionists nutritionists Boot Camps bootcamps",
+        "reviewCount": "30",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1304895,
+          33.7679056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "147",
+        "businessID": "eSwAdjKH5qux2odDQWBBHQ",
+        "businessName": "Wrigley Heights Dog Park",
+        "address": "3400 Golden Ave Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/wrigley-heights-dog-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/RAq84eTLreN0gJxo4XEOSA/o.jpg",
+        "description": "Dog Parks dog_parks",
+        "reviewCount": "50",
+        "zipcode": "90806",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.202513,
+          33.819945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "148",
+        "businessID": "IoDPeSb7Sal2koTMNvA4sA",
+        "businessName": "Camp Fire Long Beach Council",
+        "address": "7070 E Carson St Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/camp-fire-long-beach-council-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/PwyLzYrPjLACQhEzAoEeSw/o.jpg",
+        "description": "Day Camps daycamps Challenge Courses challengecourses Summer Camps summer_camps",
+        "reviewCount": "8",
+        "zipcode": "90808",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0947109,
+          33.83178894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "149",
+        "businessID": "rfqf-yCXicP6kvURzwvkpg",
+        "businessName": "El Dorado Nature Center",
+        "address": "7550 E Spring St Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/el-dorado-nature-center-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/__IwhO-S1QSEDkETgt4F3w/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "242",
+        "zipcode": "90815",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0870427,
+          33.8102211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "150",
+        "businessID": "eqdBPUvANFaDrzQo9whkNQ",
+        "businessName": "Shoreline Park",
+        "address": "Aquarium Way Long Beach CA US 90899",
+        "businessURL": "https://www.yelp.com/biz/shoreline-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/63Q4nhxnG5-OtrxTgTMjVg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "65",
+        "zipcode": "90899",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1951022,
+          33.76019073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "151",
+        "businessID": "Kv-xZTYgy8ItibjR-NhVxQ",
+        "businessName": "Davies Roofing",
+        "address": "180 Santa Ana Ave Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/davies-roofing-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Roofing roofing",
+        "reviewCount": "6",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.131614,
+          33.758136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "152",
+        "businessID": "hLXdEVf3dJYM7mLnfOX_vg",
+        "businessName": "Willow Springs Park",
+        "address": "2745 Orange Ave Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/willow-springs-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/4pGqEeWo1IUidL4H9nTCLw/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "7",
+        "zipcode": "90806",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.176337,
+          33.806984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "153",
+        "businessID": "7W0Xi4GfiIYoFQ81OZR_lA",
+        "businessName": "Livingston Drive Park",
+        "address": "Livingston Dr & 2nd St Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/livingston-drive-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/6E-C9B8JfFtqc9eXsAtmJA/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "31",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1394211,
+          33.76215441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "154",
+        "businessID": "OWPXMkNb_XZi9R2AQ7ZD6w",
+        "businessName": "Whaley Park",
+        "address": "5620 Atherton St Long Beach CA US 90899",
+        "businessURL": "https://www.yelp.com/biz/whaley-park-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/mmCNuiF4r5fUJlw1ZZPOMw/o.jpg",
+        "description": "Parks parks Playgrounds playgrounds",
+        "reviewCount": "12",
+        "zipcode": "90899",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1220664,
+          33.7885751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "155",
+        "businessID": "vWDBBsScY97r06GNbBd33A",
+        "businessName": "Pierpoint Landing",
+        "address": "200 Aquarium Way Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/pierpoint-landing-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/HBvFfVOjmpY_cvUps2wmxQ/o.jpg",
+        "description": "Fishing fishing",
+        "reviewCount": "168",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1950531,
+          33.7630081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "156",
+        "businessID": "BojkWL44qR-Z0TVxg33Opg",
+        "businessName": "Level 9 Personal Training",
+        "address": "E Ocean Blvd Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/level-9-personal-training-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/tt3TvuiMvms0j4ookYdOZw/o.jpg",
+        "description": "Trainers healthtrainers",
+        "reviewCount": "53",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1414795,
+          33.76601952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "157",
+        "businessID": "utKadNBJ3xuSooyazuzveA",
+        "businessName": "Recreation Park",
+        "address": "4900 E 7th St Long Beach CA US 90899",
+        "businessURL": "https://www.yelp.com/biz/recreation-park-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/ZYj2FAUDRlVpGayaHiQPQg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "9",
+        "zipcode": "90899",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1360734,
+          33.7752051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "158",
+        "businessID": "QoWLlCYD87b0AN1hDNCxZw",
+        "businessName": "London Boat Rentals Long Beach",
+        "address": "186 N Marina Dr Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/london-boat-rentals-long-beach-long-beach-2?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/TXbKRAAR5_32lRCf1ZGevg/o.jpg",
+        "description": "Boat Charters boatcharters Boating boating Jet Skis jetskis",
+        "reviewCount": "190",
+        "zipcode": "90803",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.114574,
+          33.74744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "159",
+        "businessID": "OYywmywhuVxHP4e6D7IT4w",
+        "businessName": "Fox Tile Service",
+        "address": "1840 Tulane Ave Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/fox-tile-service-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/lIHVOA0vfzLVQEQJB5dzUg/o.jpg",
+        "description": "Flooring flooring Tiling tiling Countertop Installation countertopinstall",
+        "reviewCount": "10",
+        "zipcode": "90815",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.127469,
+          33.7891401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "160",
+        "businessID": "Vruqj8YnwKQoOM6NsDTzWA",
+        "businessName": "Mother's Beach",
+        "address": "5839 E Appian Way Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/mothers-beach-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/6I_fh-D0yFDdUBJDqLBzTw/o.jpg",
+        "description": "Parks parks Playgrounds playgrounds Beaches beaches",
+        "reviewCount": "182",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.119367,
+          33.757917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "161",
+        "businessID": "IEgn0inc2wfmwqevrSwLQg",
+        "businessName": "Long Beach Beaches",
+        "address": "Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/long-beach-beaches-long-beach?adjust_creative=n0jfwtvONpj6-MP04rm31A&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=n0jfwtvONpj6-MP04rm31A",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/WAdcKk9oSvf_VoC4biivGg/o.jpg",
+        "description": "Beaches beaches",
+        "reviewCount": "47",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.20414,
+          33.75497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "162",
+        "businessID": "4e6MWAHDt32EvgUTsjvxcw",
+        "businessName": "Long Beach Ferris Wheel",
+        "address": "Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/long-beach-ferris-wheel-long-beach?adjust_creative=6R7bY-TEXsuchaHKYsqNdQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=6R7bY-TEXsuchaHKYsqNdQ",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/rijzmNkGxIuG3CX-DSXQXw/o.jpg",
+        "description": "Amusement Parks amusementparks",
+        "reviewCount": "17",
+        "zipcode": "90802",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18603,
+          33.76598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "163",
+        "businessID": "xtSkiLDJ2GdiyVyR4R3ddw",
+        "businessName": "Ernest McBride Park & Cal Rec Community Center",
+        "address": "1550 Martin Luther King Jr Ave Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/ernest-mcbride-park-and-cal-rec-community-center-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/tpLTRWzhy60RBsoKgHz2RA/o.jpg",
+        "description": "Recreation Centers recreation Parks parks",
+        "reviewCount": "3",
+        "zipcode": "90813",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1805177,
+          33.7859088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "164",
+        "businessID": "vJJQPe24_tXTzcT21V9FsQ",
+        "businessName": "Deforest Nature Trail",
+        "address": "5801-5939 De Forest Ave Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/deforest-nature-trail-long-beach?adjust_creative=vrZ-PGPbTomowQNSeEJRpQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=vrZ-PGPbTomowQNSeEJRpQ",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/IX1UPbzZBnuzVHXGHQEPYg/o.jpg",
+        "description": "Parks parks",
+        "reviewCount": "4",
+        "zipcode": "90805",
+        "category": "Outdoors",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1950378,
+          33.86321746
+        ]
+      }
+    }
+  ]
+}

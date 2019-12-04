@@ -1,0 +1,3980 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "1",
+        "businessID": "YcN50oficEcz1y1QWboczQ",
+        "businessName": "The Passport",
+        "address": "157-199 S Pine Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/the-passport-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/CMjtKeXtrZq9kcroWP8KEg/o.jpg",
+        "description": "Public Transportation publictransport",
+        "reviewCount": "1",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1925507,
+          33.7640228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "2",
+        "businessID": "e23jzmZqrEIdGoe-1HbkZA",
+        "businessName": "Long Beach Transit",
+        "address": "1963 E Anaheim St Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/long-beach-transit-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/x9uK_WmmU3YgA6Nr_PW7hQ/o.jpg",
+        "description": "Public Transportation publictransport",
+        "reviewCount": "80",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.16824,
+          33.78352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "3",
+        "businessID": "hVKvLwdp4BZYhvxZl_9VQA",
+        "businessName": "Greyhound Bus Lines",
+        "address": "1498 Long Beach Blvd Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/greyhound-bus-lines-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/8Oq7lavZhcFgvgY9de1sdw/o.jpg",
+        "description": "Transportation transport",
+        "reviewCount": "46",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1889191,
+          33.78558731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "4",
+        "businessID": "mxxhr-u9Ml33fIy5E8rG1A",
+        "businessName": "Long Beach Cruise Center",
+        "address": "1119 Queens Hwy Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/long-beach-cruise-center-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/3DW1kAtwkGrQdtJUC7Zgig/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "20",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.190599,
+          33.751288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "5",
+        "businessID": "0lcliJ7nI_O77n9QWVnJug",
+        "businessName": "Travel Plaza Inn",
+        "address": "1116 S Long Beach Blvd Compton CA US 90221",
+        "businessURL": "https://www.yelp.com/biz/travel-plaza-inn-compton?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/y6QmlB-zFikEuvCwkwIKwA/o.jpg",
+        "description": "Hotels hotels",
+        "reviewCount": "7",
+        "zipcode": "90221",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.205726,
+          33.88557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "6",
+        "businessID": "QOOtJnKHKxevRH7OgZcKAQ",
+        "businessName": "ACE Rent A Car",
+        "address": "4700 Airport Plaza Dr Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/ace-rent-a-car-long-beach-2?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/ySSoVvuFVrE5_g31oAMVqw/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "119",
+        "zipcode": "90815",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.138374,
+          33.811546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "7",
+        "businessID": "8dUkZR6v8RFczSejSHEmgw",
+        "businessName": "LAX Flyaway",
+        "address": "107 E First St Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/lax-flyaway-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/9popX7KRFt6m4aX6Q7e1EA/o.jpg",
+        "description": "Public Transportation publictransport",
+        "reviewCount": "21",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1921808,
+          33.7682055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "8",
+        "businessID": "-1mzDYsO_Nzp2Cln3eHPWA",
+        "businessName": "Diamond Limo Long Beach",
+        "address": "165 Pine Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/diamond-limo-long-beach-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/tJ9HADZKNwQ3vkLoqESryg/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "3",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1925385,
+          33.7690193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "9",
+        "businessID": "tEx4Dr7PgS0DJxKomau8Jw",
+        "businessName": "Hertz Rent A Car",
+        "address": "555 East Ocean Blvd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/hertz-rent-a-car-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/zCRezOts98g6ZeyfT7YVEw/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "109",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18571,
+          33.76688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "10",
+        "businessID": "Dyudvvcx23090FiJaDIRug",
+        "businessName": "Enterprise Rent-A-Car",
+        "address": "4100 E Donald Douglas Dr Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/enterprise-rent-a-car-long-beach-9?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/E6U-kgXrhU7v9BtAEUTtRg/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "118",
+        "zipcode": "90808",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1440222,
+          33.8181929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "11",
+        "businessID": "is5kuRalXh-WmpMnQDfAMg",
+        "businessName": "TSA Checkpoint North - Long Beach Airport",
+        "address": "4100 E Donald Douglas Dr Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/tsa-checkpoint-north-long-beach-airport-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/cojUXOTlPPYEVvOlpKQaOg/o.jpg",
+        "description": "Airport Terminals airportterminals",
+        "reviewCount": "6",
+        "zipcode": "90808",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1446572,
+          33.8181338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "12",
+        "businessID": "xvtersfcND0cSO0iG6_uQg",
+        "businessName": "Incredible Journey Travel",
+        "address": "Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/incredible-journey-travel-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/gcB4QthVRM9NboTCod2cgA/o.jpg",
+        "description": "Travel Services travelservices Resorts resorts Car Rental carrental",
+        "reviewCount": "7",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1229324,
+          33.76337051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "13",
+        "businessID": "Ftp_iF_vEJeKY2sIJ4qpYw",
+        "businessName": "Johnny's California Shuttle Service",
+        "address": "Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/johnnys-california-shuttle-service-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/SXt-FR5N0-c7jCL9kw9h3w/o.jpg",
+        "description": "Airport Shuttles airport_shuttles Taxis taxis",
+        "reviewCount": "256",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1925888,
+          33.79649353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "14",
+        "businessID": "xeWmyJUbaJNFgB1whT1iog",
+        "businessName": "Ocean Limousine Services",
+        "address": "Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/ocean-limousine-services-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/vNIYb8YZEJYESLSwual9BQ/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "2",
+        "zipcode": "90805",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1808167,
+          33.86485291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "15",
+        "businessID": "ZCTt-hB6CusP0A2mWtEdAQ",
+        "businessName": "Richard's Limousine",
+        "address": "None Long Beach CA US 90801",
+        "businessURL": "https://www.yelp.com/biz/richards-limousine-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "1",
+        "zipcode": "90801",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1891785,
+          33.77064133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "16",
+        "businessID": "PQ520OWehiwEcRBld1ymNQ",
+        "businessName": "Exclusively Spain",
+        "address": "Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/exclusively-spain-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "1",
+        "zipcode": "90805",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18409,
+          33.86388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "17",
+        "businessID": "K8gTO7SBGPijcdHrEpMeyw",
+        "businessName": "Eat LBC Launch Party",
+        "address": "285 Bay St Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/eat-lbc-launch-party-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/xvlSzj5M_t3qv71Ib5PxqQ/o.jpg",
+        "description": "Hotels hotels Festivals festivals American (Traditional) tradamerican",
+        "reviewCount": "6",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.194587,
+          33.764987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "18",
+        "businessID": "B-HDMp7__lAGNPjm-oNN5Q",
+        "businessName": "Socal Limos and Buses",
+        "address": "6400 E Pacific Coast Hwy Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/socal-limos-and-buses-long-beach-3?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/AHivezqxiVOu1BhXPeAJNg/o.jpg",
+        "description": "Limos limos Party Bus Rentals partybusrentals Buses buses",
+        "reviewCount": "53",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.110781,
+          33.756434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "19",
+        "businessID": "OvPcfJj-PvE8kSH6SXDqOQ",
+        "businessName": "Obi One Transportation",
+        "address": "None Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/obi-one-transportation-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/Ca55GPU9q5_3Oe7hJCPJyQ/o.jpg",
+        "description": "Airport Shuttles airport_shuttles Limos limos",
+        "reviewCount": "8",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18603,
+          33.76598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "20",
+        "businessID": "jg3sr0XGUnCLxoRHfqHmiw",
+        "businessName": "Malakai Limousine and Sedan Service",
+        "address": "2567 Cota Ave Long Beach CA US 90810",
+        "businessURL": "https://www.yelp.com/biz/malakai-limousine-and-sedan-service-long-beach-10?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/6bFj6TzVFkgsXv5MlKy3QA/o.jpg",
+        "description": "Limos limos Party Bus Rentals partybusrentals",
+        "reviewCount": "29",
+        "zipcode": "90810",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.21682,
+          33.80379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "21",
+        "businessID": "5YMTlU6gbBnrr97MWnun-A",
+        "businessName": "All Inclusive Experts",
+        "address": "Belmont Heights Long Beach CA US 90814",
+        "businessURL": "https://www.yelp.com/biz/all-inclusive-experts-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/8kkUobHZ5UjGUqv1fLvl6Q/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "17",
+        "zipcode": "90814",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1503026,
+          33.765241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "22",
+        "businessID": "7TOYjGv56_f_ApnQR5YCXg",
+        "businessName": "Meteor Shower Cruise",
+        "address": "1046 Queens Hwy Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/meteor-shower-cruise-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Boat Tours boattours",
+        "reviewCount": "1",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1930317,
+          33.753284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "23",
+        "businessID": "uqgUrtRtNzq7Vs878aHugQ",
+        "businessName": "RC Travel & Tours",
+        "address": "1309 W Willow St Long Beach CA US 90810",
+        "businessURL": "https://www.yelp.com/biz/rc-travel-and-tours-long-beach-2?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "3",
+        "zipcode": "90810",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2092757,
+          33.8045249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "24",
+        "businessID": "tdGWXM3zQM8nKB2PZcCNhA",
+        "businessName": "Creditable Express",
+        "address": "6444 E Spring St Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/creditable-express-long-beach-2?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/zBEv8_XnMMGu5ecyoT622w/o.jpg",
+        "description": "Transportation transport",
+        "reviewCount": "4",
+        "zipcode": "90815",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1059625,
+          33.8102728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "25",
+        "businessID": "vxR4xul9djShf6KmY3qx4A",
+        "businessName": "Wardlow Blue Line Station",
+        "address": "3420 N Pacific Pl Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/wardlow-blue-line-station-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/4g3vSKha7atJkvYRnGK_Pw/o.jpg",
+        "description": "Public Transportation publictransport Train Stations trainstations",
+        "reviewCount": "16",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1961234,
+          33.8194744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "26",
+        "businessID": "f9S2V3BJ-aErqCyIHUCCdQ",
+        "businessName": "Beach City Food Tours",
+        "address": "Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/beach-city-food-tours-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/y_-ak9YlLVGYo-74qX1WrA/o.jpg",
+        "description": "Food Tours foodtours Walking Tours walkingtours Team Building Activities teambuilding",
+        "reviewCount": "96",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.205864,
+          33.75939178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "27",
+        "businessID": "CuSBgS5QlhNbJTxQwlXSEQ",
+        "businessName": "Ross Aviation",
+        "address": "3250 Airflite Way Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/ross-aviation-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/duvB6Ar1XFTzjbtnsNxVog/o.jpg",
+        "description": "Airlines airlines",
+        "reviewCount": "1",
+        "zipcode": "90807",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1589651,
+          33.817279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "28",
+        "businessID": "-HdVD15Ifn6fbXxH-JJWBQ",
+        "businessName": "Kerb Local & Long Distance Movers",
+        "address": "None Long Beach CA US 90804",
+        "businessURL": "https://www.yelp.com/biz/kerb-local-and-long-distance-movers-long-beach-4?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/stnQ2loU6t5WoQyETIAiFg/o.jpg",
+        "description": "Vehicle Shipping vehicleshipping Self Storage selfstorage Movers movers",
+        "reviewCount": "19",
+        "zipcode": "90804",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.15551,
+          33.78247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "29",
+        "businessID": "zaItNenkLCBZv6tpNcG4QQ",
+        "businessName": "Sky Creation",
+        "address": "2801 E Spring St Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/sky-creation-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Flight Instruction flightinstruction Airlines airlines",
+        "reviewCount": "1",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1586865,
+          33.8118066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "30",
+        "businessID": "tKEO3V0DDeDVYXMMvzIPHw",
+        "businessName": "The Passport Free Bus Shuttle",
+        "address": "Aquarium Way 100 Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/the-passport-free-bus-shuttle-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/XROC_Fs2O7rvhFrEguaCxg/o.jpg",
+        "description": "Public Transportation publictransport",
+        "reviewCount": "6",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.197,
+          33.7633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "31",
+        "businessID": "ZKPoAZPCmmx_FGLpPHjmMw",
+        "businessName": "The Cove Hotel, an Ascend Hotel Collection Member",
+        "address": "200 E Willow St Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/the-cove-hotel-an-ascend-hotel-collection-member-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/l71rZPjRcpNN-2Kxp_uxqQ/o.jpg",
+        "description": "Hotels hotels",
+        "reviewCount": "100",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.190815,
+          33.803895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "32",
+        "businessID": "mJ-BNXnJSghc-T2jjg95hQ",
+        "businessName": "Downtown Long Beach Station",
+        "address": "128 W 1st St Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/downtown-long-beach-station-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/wWzFR83XEQRg1lrj644I-Q/o.jpg",
+        "description": "Public Transportation publictransport Landmarks & Historical Buildings landmarks Venues & Event Spaces venues",
+        "reviewCount": "21",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1928596,
+          33.7679351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "33",
+        "businessID": "YezKRAs3i7rcU6J6FJn2Xw",
+        "businessName": "Enterprise Rent-A-Car",
+        "address": "3330 Cherry Ave Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/enterprise-rent-a-car-long-beach-11?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/CjMpbpkF_mp_Za_Qg71Qjg/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "97",
+        "zipcode": "90807",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.167218,
+          33.81764962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "34",
+        "businessID": "7QZnIM8wZ5xj450LqRhe4A",
+        "businessName": "Hector5starlimo",
+        "address": "Long Beach CA US 90755",
+        "businessURL": "https://www.yelp.com/biz/hector5starlimo-long-beach-2?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/zAk-50eihpCuIUj0jdE_Nw/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "1",
+        "zipcode": "90755",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1924,
+          33.76673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "35",
+        "businessID": "UeFwVsb-CC_8IyQHBwZyEA",
+        "businessName": "Delta Air Lines",
+        "address": "4100 E Donald Douglas Dr Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/delta-air-lines-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/_MRC4_vx7Cx-Ec_HvBq04w/o.jpg",
+        "description": "Airlines airlines",
+        "reviewCount": "15",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1446572,
+          33.8181338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "36",
+        "businessID": "n30zJnnpEIahHpAoPttbSw",
+        "businessName": "Kar-Ride Services",
+        "address": "None Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/kar-ride-services-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/bnyowiQjs4Uh4yYgZzvfcg/o.jpg",
+        "description": "Taxis taxis",
+        "reviewCount": "2",
+        "zipcode": "90807",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1766294,
+          33.8332465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "37",
+        "businessID": "EiqEDWe3Paj6w-j0DEg5Jg",
+        "businessName": "Long Beach Limousine and Sedan",
+        "address": "425 Linden Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/long-beach-limousine-and-sedan-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "3",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.186745,
+          33.772324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "38",
+        "businessID": "kFVYee1b9T-cE_jCOrN5Xw",
+        "businessName": "Payless Airport Shuttle",
+        "address": "Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/payless-airport-shuttle-long-beach-2?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/B0nvIyJ_KyY0zEJq85_epw/o.jpg",
+        "description": "Airport Shuttles airport_shuttles",
+        "reviewCount": "49",
+        "zipcode": "90808",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1266327,
+          33.82667542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "39",
+        "businessID": "XLYnCO4lHny47nVwhYTuyA",
+        "businessName": "Golden Shore RV Resort",
+        "address": "101 Golden Shore Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/golden-shore-rv-resort-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/hGa1rQVSQ6joTPTYxJcazg/o.jpg",
+        "description": "Campgrounds campgrounds RV Parks rvparks",
+        "reviewCount": "86",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2022522,
+          33.764815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "40",
+        "businessID": "Zu3UsmaM44JiY2M51Y5LCQ",
+        "businessName": "JetBlue",
+        "address": "4100 Donald Douglas Dr Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/jetblue-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/Epv_vDyKcDueURNuey-WBQ/o.jpg",
+        "description": "Airlines airlines",
+        "reviewCount": "540",
+        "zipcode": "90808",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1446572,
+          33.8181338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "41",
+        "businessID": "J-7uvVze9LdcWEQLeN6IIw",
+        "businessName": "Secure Transportation",
+        "address": "434 E Broadway Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/secure-transportation-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/6jZGPLJhs-igijiTq_5nWQ/o.jpg",
+        "description": "Airport Shuttles airport_shuttles Limos limos Medical Transportation medicaltransportation",
+        "reviewCount": "15",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1867659,
+          33.76909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "42",
+        "businessID": "fcmXQCvlIoH9mpoVwiTJgA",
+        "businessName": "World Travel",
+        "address": "1501 Hughes Way Long Beach CA US 90810",
+        "businessURL": "https://www.yelp.com/biz/world-travel-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/G6zeRHiD560wZ-fJDgTJcg/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "32",
+        "zipcode": "90810",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.21302,
+          33.82898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "43",
+        "businessID": "dAkG_gcArdG5z5lEzF56eQ",
+        "businessName": "Covenant Transport",
+        "address": "1450 Dominguez St Long Beach CA US 90810",
+        "businessURL": "https://www.yelp.com/biz/covenant-transport-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "",
+        "reviewCount": "1",
+        "zipcode": "90810",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2092285,
+          33.83857727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "44",
+        "businessID": "K0VBODMNEnFF1Lo_ykpEyw",
+        "businessName": "Super Travel",
+        "address": "2501 E Broadway Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/super-travel-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/h0_s75mbuk2OK5Tsorezfw/o.jpg",
+        "description": "Travel Agents travelagents",
+        "reviewCount": "1",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1626,
+          33.76649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "45",
+        "businessID": "7pQqJvDPjSBoJRo5LgbbZw",
+        "businessName": "AAA - Automobile Club of Southern California",
+        "address": "4800 Airport Plaza Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/aaa-automobile-club-of-southern-california-long-beach-2?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/yqUU3zyiFNDrDFerAylmpQ/o.jpg",
+        "description": "Insurance insurance Travel Services travelservices Registration Services registrationservices",
+        "reviewCount": "175",
+        "zipcode": "90815",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.13779,
+          33.81015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "46",
+        "businessID": "EaevxDKyqrkPTmJMgc7dOA",
+        "businessName": "Pacific Coast Highway Blue Line Station",
+        "address": "1798 Long Beach Blvd Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/pacific-coast-highway-blue-line-station-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/MgGklwqfODlKeuxU_NXdiQ/o.jpg",
+        "description": "Public Transportation publictransport Train Stations trainstations",
+        "reviewCount": "5",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.189196,
+          33.78973961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "47",
+        "businessID": "l-SoGUptKpajVSOEBVgUxA",
+        "businessName": "Wheel Fun Rentals - Shoreline Village",
+        "address": "429 Shoreline Village Dr Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/wheel-fun-rentals-shoreline-village-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/VoZZw4arakojzEzjbSkkzw/o.jpg",
+        "description": "Bike Rentals bikerentals",
+        "reviewCount": "84",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1894213,
+          33.7603059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "48",
+        "businessID": "Tz-yD_RTUFeSgBT-Q68qgA",
+        "businessName": "Long Beach Yellow Cab",
+        "address": "Long Beach CA US 90801",
+        "businessURL": "https://www.yelp.com/biz/long-beach-yellow-cab-long-beach-3?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/iVYwwMXPpjRkSxtkFfNxCw/o.jpg",
+        "description": "Taxis taxis",
+        "reviewCount": "110",
+        "zipcode": "90801",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3166606,
+          33.9023222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "49",
+        "businessID": "2sOtpFXX34whiZymA0IACA",
+        "businessName": "Southwest Airlines",
+        "address": "4100 Donald Douglas Dr Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/southwest-airlines-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/BZ8Ggue2-KKvpdAZoClz3g/o.jpg",
+        "description": "Airlines airlines",
+        "reviewCount": "28",
+        "zipcode": "90808",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1446572,
+          33.8181338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "50",
+        "businessID": "SDaGTOBU0maCRq7ZToPnHg",
+        "businessName": "Lisa Finn - Cruise Planners",
+        "address": "None Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/lisa-finn-cruise-planners-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/SdlWnH5wLUSM-3ayqmaHlA/o.jpg",
+        "description": "Travel Agents travelagents",
+        "reviewCount": "5",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18607,
+          33.76962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "51",
+        "businessID": "_7xRcO2lAabpbYrgmpJpQg",
+        "businessName": "Signature Flight Support",
+        "address": "3333 E Spring St Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/signature-flight-support-long-beach-2?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/20jwTHKSMxeiA_F01ZDyeg/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "3",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1534729,
+          33.8107338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "52",
+        "businessID": "ba2YizeYwy4HQN3swsTP-g",
+        "businessName": "Catalina Express",
+        "address": "320 Golden Shore Long Beach CA US 90899",
+        "businessURL": "https://www.yelp.com/biz/catalina-express-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/V80Q3XMdebPazAK5uEs1-g/o.jpg",
+        "description": "Tours tours Ferries ferries",
+        "reviewCount": "618",
+        "zipcode": "90899",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1988768,
+          33.7638027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "53",
+        "businessID": "54arvc4NMNNpowpMDU5IzA",
+        "businessName": "Lifestyle Limousine Long Beach",
+        "address": "542 Daisy Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/lifestyle-limousine-long-beach-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "1",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.199013,
+          33.773777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "54",
+        "businessID": "wSRPjHi00YThB_RgVDKqgw",
+        "businessName": "Idyllwild Travel Company",
+        "address": "732 Temple Ave Long Beach CA US 90804",
+        "businessURL": "https://www.yelp.com/biz/idyllwild-travel-company-long-beach-2?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/ABpK70JUqnl-xb5lgE55IA/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "2",
+        "zipcode": "90804",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1585999,
+          33.7760506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "55",
+        "businessID": "9K0NPKqoPBrNzrQqrW9D7w",
+        "businessName": "Bob's Towing",
+        "address": "3636 E Anaheim St Long Beach CA US 90804",
+        "businessURL": "https://www.yelp.com/biz/bobs-towing-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/x8w6zyEd20qyGWJ-cRLW0A/o.jpg",
+        "description": "Towing towing",
+        "reviewCount": "67",
+        "zipcode": "90804",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1496108,
+          33.7822007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "56",
+        "businessID": "AsgMKRJ7hu9ercdPDcpJzQ",
+        "businessName": "Searle Motel",
+        "address": "6124 Long Beach Blvd Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/searle-motel-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/B39f4A9w5V3GmK2F_YUY1w/o.jpg",
+        "description": "Hotels hotels",
+        "reviewCount": "16",
+        "zipcode": "90805",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2001269,
+          33.8661211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "57",
+        "businessID": "RAZ6hxf2ty2qvy066QdSfQ",
+        "businessName": "Anytime Limousine Service",
+        "address": "Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/anytime-limousine-service-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/80KsBYfgSGsBV0SWC4S-Tw/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "3",
+        "zipcode": "90805",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1937395,
+          33.7700504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "58",
+        "businessID": "hp5LDbDbNddRo2t-5RH0Tw",
+        "businessName": "Alamo Rent A Car",
+        "address": "4100 E Donald Douglas Dr Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/alamo-rent-a-car-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/4XcoPsd8na-rUcuddZ5WjQ/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "72",
+        "zipcode": "90808",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1440257,
+          33.8182796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "59",
+        "businessID": "8E5gEzJxySd0ybX0-TlSfA",
+        "businessName": "Alexis Limousine & Sedan Service",
+        "address": "2235 Lemon Ave Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/alexis-limousine-and-sedan-service-long-beach-3?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/XweGwOgHIP3RbAniVLpWgQ/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "2",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1788635,
+          33.79780579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "60",
+        "businessID": "LZDpt5JKO9Y6H3AJ1IUxig",
+        "businessName": "Pallares Cop Travel",
+        "address": "2418 E Anaheim St Long Beach CA US 90804",
+        "businessURL": "https://www.yelp.com/biz/pallares-cop-travel-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "1",
+        "zipcode": "90804",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.162867,
+          33.7824751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "61",
+        "businessID": "eJsinV1gZaUgNOcz9DC_ag",
+        "businessName": "1 Ravashing Limo Service",
+        "address": "Long Beach CA US 90809",
+        "businessURL": "https://www.yelp.com/biz/1-ravashing-limo-service-long-beach-3?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Limos limos Airport Shuttles airport_shuttles",
+        "reviewCount": "20",
+        "zipcode": "90809",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1512985,
+          33.79906464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "62",
+        "businessID": "nuFRzGDn1E3ftUNRhmYf4w",
+        "businessName": "American Transportation",
+        "address": "3133 E South St Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/american-transportation-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/K6-HS2ACIozsoG6eMRKj9g/o.jpg",
+        "description": "Buses buses Party Bus Rentals partybusrentals Bus Rental busrental",
+        "reviewCount": "61",
+        "zipcode": "90805",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1547129,
+          33.8603349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "63",
+        "businessID": "N6JLPhihIQiw3Cz_UQGz8w",
+        "businessName": "Long Beach Pedaler Society",
+        "address": "110 West Ocean Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/long-beach-pedaler-society-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/JGSeHUfnUZ39-liGhk6WbA/o.jpg",
+        "description": "Taxis taxis",
+        "reviewCount": "1",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1926346,
+          33.76641846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "64",
+        "businessID": "QIfRqV_quyzlLbnuC6PeQA",
+        "businessName": "Long Beach Flying Club & Flight Academy",
+        "address": "2631 E Spring St Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/long-beach-flying-club-and-flight-academy-long-beach-2?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/IzG1l5owfsRoAHOhYuwhUg/o.jpg",
+        "description": "Flight Instruction flightinstruction Tours tours",
+        "reviewCount": "12",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1605386,
+          33.8118449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "65",
+        "businessID": "7QCcE8XPb3k9ZA5jamMV4w",
+        "businessName": "2 Wheels Deluxe",
+        "address": "233 La Verne Ave Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/2-wheels-deluxe-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/wd_Kr0MyoorxyKc2dCEVkA/o.jpg",
+        "description": "Motorcycle Rental motorcycle_rental Scooter Tours scootertours Scooter Rentals scooterrentals",
+        "reviewCount": "2",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.13246,
+          33.76118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "66",
+        "businessID": "XvSDLaRmGrx0A5yE3BWRyA",
+        "businessName": "C & C Limo Service",
+        "address": "Long Beach CA US 90814",
+        "businessURL": "https://www.yelp.com/biz/c-and-c-limo-service-long-beach-3?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/tUWPh5Is7Sbo-YnOyCK61A/o.jpg",
+        "description": "Limos limos Airport Shuttles airport_shuttles",
+        "reviewCount": "14",
+        "zipcode": "90814",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1440582,
+          33.77170181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "67",
+        "businessID": "x-sO5NehYohVKIa_aTEyyQ",
+        "businessName": "Long Beach Boulevard/I-105 Green Line Station",
+        "address": "11508 Long Beach Blvd Lynwood CA US 90262",
+        "businessURL": "https://www.yelp.com/biz/long-beach-boulevard-i-105-green-line-station-lynwood?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/IIKkc5VUpKZ8TNzsCezxZg/o.jpg",
+        "description": "Public Transportation publictransport",
+        "reviewCount": "7",
+        "zipcode": "90262",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2096461,
+          33.92297682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "68",
+        "businessID": "DW9A2jAHYhEBqyzhCqPhaA",
+        "businessName": "National Car Rental",
+        "address": "4100 E Donald Douglas Dr Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/national-car-rental-long-beach-2?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/FLvgWeBpfExDSj5x1Qpy9A/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "41",
+        "zipcode": "90808",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.143953,
+          33.818269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "69",
+        "businessID": "zklXHIJdElkyUShI2En3zw",
+        "businessName": "Travel Savi",
+        "address": "3707 E Livingston Dr Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/travel-savi-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/vofgKEK3vWN4Ft2B9lyfsQ/o.jpg",
+        "description": "Travel Agents travelagents Vacation Rental Agents vacationrentalagents",
+        "reviewCount": "3",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.14865,
+          33.76104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "70",
+        "businessID": "r2vKe1RQs3x9o4PeX0EelA",
+        "businessName": "Cranky Concierge",
+        "address": "Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/cranky-concierge-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/VzPd52WxPne6Dr4XmrlWIg/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "15",
+        "zipcode": "90807",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1781845,
+          33.82883453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "71",
+        "businessID": "PKIBosuS8DWiJHAYElEHDA",
+        "businessName": "Mb Executive Transportation",
+        "address": "404 E 1st St Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/mb-executive-transportation-long-beach-3?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/NYSVxH_IvYniP9VD1Q6FJQ/o.jpg",
+        "description": "Airport Shuttles airport_shuttles Limos limos",
+        "reviewCount": "55",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1874225,
+          33.7679751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "72",
+        "businessID": "pi49cO6VZFyj6Q_u9nnZQA",
+        "businessName": "Golden Carriage Transportation",
+        "address": "Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/golden-carriage-transportation-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "1",
+        "zipcode": "90807",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1753387,
+          33.83072281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "73",
+        "businessID": "NzppLptnioEPrje6pq8mHA",
+        "businessName": "Allied Rent A Car",
+        "address": "4700 Airport Plaza Dr Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/allied-rent-a-car-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/aDlhmQK2OFP3CenDLhzpVQ/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "52",
+        "zipcode": "90815",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.13832,
+          33.81158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "74",
+        "businessID": "qdEs-5gevrKIUsQeeXhmsg",
+        "businessName": "Gretchen's Automotive",
+        "address": "1965 Palo Verde Ave Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/gretchens-automotive-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/tHCj3KiXm7ScJKKkDFTKpg/o.jpg",
+        "description": "Auto Repair autorepair Oil Change Stations oilchange Towing towing",
+        "reviewCount": "77",
+        "zipcode": "90815",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.10835,
+          33.79199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "75",
+        "businessID": "EzCN27qJKFj6HtTvGPGg7A",
+        "businessName": "Distant Horizons",
+        "address": "350 Elm Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/distant-horizons-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/9VPCWB3N5v42wvaXuyoCWw/o.jpg",
+        "description": "Tours tours",
+        "reviewCount": "11",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18742,
+          33.77145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "76",
+        "businessID": "L8Y1RbbYKV82hkqWYyNszw",
+        "businessName": "First Ticket Travel",
+        "address": "25 Vista Del Golfo Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/first-ticket-travel-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/cwrmnsJlLiwf4QCU1dXLvA/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "1",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.11991,
+          33.75142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "77",
+        "businessID": "YyRfqvYoatvhrgvd-BARHw",
+        "businessName": "Hertz Rent A Car",
+        "address": "4100 Donald Douglas Dr Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/hertz-rent-a-car-long-beach-3?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/tRDYGGxHxnBSEgeEai5khw/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "120",
+        "zipcode": "90808",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.144053,
+          33.818311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "78",
+        "businessID": "TkIAS1hkp8XAYO3VXer2hw",
+        "businessName": "Party Bus Group",
+        "address": "5924 Bixby Village Dr Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/party-bus-group-long-beach-5?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/_MLuvj1ttPdh_koDZiKKiw/o.jpg",
+        "description": "Party Bus Rentals partybusrentals",
+        "reviewCount": "131",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1157245,
+          33.77269595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "79",
+        "businessID": "a0cbf2xEJjIZv4kXuNmhWQ",
+        "businessName": "Pacific Avenue Blue Line Station",
+        "address": "498 Pacific Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/pacific-avenue-blue-line-station-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/BbUFlhfX2Wmq5F6tb6IvmQ/o.jpg",
+        "description": "Public Transportation publictransport Public Services & Government publicservicesgovt Train Stations trainstations",
+        "reviewCount": "3",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1893786,
+          33.77356297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "80",
+        "businessID": "jCMnZkOLEjiOYlHPXuBvRA",
+        "businessName": "Costa Azul travel",
+        "address": "615 E Broadway St Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/costa-azul-travel-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/zfHVWGAjlSkrgfYHn6CL5A/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "6",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1844424,
+          33.76931894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "81",
+        "businessID": "ePez6LDH9BYkCfx1rZpbWA",
+        "businessName": "Willow Blue Line Station",
+        "address": "Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/willow-blue-line-station-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/nYt11gzCZSEo6WMH1HVOug/o.jpg",
+        "description": "Train Stations trainstations Metro Stations metrostations",
+        "reviewCount": "32",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.190015,
+          33.8070238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "82",
+        "businessID": "Ciy5NqTrULnl82suVBRQPQ",
+        "businessName": "Finish Line Towing And Transporter",
+        "address": "1320 W Esther St Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/finish-line-towing-and-transporter-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/Q05CGXgdMoeksxpZBCGHxQ/o.jpg",
+        "description": "Towing towing",
+        "reviewCount": "85",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.20934,
+          33.78874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "83",
+        "businessID": "zefmRfAV5krt7mEoZoePig",
+        "businessName": "Botello Services",
+        "address": "615 E Broadway Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/botello-services-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/z-Obw50FRAZWDkiYT7-5qw/o.jpg",
+        "description": "Travel Services travelservices Tax Services taxservices Auto Insurance autoinsurance",
+        "reviewCount": "2",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.184521,
+          33.769299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "84",
+        "businessID": "_GpPac6U3rRkwtShJ_Cbaw",
+        "businessName": "Pacific Travel",
+        "address": "951 Pacific Ave Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/pacific-travel-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/KRv6ZRZH9rrgUsMUwxakWw/o.jpg",
+        "description": "Tax Services taxservices Insurance insurance Travel Services travelservices",
+        "reviewCount": "3",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.193918,
+          33.778781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "85",
+        "businessID": "UAiQnKwHfNRPlArvd5vC5Q",
+        "businessName": "Sav-On Shuttle",
+        "address": "2892 N Bellflower Blvd Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/sav-on-shuttle-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/FymKqkCxOKgoCZ14aBebXQ/o.jpg",
+        "description": "Airport Shuttles airport_shuttles",
+        "reviewCount": "226",
+        "zipcode": "90815",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1414795,
+          33.81566631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "86",
+        "businessID": "z_WIw93ZZYzDrdf5P4Cf0A",
+        "businessName": "Big Red Bus",
+        "address": "Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/big-red-bus-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/77k_KKzHE6euIZLjzfaHdw/o.jpg",
+        "description": "Tours tours Party & Event Planning eventplanning Party Bus Rentals partybusrentals",
+        "reviewCount": "297",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.11027,
+          33.756255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "87",
+        "businessID": "sLmn0IPJjwrYen_mnorFGA",
+        "businessName": "Impeccable Town Car and Limousine Service",
+        "address": "Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/impeccable-town-car-and-limousine-service-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "1",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2088165,
+          33.75532532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "88",
+        "businessID": "yR44N1MMtAWiMPVellq0vw",
+        "businessName": "5th Street Blue Line Station",
+        "address": "598 Long Beach Blvd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/5th-street-blue-line-station-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/hyDfyvn_2gYbLLom3kr94A/o.jpg",
+        "description": "Public Transportation publictransport Train Stations trainstations",
+        "reviewCount": "7",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1893786,
+          33.77356297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "89",
+        "businessID": "oCO2jOPwRwD-MvAtUdIAfg",
+        "businessName": "Carnival Imagination Cruise Ship",
+        "address": "231 Windsor Way Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/carnival-imagination-cruise-ship-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/VAL8NsRYyw9bK4MUqGIZKA/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "212",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1888104,
+          33.751327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "90",
+        "businessID": "tOwlloPHb8G-CV80HNRjWA",
+        "businessName": "Renaissance Long Beach Hotel",
+        "address": "111 E Ocean Blvd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/renaissance-long-beach-hotel-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/58s6CO6kOfHCp43yWty7mA/o.jpg",
+        "description": "Hotels hotels Venues & Event Spaces venues",
+        "reviewCount": "281",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1919895,
+          33.76729716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "91",
+        "businessID": "Wh9pI6whJR61JojkQVSvgQ",
+        "businessName": "Your Vacation Home",
+        "address": "Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/your-vacation-home-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/7dYNHAZ-aL66QPoohhgbhw/o.jpg",
+        "description": "Travel Agents travelagents",
+        "reviewCount": "1",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1301667,
+          33.75226782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "92",
+        "businessID": "dt_o8aEtjEQY_VKkA1mK3w",
+        "businessName": "Carnival Inspiration Cruise Ship",
+        "address": "231 Windsor Way Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/carnival-inspiration-cruise-ship-long-beach-2?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/YjJYZ7KExpi8odjTBRZbaQ/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "98",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1895444,
+          33.74990597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "93",
+        "businessID": "JtxoFHNLSG8LT0fbcfi41A",
+        "businessName": "AVR Long Beach",
+        "address": "2640 N Lakewood Blvd Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/avr-long-beach-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/IYqcV0O7bcQI1KmVeS_BnQ/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "26",
+        "zipcode": "90815",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.14157,
+          33.80425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "94",
+        "businessID": "JfzJhCJjTaxLmdPTu4lhPg",
+        "businessName": "AGP Towing",
+        "address": "1750 Daisy Ave Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/agp-towing-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/wj-DBW93F8H0rVUWnMUsgQ/o.jpg",
+        "description": "Towing towing",
+        "reviewCount": "34",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.19892,
+          33.78914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "95",
+        "businessID": "feknL3gW7B9tf9EILvAhog",
+        "businessName": "Bon Voyage Transportation",
+        "address": "4509 E Rosada St Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/bon-voyage-transportation-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/LWUOcBb6VPB9tTs41upfGw/o.jpg",
+        "description": "Airport Shuttles airport_shuttles",
+        "reviewCount": "7",
+        "zipcode": "90815",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.14021,
+          33.79264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "96",
+        "businessID": "o-2OUf847yTfN5ifqM_kqA",
+        "businessName": "Catalina Classic Cruises",
+        "address": "1046 Queens Hwy Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/catalina-classic-cruises-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/s2Ne5GH8T3F8WZRweczh4Q/o.jpg",
+        "description": "Tours tours Transportation transport Boat Charters boatcharters",
+        "reviewCount": "18",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1946851,
+          33.7529701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "97",
+        "businessID": "YIZH6wvfdj-wtb79OydQYg",
+        "businessName": "Silverado Charters & Tours",
+        "address": "Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/silverado-charters-and-tours-long-beach-2?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/cFrc25LVtt3qN0biv9BNkg/o.jpg",
+        "description": "Tours tours Airport Shuttles airport_shuttles",
+        "reviewCount": "4",
+        "zipcode": "90805",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1916,
+          33.85415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "98",
+        "businessID": "cM96eEcRopMcluGZaipFQg",
+        "businessName": "Mission School Transportation",
+        "address": "2450 Long Beach Blvd Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/mission-school-transportation-long-beach-2?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Transportation transport",
+        "reviewCount": "1",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1889496,
+          33.80200958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "99",
+        "businessID": "hJJ3Ordi1b5AD2e93RjujA",
+        "businessName": "Avis - Long Beach",
+        "address": "2165 Long Beach Blvd Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/avis-long-beach-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/2YRJ_988dn63jDaVq5CONA/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "32",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1895306,
+          33.79645251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "100",
+        "businessID": "CPfrTqJMsvcSE6vGb1XywA",
+        "businessName": "Dial-A-Lift",
+        "address": "1963 E Anaheim St Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/dial-a-lift-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/r0AfNdmuP0irKLx9gMW_gg/o.jpg",
+        "description": "Public Transportation publictransport",
+        "reviewCount": "3",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.16824,
+          33.78352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "101",
+        "businessID": "g5LwhPlWcnWL3-R_3CnyKA",
+        "businessName": "Cargomatic",
+        "address": "211 E Ocean Blvd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/cargomatic-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/v9YWrU-yFv3oWzAh24UejQ/o.jpg",
+        "description": "Couriers & Delivery Services couriers",
+        "reviewCount": "8",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1907282,
+          33.7675882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "102",
+        "businessID": "I5d5Xghhv1glBtFHV0_dvA",
+        "businessName": "Long Beach Airport - LGB",
+        "address": "4100 Donald Douglas Dr Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/long-beach-airport-lgb-long-beach-2?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/dE6t71Q_jnL98phhkBcJOw/o.jpg",
+        "description": "Airports airports",
+        "reviewCount": "1831",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.14466,
+          33.818212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "103",
+        "businessID": "2EszJUlgU1v2FW1be1XS7Q",
+        "businessName": "Long Beach Trolley",
+        "address": "Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/long-beach-trolley-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/TT_c-Qd4Cy_72-u277NP3w/o.jpg",
+        "description": "Historical Tours historicaltours",
+        "reviewCount": "7",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.128438,
+          33.760989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "104",
+        "businessID": "siK9X3Y0zCIqBkrLWebnoA",
+        "businessName": "Broadlind Hotel",
+        "address": "149 Linden Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/broadlind-hotel-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/_Q-EGPyHW5o1DOlJ7fg5_A/o.jpg",
+        "description": "Hotels hotels",
+        "reviewCount": "36",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18659,
+          33.76907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "105",
+        "businessID": "ekAGtYHHBLGmuS1surnrgg",
+        "businessName": "Enterprise Rent-A-Car",
+        "address": "111 W Ocean Blvd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/enterprise-rent-a-car-long-beach-13?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/MTvj1KpTgkd3tf86-cA5kw/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "151",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1932406,
+          33.76743854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "106",
+        "businessID": "Bxe97tZLU1fMu8lAyOM_xA",
+        "businessName": "MHL Logistics",
+        "address": "2760 E Spring St Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/mhl-logistics-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "",
+        "reviewCount": "1",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.15916,
+          33.81129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "107",
+        "businessID": "kvmelbG-vS_G8OlPFJIAwQ",
+        "businessName": "Budget Car Rentals",
+        "address": "333 E Ocean Blvd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/budget-car-rentals-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/SwOuKts4qyxRlJ9GyJZB6A/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "29",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18824,
+          33.76745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "108",
+        "businessID": "vYAm4RFLr2xZ9CKFjQyGHg",
+        "businessName": "SuperShuttle",
+        "address": "330 Golden Shore Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/supershuttle-long-beach-3?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/J8ve4rJ1llhUXfyhe_anJA/o.jpg",
+        "description": "Transportation transport",
+        "reviewCount": "3",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1998622,
+          33.76372333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "109",
+        "businessID": "GhmNA1z-g3WSHwesmW-Hbw",
+        "businessName": "Avis",
+        "address": "4100 E Donald Douglas Dr Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/avis-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/HYER0r9nPSo4RzbsuaMeDg/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "63",
+        "zipcode": "90808",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1446572,
+          33.8181338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "110",
+        "businessID": "M_n7cI04iHK6cHjb2aJY0g",
+        "businessName": "Hyatt Centric The Pike Long Beach",
+        "address": "285 Bay St Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/hyatt-centric-the-pike-long-beach-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/8d9KKr_DfMzROgi9_u4YBA/o.jpg",
+        "description": "Hotels hotels",
+        "reviewCount": "265",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.19458,
+          33.76498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "111",
+        "businessID": "_DoNAqf6UqGFuG19XKD4Pg",
+        "businessName": "Travelodge by Wyndham Lynwood",
+        "address": "11401 Long Beach Boulevard Lynwood CA US 90262",
+        "businessURL": "https://www.yelp.com/biz/travelodge-by-wyndham-lynwood-lynwood?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/yvM58Xhr8vDUemBBGrFRvg/o.jpg",
+        "description": "Hotels hotels",
+        "reviewCount": "14",
+        "zipcode": "90262",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.21116,
+          33.92692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "112",
+        "businessID": "uW_PjFeNExjaZvo_JVL8Ew",
+        "businessName": "So-Cal Shuttles",
+        "address": "Long Beach CA US 90815",
+        "businessURL": "https://www.yelp.com/biz/so-cal-shuttles-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/-ersJtMLiRxUmCw44GST5w/o.jpg",
+        "description": "Tours tours Airport Shuttles airport_shuttles",
+        "reviewCount": "19",
+        "zipcode": "90815",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.13151,
+          33.7896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "113",
+        "businessID": "5Y8vFOs6G1qDhQ9J-q_uFg",
+        "businessName": "1st Street Blue Line Station",
+        "address": "108 Long Beach Blvd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/1st-street-blue-line-station-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/nJW-7fJHn-iCsmc50yAvRA/o.jpg",
+        "description": "Train Stations trainstations",
+        "reviewCount": "9",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1892967,
+          33.768551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "114",
+        "businessID": "RrXdWOApHzGZgp-elr54tw",
+        "businessName": "Rodeway Inn & Suites",
+        "address": "10112 Long Beach Blvd Lynwood CA US 90262",
+        "businessURL": "https://www.yelp.com/biz/rodeway-inn-and-suites-lynwood?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/9cMbGpC_ORFin_f-tkbFIw/o.jpg",
+        "description": "Hotels hotels",
+        "reviewCount": "11",
+        "zipcode": "90262",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.215126,
+          33.94338989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "115",
+        "businessID": "u00mIFGCPrOWkS9kM9DKMQ",
+        "businessName": "Long Beach Shuttle",
+        "address": "6821 Myrtle Ave Long Beach CA US 90805",
+        "businessURL": "https://www.yelp.com/biz/long-beach-shuttle-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/s9RmEdWcqF5y1zCRAt2YBg/o.jpg",
+        "description": "Airport Shuttles airport_shuttles",
+        "reviewCount": "15",
+        "zipcode": "90805",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.181997,
+          33.878728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "116",
+        "businessID": "zqIoGuDeHkFH9m69qtWsyg",
+        "businessName": "DN Transportation",
+        "address": "Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/dn-transportation-long-beach-3?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/q_XDeo6s6Pry76VjoOxzOg/o.jpg",
+        "description": "Town Car Service towncarservice",
+        "reviewCount": "1",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.19146,
+          33.79628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "117",
+        "businessID": "Np5Z5KdAmAgOrHGBdzDe3Q",
+        "businessName": "Travelodge by Wyndham Long Beach Convention Center",
+        "address": "80 Atlantic Avenue Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/travelodge-by-wyndham-long-beach-convention-center-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/2n9sHwdHI1xbPTnAWWjIQA/o.jpg",
+        "description": "Hotels hotels",
+        "reviewCount": "82",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18461,
+          33.767701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "118",
+        "businessID": "8uP9wd1mfsFucXAUj4S68g",
+        "businessName": "Flynn Group",
+        "address": "5354 E 2nd St Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/flynn-group-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/CCthe9GB0ClvoQoe_L7paQ/o.jpg",
+        "description": "",
+        "reviewCount": "5",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.13132,
+          33.75844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "119",
+        "businessID": "KDlmxlErv_6jRNAFnI46rg",
+        "businessName": "Long Beach Water Taxis",
+        "address": "143 N Marina Dr Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/long-beach-water-taxis-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/pXxRpBGfEkUU_Wq4FQ0s7g/o.jpg",
+        "description": "Public Transportation publictransport",
+        "reviewCount": "11",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1139819,
+          33.74764742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "120",
+        "businessID": "-ho0lDZfeMWtyjuCVjIG3w",
+        "businessName": "Carnival Cruise Lines",
+        "address": "231 Windsor Way Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/carnival-cruise-lines-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/ced7aCOS1tMhrV8Z3UOVgg/o.jpg",
+        "description": "Travel Services travelservices Boat Charters boatcharters",
+        "reviewCount": "1191",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1889517,
+          33.75073333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "121",
+        "businessID": "XQd4oPrd-HWe-a97My-xaA",
+        "businessName": "Limo Service Long Beach CA",
+        "address": "6475 E Pacific Coast Hwy Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/limo-service-long-beach-ca-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/rNKmzAUq9V3hb53kgaqURQ/o.jpg",
+        "description": "Limos limos Party Bus Rentals partybusrentals",
+        "reviewCount": "1",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1088851,
+          33.7558126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "122",
+        "businessID": "vhvixnZBIhC0uGsCiBGFDw",
+        "businessName": "American Shuttle",
+        "address": "4100 E Donals Douglas Dr Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/american-shuttle-long-beach-2?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/ICdFSAPoUBYZ_WN6SgCJiA/o.jpg",
+        "description": "Airport Shuttles airport_shuttles",
+        "reviewCount": "16",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1446572,
+          33.8181338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "123",
+        "businessID": "9vJsWxw2gapmAGluNvQ-2Q",
+        "businessName": "A&H Vip Shuttle",
+        "address": "Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/a-and-h-vip-shuttle-long-beach-9?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/GJF0OPNBdP8Itb-Vvt7e6Q/o.jpg",
+        "description": "Limos limos Party Bus Rentals partybusrentals Airport Shuttles airport_shuttles",
+        "reviewCount": "7",
+        "zipcode": "90808",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1266327,
+          33.82667542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "124",
+        "businessID": "yLP6ovHmkdarwwdA4HpzPQ",
+        "businessName": "Asian Pacific Travel",
+        "address": "1073 E Anahiem St Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/asian-pacific-travel-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "10",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1791611,
+          33.78287506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "125",
+        "businessID": "vIkAtb8iEr9oorptgqKLMQ",
+        "businessName": "A & A Towing",
+        "address": "3204 Cherry Ave Long Beach CA US 90807",
+        "businessURL": "https://www.yelp.com/biz/a-and-a-towing-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/goV1kaVEL9JQaNha-Ncwfw/o.jpg",
+        "description": "Towing towing Roadside Assistance roadsideassist",
+        "reviewCount": "114",
+        "zipcode": "90807",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1669,
+          33.815422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "126",
+        "businessID": "aCDDWNGJgeQ3eemOCWurXQ",
+        "businessName": "Elite Transportation Service",
+        "address": "Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/elite-transportation-service-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/Drg6wYZslVU3k-AkfHboQQ/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "7",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1235886,
+          33.76276779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "127",
+        "businessID": "udwb0quwwsvxWrdM0sUXwA",
+        "businessName": "The Varden Hotel",
+        "address": "335 Pacific Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/the-varden-hotel-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/bHNc_6M5AiDBD6xQ9HvGPA/o.jpg",
+        "description": "Hotels hotels",
+        "reviewCount": "151",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1941299,
+          33.77122116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "128",
+        "businessID": "s8sEEpnPbHbCs2GWdnTS6Q",
+        "businessName": "Long Beach Transit Center",
+        "address": "130 E 1st St Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/long-beach-transit-center-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/KZHlmZ719dxWzHHjqNJjDw/o.jpg",
+        "description": "Buses buses",
+        "reviewCount": "4",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1906674,
+          33.76797871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "129",
+        "businessID": "es64czjue1r5rB63HZLYMw",
+        "businessName": "Ayos Limo Service",
+        "address": "730 Pine Ave Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/ayos-limo-service-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/mVhUfeKvhA34LmVfMNwv0A/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "2",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.192001,
+          33.77602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "130",
+        "businessID": "HriHc9Eji4O2tnQw9ibbQQ",
+        "businessName": "Disneyland Express Shuttle",
+        "address": "1957 W Columbia St Long Beach CA US 90810",
+        "businessURL": "https://www.yelp.com/biz/disneyland-express-shuttle-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/olfow6FooLxvpfXv9bAK7g/o.jpg",
+        "description": "Airport Shuttles airport_shuttles",
+        "reviewCount": "31",
+        "zipcode": "90810",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2165511,
+          33.81527594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "131",
+        "businessID": "QROVH_Ndqqblq0BeO9ka8w",
+        "businessName": "Matson",
+        "address": "1521 Pier C St Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/matson-long-beach-2?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/u_SIX_KctBGhSmwyioY6Ng/o.jpg",
+        "description": "Shipping Centers shipping_centers Vehicle Shipping vehicleshipping",
+        "reviewCount": "23",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.211467,
+          33.773557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "132",
+        "businessID": "JB5fahcPrLQ8zR6ciBvNbw",
+        "businessName": "Mission Motel",
+        "address": "11920 Long Beach Blvd Lynwood CA US 90262",
+        "businessURL": "https://www.yelp.com/biz/mission-motel-lynwood-3?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/5v9oHEK3CRDZXw5Ho2r4tg/o.jpg",
+        "description": "Hotels hotels",
+        "reviewCount": "29",
+        "zipcode": "90262",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.209168,
+          33.919485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "133",
+        "businessID": "oTj49BPAy9tDKprpEkey-A",
+        "businessName": "Alexis Limousine & Sedan Service",
+        "address": "333 E Ocean Blvd Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/alexis-limousine-and-sedan-service-long-beach-2?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "7",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1882477,
+          33.76745224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "134",
+        "businessID": "748L5lbEzdfzGqtyHlMZRQ",
+        "businessName": "The Xanadu Life",
+        "address": "1046 Queens Hwy Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/the-xanadu-life-long-beach-3?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/EA00SRZLcmkZ1PG4aKD1GQ/o.jpg",
+        "description": "Tours tours Active Life active Travel Services travelservices",
+        "reviewCount": "2",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1929074,
+          33.7533386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "135",
+        "businessID": "1mJ8doOI9k9T8cVLZd5EwQ",
+        "businessName": "American Airlines",
+        "address": "4100 Donald Douglas Dr Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/american-airlines-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/fI3sU4L41dnCQsQv0-slNw/o.jpg",
+        "description": "Airlines airlines",
+        "reviewCount": "16",
+        "zipcode": "90808",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1446572,
+          33.8181338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "136",
+        "businessID": "oFnJ2eQbxcM-v76Qj5zxGQ",
+        "businessName": "Los Angeles Travel And Adventure Show",
+        "address": "200 S Pine Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/los-angeles-travel-and-adventure-show-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/jDkD__XVxqVx33aHi1CL1g/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "17",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.191779,
+          33.76453003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "137",
+        "businessID": "WTpd6zpgPRyODsWyLL25ig",
+        "businessName": "The Glory Days Historical Tour",
+        "address": "1126 Queens Hwy Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/the-glory-days-historical-tour-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/LtsiU7Xl-7uqEwoHijNs-A/o.jpg",
+        "description": "Tours tours",
+        "reviewCount": "1572",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1934708,
+          33.75194626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "138",
+        "businessID": "KaW3Kqt7DlP_7QEIP3q3Kg",
+        "businessName": "Long Beach Metro",
+        "address": "333 W Broadway Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/long-beach-metro-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/2RkXCJt2Gs3R8BY6ueyz8g/o.jpg",
+        "description": "Transportation transport",
+        "reviewCount": "2",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.19595,
+          33.7696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "139",
+        "businessID": "PsvbJqQap1Aq6CTmpkqL1w",
+        "businessName": "Relentless Limo",
+        "address": "3815 E 4th St Long Beach CA US 90814",
+        "businessURL": "https://www.yelp.com/biz/relentless-limo-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/K2rwcWZyoZNNl3ImGIMEbQ/o.jpg",
+        "description": "Limos limos Party Bus Rentals partybusrentals",
+        "reviewCount": "25",
+        "zipcode": "90814",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1476649,
+          33.7718249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "140",
+        "businessID": "EqqGJeKRi5iXr99NpTe5xg",
+        "businessName": "Long Beach Scuba Show",
+        "address": "300 E Ocean Blvd Long Beach CA US 90804",
+        "businessURL": "https://www.yelp.com/biz/long-beach-scuba-show-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/wiEuA5--F2LKfh4OoNjyaA/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "2",
+        "zipcode": "90804",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1956329,
+          33.76713181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "141",
+        "businessID": "HTynTjI6QhBfl16_fWKaYg",
+        "businessName": "Anaheim Street Blue Line Station",
+        "address": "1290 Long Beach Blvd Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/anaheim-street-blue-line-station-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/JYYr2nouwfsG8_k4ynOj5g/o.jpg",
+        "description": "Public Transportation publictransport Train Stations trainstations",
+        "reviewCount": "2",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1891351,
+          33.7824154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "142",
+        "businessID": "td3yW5EDl1F7UpXFrjrgjA",
+        "businessName": "Amtrak Bus Stop",
+        "address": "107 E 1st St Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/amtrak-bus-stop-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/t0VLd1auCJGG3vU2qvnUjA/o.jpg",
+        "description": "Public Transportation publictransport",
+        "reviewCount": "3",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1921808,
+          33.7682055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "143",
+        "businessID": "_gqTBGQ7DdVhHPyF-mh3HA",
+        "businessName": "Zagster Bikeshare",
+        "address": "100 W Broadway Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/zagster-bikeshare-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Bike Sharing bikesharing",
+        "reviewCount": "1",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.19304,
+          33.76891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "144",
+        "businessID": "esUXIQXCxy6kzoPc2TbXDQ",
+        "businessName": "Nationwide Transporters Group",
+        "address": "3450 E Spring St Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/nationwide-transporters-group-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/3dBdcAkr2CXvZDa3jE4NeA/o.jpg",
+        "description": "Vehicle Shipping vehicleshipping",
+        "reviewCount": "1",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.15273,
+          33.81002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "145",
+        "businessID": "6eNPXSQwOP7Y7MwR1gbCGw",
+        "businessName": "Harbor Breeze Cruises",
+        "address": "100 Aquarium Way Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/harbor-breeze-cruises-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/OWQV5CnF1-cf0vo4CI5IZg/o.jpg",
+        "description": "Boat Charters boatcharters Whale Watching Tours whalewatchingtours",
+        "reviewCount": "384",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.196869,
+          33.762227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "146",
+        "businessID": "wf9Pvv6wYayvU7AZF0EEZg",
+        "businessName": "Budget Rent a Car",
+        "address": "4100 Donald Douglas Dr Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/budget-rent-a-car-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/XHkNttz6g_UuN1sjw0RTdA/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "151",
+        "zipcode": "90808",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.144057,
+          33.8182905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "147",
+        "businessID": "lWX4cB866ezrHJzW7XzHpg",
+        "businessName": "Long Beach Transit - Line 173",
+        "address": "1963 E Anaheim St Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/long-beach-transit-line-173-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/kX8-PSfUAJjkDGh_JpSnKQ/o.jpg",
+        "description": "Public Transportation publictransport",
+        "reviewCount": "4",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.16824,
+          33.78352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "148",
+        "businessID": "AK1d8GsSJPWq1aL0nt08Yw",
+        "businessName": "Gâ€‹o Long Beach Shuttle",
+        "address": "321 Windsor Way Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/g-o-long-beach-shuttle-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media4.fl.yelpcdn.com/bphoto/b4SL7YLyXr2LhDCYGRmYiQ/o.jpg",
+        "description": "Airport Shuttles airport_shuttles",
+        "reviewCount": "10",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1913919,
+          33.7499822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "149",
+        "businessID": "iAnx-yi0XnFGKLAj46kDEg",
+        "businessName": "A & L Unlimited World Travel, Inc.",
+        "address": "1395 W Willow St Long Beach CA US 90810",
+        "businessURL": "https://www.yelp.com/biz/a-and-l-unlimited-world-travel-inc-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "1",
+        "zipcode": "90810",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2108078,
+          33.8046799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "150",
+        "businessID": "ILC8PCQGL_If6FVAX8_0_Q",
+        "businessName": "Nova Transportation Services",
+        "address": "2131 W Willow St Long Beach CA US 90810",
+        "businessURL": "https://www.yelp.com/biz/nova-transportation-services-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "",
+        "reviewCount": "3",
+        "zipcode": "90810",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2207413,
+          33.80609131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "151",
+        "businessID": "Z0H0k2PBvRznCm95QVplEw",
+        "businessName": "Enterprise Rent-A-Car",
+        "address": "4127 E Anaheim St Long Beach CA US 90804",
+        "businessURL": "https://www.yelp.com/biz/enterprise-rent-a-car-long-beach-3?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/Wv3_0OpWRjjRD-Iq8aR9zg/o.jpg",
+        "description": "Car Rental carrental",
+        "reviewCount": "108",
+        "zipcode": "90804",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1441456,
+          33.78283248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "152",
+        "businessID": "4uDnfT7HrTXOR5S--7InpA",
+        "businessName": "Super Steve Limo",
+        "address": "Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/super-steve-limo-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Limos limos",
+        "reviewCount": "1",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1447945,
+          33.8179056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "153",
+        "businessID": "XEJUCQlsP6_qYVqZwGaaqQ",
+        "businessName": "The Drivers' Guild",
+        "address": "250 Elm Ave Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/the-drivers-guild-long-beach?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg",
+        "description": "Taxis taxis Limos limos",
+        "reviewCount": "1",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1875153,
+          33.770298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "154",
+        "businessID": "7tVkJEA1zGsHLkQqr1AnqA",
+        "businessName": "Hawaiian Airlines",
+        "address": "4100 Donald Douglas Dr Long Beach CA US 90808",
+        "businessURL": "https://www.yelp.com/biz/hawaiian-airlines-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/ThFPgakO9Q3P5X8CFt_W-Q/o.jpg",
+        "description": "Airlines airlines",
+        "reviewCount": "14",
+        "zipcode": "90808",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1447956,
+          33.81824965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "155",
+        "businessID": "IpjNSI1y_-RnuwuNYZu83g",
+        "businessName": "IEX Helicopters",
+        "address": "1175 Queens Hwy Long Beach CA US 90802",
+        "businessURL": "https://www.yelp.com/biz/iex-helicopters-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/DksHjpJ61y88sOb7ysdF3w/o.jpg",
+        "description": "Tours tours",
+        "reviewCount": "94",
+        "zipcode": "90802",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1910937,
+          33.74973193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "156",
+        "businessID": "32n-li5LBjHZyMn6Xy7G1g",
+        "businessName": "Cambodia Express",
+        "address": "843 E Anaheim St Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/cambodia-express-long-beach?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/oDf_ZGQukRYoFpmoIb8diA/o.jpg",
+        "description": "Travel Services travelservices",
+        "reviewCount": "2",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1823872,
+          33.7827449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "157",
+        "businessID": "WucR63vkppbQDtD_LjwZdQ",
+        "businessName": "Low Cost Taxi",
+        "address": "1401 E 16th St Long Beach CA US 90813",
+        "businessURL": "https://www.yelp.com/biz/low-cost-taxi-long-beach-3?adjust_creative=ISNuG3os3I4FxnhG2Mdktw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=ISNuG3os3I4FxnhG2Mdktw",
+        "pictureURL": "https://s3-media1.fl.yelpcdn.com/bphoto/mVfN2l__zM4X-iv6S_tBYQ/o.jpg",
+        "description": "Airport Shuttles airport_shuttles Taxis taxis",
+        "reviewCount": "5",
+        "zipcode": "90813",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1739731,
+          33.7873192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "158",
+        "businessID": "CImY2Ff0VXqZvC0fk6PmsA",
+        "businessName": "Eden For Your World",
+        "address": "5318 E 2nd St Long Beach CA US 90803",
+        "businessURL": "https://www.yelp.com/biz/eden-for-your-world-long-beach-2?adjust_creative=JB5YkPgWlmsP__VnMxW7hg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=JB5YkPgWlmsP__VnMxW7hg",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/GWWrStIldJ8FgbQ78KsOeA/o.jpg",
+        "description": "Travel Services travelservices Tours tours",
+        "reviewCount": "3",
+        "zipcode": "90803",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.132309,
+          33.75886536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "#": "159",
+        "businessID": "XiWXi9qhsQtR4DH9bYAG1Q",
+        "businessName": "Aeroplex Aviation",
+        "address": "3333 E Spring St Long Beach CA US 90806",
+        "businessURL": "https://www.yelp.com/biz/aeroplex-aviation-long-beach?adjust_creative=p3q3Q3Tz8WyU4aCHGUgWag&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=p3q3Q3Tz8WyU4aCHGUgWag",
+        "pictureURL": "https://s3-media2.fl.yelpcdn.com/bphoto/c1STwYVYfdSghKshOlHKvA/o.jpg",
+        "description": "Airports airports",
+        "reviewCount": "1",
+        "zipcode": "90806",
+        "category": "Travel & Transport",
+        "id": "",
+        "success": "",
+        "business_id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1534729,
+          33.8107338
+        ]
+      }
+    }
+  ]
+}
